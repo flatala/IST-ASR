@@ -1,0 +1,4 @@
+.conda/
+*.out
+TORGO/
+TORGO_OLD/

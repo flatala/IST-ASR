@@ -8,4 +8,7 @@ df['transcription'] = df['transcription'].str.replace(r'\[[^\]]*\]', '', regex=T
 df['transcription'] = df['transcription'].str.lower().str.replace(r'[^a-z0-9\s]', '', regex=True)
 df = df[df['transcription'].str.strip() != '']
 
+
+df.rename(columns={'transcription': 'wrd', 'path': 'wav', 'speaker_id': 'spk_id'}, inplace=True)
+
 df.to_csv('TORGO_CLEANED.csv', index=False)

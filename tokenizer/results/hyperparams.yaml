@@ -1,3 +1,6 @@
+# Generated 2025-03-11 from:
+# /scratch/flatala/tokenizer/tokenizer.yaml
+# yamllint disable
 # ############################################################################
 # Tokenizer: subword BPE with unigram 1K
 # Training: Librispeech 960h
@@ -20,12 +23,12 @@ bos_id: 1
 eos_id: 2
 
 tokenizer: !name:speechbrain.tokenizers.SentencePiece.SentencePiece
-   bos_id: !ref <bos_id>
-   eos_id: !ref <eos_id>
-   model_dir: !ref <output_folder>
-   vocab_size: !ref <token_output>
-   annotation_train: !ref <train_csv>
-   annotation_read: !ref <csv_read>
-   model_type: !ref <token_type> # ["unigram", "bpe", "char"]
-   character_coverage: !ref <character_coverage>
-   annotation_list_to_check: [!ref <train_csv>, !ref <valid_csv>]
+  bos_id: 1
+  eos_id: 2
+  model_dir: results/
+  vocab_size: 1000
+  annotation_train: datasets/train.csv
+  annotation_read: wrd
+  model_type: unigram            # ["unigram", "bpe", "char"]
+  character_coverage: 1.0
+  annotation_list_to_check: [datasets/train.csv, datasets/val.csv]

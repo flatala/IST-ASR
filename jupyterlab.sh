@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --job-name=jupyterlab
-#SBATCH --partition=gpu
-#SBATCH --time=01:00:00
+#SBATCH --partition=gpu-a100-small
+#SBATCH --time=02:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gpus-per-task=1
@@ -24,7 +24,7 @@ module load miniconda3
 unset CONDA_SHLVL
 source "$(conda info --base)/etc/profile.d/conda.sh"
 
-conda activate IST2
-cat /etc/hosts  
+conda activate IST-ASR
+cat /etc/hosts
 jupyter lab --ip=0.0.0.0 --port=8888
 conda deactivate

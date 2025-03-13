@@ -22,10 +22,10 @@ train_log: !ref <output_folder>/train_log.txt
 # speechbrain HuggingFace repository. However, a local path pointing to a
 # directory containing the lm.ckpt and tokenizer.ckpt may also be specified
 # instead. E.g if you want to use your own LM / tokenizer.
-pretrained_lm_tokenizer_path: speechbrain/asr-transformer-transformerlm-librispeech
+pretrained_lm_tokenizer_path: ../tokenizer/results
 
 # Data files
-data_folder: !PLACEHOLDER  # e.g., /path/to/LibriSpeech
+data_folder: ../datasets  # e.g., /path/to/LibriSpeech
 # If RIRS_NOISES dir exists in /localscratch/xxx_corpus/RIRS_NOISES
 # then data_folder_rirs should be /localscratch/xxx_corpus
 # otherwise the dataset will automatically be downloaded

@@ -16,18 +16,18 @@ train_log: !ref <output_folder>/train_log.txt
 # Data files
 # The data_folder is needed because we train the LM on the training
 # transcriptions of LibriSpeech as well.
-data_folder: !PLACEHOLDER # e.g, /localscratch/LibriSpeech
+# data_folder: !PLACEHOLDER # e.g, /localscratch/LibriSpeech
 
 # path to the lm_corpus, assumed to be from a trusted source
 # if set to null, it will automatically download from the internet
 # in the case when there is no internet access, set this to your local file
 lm_corpus_path: null
-train_transcripts_pattern: "train*/**/*.trans.txt"
-dev_transcripts_pattern: "dev*/**/*.trans.txt"
-test_transcripts_pattern: "test*/**/*.trans.txt"
+train_transcripts_pattern: /scratch/asasin/dsait-4095-IST/speechbrain/tokenizer/results/train.txt
+dev_transcripts_pattern: /scratch/asasin/dsait-4095-IST/speechbrain/tokenizer/results/train.txt
+test_transcripts_pattern: /scratch/asasin/dsait-4095-IST/speechbrain/tokenizer/results/train.txt
 
 # Tokenizer model
-tokenizer_file: https://www.dropbox.com/s/o7gnouwdoqchotj/1000_unigram.model?dl=1
+tokenizer_file: /scratch/asasin/dsait-4095-IST/speechbrain/tokenizer/results/1000_unigram.model
 
 ####################### Training Parameters ####################################
 number_of_epochs: 20

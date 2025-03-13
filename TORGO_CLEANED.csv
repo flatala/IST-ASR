@@ -14967,7 +14967,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 15486,4425.0,TORGO/M05/Session2/wav_arrayMic/0266.wav,M05,reek,head,M,False,Session2
 15487,3475.0,TORGO/M05/Session2/wav_arrayMic/0299.wav,M05,sin,head,M,False,Session2
 15488,2980.0,TORGO/M05/Session2/wav_arrayMic/0388.wav,M05,ticker,head,M,False,Session2
-15489,9.6875,TORGO/M05/Session2/wav_arrayMic/0360.wav,M05,shell,head,M,False,Session2
 15490,11700.0,TORGO/M05/Session2/wav_arrayMic/0165.wav,M05,it eventually became a rather proud claim,head,M,False,Session2
 15491,3595.0,TORGO/M05/Session2/wav_arrayMic/0184.wav,M05,him,head,M,False,Session2
 15492,3420.0,TORGO/M05/Session2/wav_arrayMic/0326.wav,M05,chip,head,M,False,Session2
@@ -15037,7 +15036,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 15557,2470.0,TORGO/M05/Session2/wav_arrayMic/0183.wav,M05,hat,head,M,False,Session2
 15558,3360.0,TORGO/M05/Session2/wav_arrayMic/0086.wav,M05,ate,head,M,False,Session2
 15559,3405.0,TORGO/M05/Session2/wav_arrayMic/0270.wav,M05,fitting,head,M,False,Session2
-15560,10755.0,TORGO/M05/Session2/wav_arrayMic/0001.wav,M05,todays date february thirteenth,head,M,False,Session2
+15560,10755.0,TORGO/M05/Session2/wav_arrayMic/0001.wav,M05,todays date february 13th,head,M,False,Session2
 15561,1159.5625,TORGO/M05/Session2/wav_arrayMic/0345.wav,M05,quicker,head,M,False,Session2
 15562,2310.0,TORGO/M05/Session2/wav_arrayMic/0083.wav,M05,toot,head,M,False,Session2
 15563,10570.0,TORGO/M05/Session2/wav_arrayMic/0138.wav,M05,youd be better off taking a cold shower,head,M,False,Session2

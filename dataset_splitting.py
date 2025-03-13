@@ -66,9 +66,9 @@ traind_df_save = train_df.copy()
 val_df_save = val_df.copy()
 test_df_save = test_df.copy()
 
-traind_df_save.to_csv('datasets/train.csv', index=False)
-val_df_save.to_csv('datasets/val.csv', index=False)
-test_df_save.to_csv('datasets/test.csv', index=False)
+traind_df_save.to_csv('speechbrain/datasets/train.csv', index=False)
+val_df_save.to_csv('speechbrain/datasets/val.csv', index=False)
+test_df_save.to_csv('speechbrain/datasets/test.csv', index=False)
 
 # Print total durations per set (based on speaker-level aggregation)
 train_duration = speaker_stats[speaker_stats['spk_id'].isin(train_speakers)]['duration'].sum()

@@ -1,7 +1,7 @@
 ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2543,1650.0,TORGO/FC03/Session3/wav_arrayMic/0062.wav,FC03,seat,array,F,True,Session3
 2544,1350.0,TORGO/FC03/Session3/wav_arrayMic/0125.wav,FC03,sheet,array,F,True,Session3
-2545,4350.0,TORGO/FC03/Session3/wav_arrayMic/0050.wav,FC03,the lack of heat compounded the tenants grievances,array,F,True,Session3
+2545,4350.0,TORGO/FC03/Session3/wav_arrayMic/0050.wav,FC03,the lack of heat compounded the tenant's grievances,array,F,True,Session3
 2546,1650.0,TORGO/FC03/Session3/wav_arrayMic/0161.wav,FC03,hail,array,F,True,Session3
 2547,1350.0,TORGO/FC03/Session3/wav_arrayMic/0180.wav,FC03,hat,array,F,True,Session3
 2548,1800.0,TORGO/FC03/Session3/wav_arrayMic/0142.wav,FC03,was,array,F,True,Session3
@@ -20,7 +20,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2561,4200.0,TORGO/FC03/Session3/wav_arrayMic/0139.wav,FC03,the family requests that flowers be omitted,array,F,True,Session3
 2562,1650.0,TORGO/FC03/Session3/wav_arrayMic/0145.wav,FC03,wives,array,F,True,Session3
 2563,1350.0,TORGO/FC03/Session3/wav_arrayMic/0163.wav,FC03,blow,array,F,True,Session3
-2564,2400.0,TORGO/FC03/Session3/wav_arrayMic/0165.wav,FC03,weve done it in the past,array,F,True,Session3
+2564,2400.0,TORGO/FC03/Session3/wav_arrayMic/0165.wav,FC03,we've done it in the past,array,F,True,Session3
 2565,1500.0,TORGO/FC03/Session3/wav_arrayMic/0184.wav,FC03,pad,array,F,True,Session3
 2566,3150.0,TORGO/FC03/Session3/wav_arrayMic/0128.wav,FC03,look for pockets of black sand,array,F,True,Session3
 2567,1350.0,TORGO/FC03/Session3/wav_arrayMic/0085.wav,FC03,air,array,F,True,Session3
@@ -74,8 +74,8 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2615,1500.0,TORGO/FC03/Session3/wav_arrayMic/0045.wav,FC03,steak,array,F,True,Session3
 2616,1500.0,TORGO/FC03/Session3/wav_arrayMic/0049.wav,FC03,pat,array,F,True,Session3
 2617,1500.0,TORGO/FC03/Session3/wav_arrayMic/0132.wav,FC03,cash,array,F,True,Session3
-2618,3600.0,TORGO/FC03/Session3/wav_arrayMic/0147.wav,FC03,he cant abide mistakes in his own game,array,F,True,Session3
-2619,3450.0,TORGO/FC03/Session3/wav_arrayMic/0093.wav,FC03,the singers finger had a splinter,array,F,True,Session3
+2618,3600.0,TORGO/FC03/Session3/wav_arrayMic/0147.wav,FC03,he can't abide mistakes in his own game,array,F,True,Session3
+2619,3450.0,TORGO/FC03/Session3/wav_arrayMic/0093.wav,FC03,the singer's finger had a splinter,array,F,True,Session3
 2620,1800.0,TORGO/FC03/Session3/wav_arrayMic/0031.wav,FC03,ail,array,F,True,Session3
 2621,4050.0,TORGO/FC03/Session3/wav_arrayMic/0178.wav,FC03,when you are through write a clean report,array,F,True,Session3
 2622,1650.0,TORGO/FC03/Session3/wav_arrayMic/0100.wav,FC03,fat,array,F,True,Session3
@@ -83,7 +83,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2625,1350.0,TORGO/FC03/Session3/wav_arrayMic/0004.wav,FC03,row,array,F,True,Session3
 2626,2100.0,TORGO/FC03/Session3/wav_arrayMic/0179.wav,FC03,hold,array,F,True,Session3
 2627,1200.0,TORGO/FC03/Session3/wav_arrayMic/0013.wav,FC03,had,array,F,True,Session3
-2628,3000.0,TORGO/FC03/Session3/wav_arrayMic/0201.wav,FC03,we knew we werent doing well,array,F,True,Session3
+2628,3000.0,TORGO/FC03/Session3/wav_arrayMic/0201.wav,FC03,we knew we weren't doing well,array,F,True,Session3
 2629,2850.0,TORGO/FC03/Session3/wav_arrayMic/0073.wav,FC03,i wanted to be an actress,array,F,True,Session3
 2630,3150.0,TORGO/FC03/Session3/wav_arrayMic/0034.wav,FC03,have no fear if you come alone,array,F,True,Session3
 2631,1350.0,TORGO/FC03/Session3/wav_arrayMic/0020.wav,FC03,ease,array,F,True,Session3
@@ -93,7 +93,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2635,2700.0,TORGO/FC03/Session3/wav_arrayMic/0102.wav,FC03,fill,array,F,True,Session3
 2636,2700.0,TORGO/FC03/Session3/wav_arrayMic/0119.wav,FC03,he has played very well,array,F,True,Session3
 2637,1650.0,TORGO/FC03/Session3/wav_arrayMic/0195.wav,FC03,docks,array,F,True,Session3
-2638,3900.0,TORGO/FC03/Session3/wav_arrayMic/0158.wav,FC03,challenge each generals intelligence,array,F,True,Session3
+2638,3900.0,TORGO/FC03/Session3/wav_arrayMic/0158.wav,FC03,challenge each general's intelligence,array,F,True,Session3
 2639,3900.0,TORGO/FC03/Session3/wav_arrayMic/0134.wav,FC03,be prepared for odd behavior from friends,array,F,True,Session3
 2640,1200.0,TORGO/FC03/Session3/wav_arrayMic/0053.wav,FC03,hat,array,F,True,Session3
 2641,1350.0,TORGO/FC03/Session3/wav_arrayMic/0094.wav,FC03,feet,array,F,True,Session3
@@ -104,7 +104,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2646,1650.0,TORGO/FC03/Session3/wav_arrayMic/0063.wav,FC03,reap,array,F,True,Session3
 2647,1500.0,TORGO/FC03/Session3/wav_arrayMic/0191.wav,FC03,ship,array,F,True,Session3
 2648,1200.0,TORGO/FC03/Session3/wav_arrayMic/0114.wav,FC03,take,array,F,True,Session3
-2649,3150.0,TORGO/FC03/Session3/wav_arrayMic/0113.wav,FC03,now im living exactly as i choose,array,F,True,Session3
+2649,3150.0,TORGO/FC03/Session3/wav_arrayMic/0113.wav,FC03,now i'm living exactly as i choose,array,F,True,Session3
 2650,6750.0,TORGO/FC03/Session3/wav_arrayMic/0044.wav,FC03,the structures housing the apartments are of masonry and frame construction,array,F,True,Session3
 2651,5700.0,TORGO/FC03/Session3/wav_arrayMic/0075.wav,FC03,the legislature met to judge the state of public education,array,F,True,Session3
 2652,1650.0,TORGO/FC03/Session3/wav_arrayMic/0185.wav,FC03,seed,array,F,True,Session3
@@ -122,7 +122,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2664,1500.0,TORGO/FC03/Session3/wav_arrayMic/0190.wav,FC03,wart,array,F,True,Session3
 2665,1500.0,TORGO/FC03/Session3/wav_arrayMic/0164.wav,FC03,sink,array,F,True,Session3
 2666,1800.0,TORGO/FC03/Session3/wav_arrayMic/0143.wav,FC03,tip,array,F,True,Session3
-2667,3450.0,TORGO/FC03/Session3/wav_arrayMic/0167.wav,FC03,were all disappointed with our start,array,F,True,Session3
+2667,3450.0,TORGO/FC03/Session3/wav_arrayMic/0167.wav,FC03,we're all disappointed with our start,array,F,True,Session3
 2668,1200.0,TORGO/FC03/Session3/wav_arrayMic/0039.wav,FC03,rip,array,F,True,Session3
 2669,1500.0,TORGO/FC03/Session3/wav_arrayMic/0117.wav,FC03,lip,array,F,True,Session3
 2670,1500.0,TORGO/FC03/Session3/wav_arrayMic/0176.wav,FC03,cork,array,F,True,Session3
@@ -131,7 +131,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2674,4800.0,TORGO/FC03/Session3/wav_arrayMic/0055.wav,FC03,the eastern coast is a place for pure pleasure and excitement,array,F,True,Session3
 2675,1950.0,TORGO/FC03/Session3/wav_arrayMic/0098.wav,FC03,leaks,array,F,True,Session3
 2677,4050.0,TORGO/FC03/Session3/wav_arrayMic/0188.wav,FC03,we got drenched from the uninterrupted rain,array,F,True,Session3
-2678,5250.0,TORGO/FC03/Session3/wav_arrayMic/0136.wav,FC03,last years gas shortage caused steep price increases,array,F,True,Session3
+2678,5250.0,TORGO/FC03/Session3/wav_arrayMic/0136.wav,FC03,last year's gas shortage caused steep price increases,array,F,True,Session3
 2679,1500.0,TORGO/FC03/Session3/wav_arrayMic/0141.wav,FC03,was,array,F,True,Session3
 2680,1500.0,TORGO/FC03/Session3/wav_arrayMic/0130.wav,FC03,pill,array,F,True,Session3
 2681,4200.0,TORGO/FC03/Session3/wav_arrayMic/0026.wav,FC03,any contributions will be greatly appreciated,array,F,True,Session3
@@ -190,7 +190,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2735,1650.0,TORGO/FC03/Session3/wav_arrayMic/0124.wav,FC03,pit,array,F,True,Session3
 2736,1350.0,TORGO/FC03/Session3/wav_arrayMic/0115.wav,FC03,ache,array,F,True,Session3
 2737,3450.0,TORGO/FC03/Session3/wav_arrayMic/0162.wav,FC03,regular attendance is seldom required,array,F,True,Session3
-2738,3150.0,TORGO/FC03/Session3/wav_arrayMic/0022.wav,FC03,i didnt know where they were coming from,array,F,True,Session3
+2738,3150.0,TORGO/FC03/Session3/wav_arrayMic/0022.wav,FC03,i didn't know where they were coming from,array,F,True,Session3
 2739,1650.0,TORGO/FC03/Session3/wav_arrayMic/0090.wav,FC03,ate,array,F,True,Session3
 2740,1650.0,TORGO/FC03/Session3/wav_arrayMic/0101.wav,FC03,lit,array,F,True,Session3
 2741,1200.0,TORGO/FC03/Session3/wav_arrayMic/0005.wav,FC03,feet,array,F,True,Session3
@@ -198,7 +198,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2744,1650.0,TORGO/FC03/Session3/wav_arrayMic/0025.wav,FC03,aches,array,F,True,Session3
 2745,1500.0,TORGO/FC03/Session3/wav_arrayMic/0064.wav,FC03,punch,array,F,True,Session3
 2746,5400.0,TORGO/FC03/Session3/wav_arrayMic/0043.wav,FC03,the structures housing the apartments are of,array,F,True,Session3
-2747,2400.0,TORGO/FC03/Session3/wav_arrayMic/0121.wav,FC03,hell sell them by the box,array,F,True,Session3
+2747,2400.0,TORGO/FC03/Session3/wav_arrayMic/0121.wav,FC03,he'll sell them by the box,array,F,True,Session3
 2748,1500.0,TORGO/FC03/Session3/wav_arrayMic/0127.wav,FC03,low,array,F,True,Session3
 2749,1350.0,TORGO/FC03/Session3/wav_arrayMic/0040.wav,FC03,steak,array,F,True,Session3
 2750,3000.0,TORGO/FC03/Session3/wav_arrayMic/0157.wav,FC03,the store serves meals every day,array,F,True,Session3
@@ -215,7 +215,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2761,2048.625,TORGO/FC03/Session3/wav_arrayMic/0164.wav,FC03,sink,head,F,True,Session3
 2762,997.625,TORGO/FC03/Session3/wav_arrayMic/0151.wav,FC03,short,head,F,True,Session3
 2763,845.5,TORGO/FC03/Session3/wav_arrayMic/0024.wav,FC03,bunch,head,F,True,Session3
-2764,3279.8125,TORGO/FC03/Session3/wav_arrayMic/0201.wav,FC03,we knew we werent doing well,head,F,True,Session3
+2764,3279.8125,TORGO/FC03/Session3/wav_arrayMic/0201.wav,FC03,we knew we weren't doing well,head,F,True,Session3
 2765,1204.625,TORGO/FC03/Session3/wav_arrayMic/0027.wav,FC03,hash,head,F,True,Session3
 2766,1853.4375,TORGO/FC03/Session3/wav_arrayMic/0084.wav,FC03,duck,head,F,True,Session3
 2767,1170.125,TORGO/FC03/Session3/wav_arrayMic/0047.wav,FC03,add,head,F,True,Session3
@@ -223,9 +223,9 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2769,1353.875,TORGO/FC03/Session3/wav_arrayMic/0142.wav,FC03,was,head,F,True,Session3
 2770,3336.3125,TORGO/FC03/Session3/wav_arrayMic/0073.wav,FC03,i wanted to be an actress,head,F,True,Session3
 2771,3540.9375,TORGO/FC03/Session3/wav_arrayMic/0188.wav,FC03,we got drenched from the uninterrupted rain,head,F,True,Session3
-2772,3803.3125,TORGO/FC03/Session3/wav_arrayMic/0147.wav,FC03,he cant abide mistakes in his own game,head,F,True,Session3
+2772,3803.3125,TORGO/FC03/Session3/wav_arrayMic/0147.wav,FC03,he can't abide mistakes in his own game,head,F,True,Session3
 2773,1308.8125,TORGO/FC03/Session3/wav_arrayMic/0029.wav,FC03,ate,head,F,True,Session3
-2774,3812.1875,TORGO/FC03/Session3/wav_arrayMic/0167.wav,FC03,were all disappointed with our start,head,F,True,Session3
+2774,3812.1875,TORGO/FC03/Session3/wav_arrayMic/0167.wav,FC03,we're all disappointed with our start,head,F,True,Session3
 2775,1617.0,TORGO/FC03/Session3/wav_arrayMic/0018.wav,FC03,harm,head,F,True,Session3
 2776,1745.8125,TORGO/FC03/Session3/wav_arrayMic/0146.wav,FC03,wax,head,F,True,Session3
 2777,1642.0625,TORGO/FC03/Session3/wav_arrayMic/0109.wav,FC03,wax,head,F,True,Session3
@@ -254,7 +254,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2800,1406.1875,TORGO/FC03/Session3/wav_arrayMic/0118.wav,FC03,ticks,head,F,True,Session3
 2801,1736.875,TORGO/FC03/Session3/wav_arrayMic/0168.wav,FC03,cake,head,F,True,Session3
 2802,2872.5,TORGO/FC03/Session3/wav_arrayMic/0028.wav,FC03,range was a vital detail,head,F,True,Session3
-2803,4328.875,TORGO/FC03/Session3/wav_arrayMic/0165.wav,FC03,weve done it in the past,head,F,True,Session3
+2803,4328.875,TORGO/FC03/Session3/wav_arrayMic/0165.wav,FC03,we've done it in the past,head,F,True,Session3
 2804,1119.1875,TORGO/FC03/Session3/wav_arrayMic/0041.wav,FC03,dock,head,F,True,Session3
 2805,1721.5,TORGO/FC03/Session3/wav_arrayMic/0190.wav,FC03,wart,head,F,True,Session3
 2806,5273.875,TORGO/FC03/Session3/wav_arrayMic/0055.wav,FC03,the eastern coast is a place for pure pleasure and excitement,head,F,True,Session3
@@ -299,7 +299,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2845,1170.375,TORGO/FC03/Session3/wav_arrayMic/0107.wav,FC03,heat,head,F,True,Session3
 2846,1487.5,TORGO/FC03/Session3/wav_arrayMic/0155.wav,FC03,owe,head,F,True,Session3
 2847,1770.5,TORGO/FC03/Session3/wav_arrayMic/0198.wav,FC03,wine,head,F,True,Session3
-2848,2976.6875,TORGO/FC03/Session3/wav_arrayMic/0022.wav,FC03,i didnt know where they were coming from,head,F,True,Session3
+2848,2976.6875,TORGO/FC03/Session3/wav_arrayMic/0022.wav,FC03,i didn't know where they were coming from,head,F,True,Session3
 2849,1244.5,TORGO/FC03/Session3/wav_arrayMic/0077.wav,FC03,lip,head,F,True,Session3
 2850,1275.1875,TORGO/FC03/Session3/wav_arrayMic/0114.wav,FC03,take,head,F,True,Session3
 2851,1710.5,TORGO/FC03/Session3/wav_arrayMic/0010.wav,FC03,rakes,head,F,True,Session3
@@ -315,19 +315,19 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2861,1697.625,TORGO/FC03/Session3/wav_arrayMic/0181.wav,FC03,hall,head,F,True,Session3
 2862,3671.6875,TORGO/FC03/Session3/wav_arrayMic/0026.wav,FC03,any contributions will be greatly appreciated,head,F,True,Session3
 2863,1570.25,TORGO/FC03/Session3/wav_arrayMic/0004.wav,FC03,row,head,F,True,Session3
-2864,3685.9375,TORGO/FC03/Session3/wav_arrayMic/0093.wav,FC03,the singers finger had a splinter,head,F,True,Session3
+2864,3685.9375,TORGO/FC03/Session3/wav_arrayMic/0093.wav,FC03,the singer's finger had a splinter,head,F,True,Session3
 2865,1222.8125,TORGO/FC03/Session3/wav_arrayMic/0131.wav,FC03,bunch,head,F,True,Session3
 2866,1395.125,TORGO/FC03/Session3/wav_arrayMic/0205.wav,FC03,weep,head,F,True,Session3
 2868,3001.6875,TORGO/FC03/Session3/wav_arrayMic/0156.wav,FC03,he took heart and played,head,F,True,Session3
 2869,1222.8125,TORGO/FC03/Session3/wav_arrayMic/0095.wav,FC03,munch,head,F,True,Session3
-2870,4524.75,TORGO/FC03/Session3/wav_arrayMic/0136.wav,FC03,last years gas shortage caused steep price increases,head,F,True,Session3
+2870,4524.75,TORGO/FC03/Session3/wav_arrayMic/0136.wav,FC03,last year's gas shortage caused steep price increases,head,F,True,Session3
 2871,1542.0,TORGO/FC03/Session3/wav_arrayMic/0191.wav,FC03,ship,head,F,True,Session3
 2872,2635.8125,TORGO/FC03/Session3/wav_arrayMic/0014.wav,FC03,we all sat down and relaxed,head,F,True,Session3
 2873,1283.9375,TORGO/FC03/Session3/wav_arrayMic/0124.wav,FC03,pit,head,F,True,Session3
 2874,1607.25,TORGO/FC03/Session3/wav_arrayMic/0199.wav,FC03,pink,head,F,True,Session3
 2875,4036.0,TORGO/FC03/Session3/wav_arrayMic/0056.wav,FC03,the plot is laced with mysterious incidents,head,F,True,Session3
 2876,3571.75,TORGO/FC03/Session3/wav_arrayMic/0162.wav,FC03,regular attendance is seldom required,head,F,True,Session3
-2877,2655.1875,TORGO/FC03/Session3/wav_arrayMic/0121.wav,FC03,hell sell them by the box,head,F,True,Session3
+2877,2655.1875,TORGO/FC03/Session3/wav_arrayMic/0121.wav,FC03,he'll sell them by the box,head,F,True,Session3
 2878,2253.5,TORGO/FC03/Session3/wav_arrayMic/0170.wav,FC03,did you eat yet,head,F,True,Session3
 2879,2659.75,TORGO/FC03/Session3/wav_arrayMic/0192.wav,FC03,she will order the wine,head,F,True,Session3
 2880,1638.875,TORGO/FC03/Session3/wav_arrayMic/0150.wav,FC03,wipe,head,F,True,Session3
@@ -356,7 +356,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2905,3589.8125,TORGO/FC03/Session3/wav_arrayMic/0089.wav,FC03,chocolate and roses never fail as a romantic gift,head,F,True,Session3
 2906,1681.375,TORGO/FC03/Session3/wav_arrayMic/0080.wav,FC03,tile,head,F,True,Session3
 2907,2210.9375,TORGO/FC03/Session3/wav_arrayMic/0061.wav,FC03,ease,head,F,True,Session3
-2908,3865.6875,TORGO/FC03/Session3/wav_arrayMic/0158.wav,FC03,challenge each generals intelligence,head,F,True,Session3
+2908,3865.6875,TORGO/FC03/Session3/wav_arrayMic/0158.wav,FC03,challenge each general's intelligence,head,F,True,Session3
 2909,2004.0625,TORGO/FC03/Session3/wav_arrayMic/0149.wav,FC03,row,head,F,True,Session3
 2910,1787.25,TORGO/FC03/Session3/wav_arrayMic/0072.wav,FC03,peas,head,F,True,Session3
 2911,1656.6875,TORGO/FC03/Session3/wav_arrayMic/0166.wav,FC03,eyes,head,F,True,Session3
@@ -374,13 +374,13 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2924,1509.25,TORGO/FC03/Session3/wav_arrayMic/0081.wav,FC03,arm,head,F,True,Session3
 2925,1297.4375,TORGO/FC03/Session3/wav_arrayMic/0071.wav,FC03,full,head,F,True,Session3
 2926,4463.25,TORGO/FC03/Session3/wav_arrayMic/0106.wav,FC03,even a simple vocabulary contains symbols,head,F,True,Session3
-2927,4409.0625,TORGO/FC03/Session3/wav_arrayMic/0050.wav,FC03,the lack of heat compounded the tenants grievances,head,F,True,Session3
+2927,4409.0625,TORGO/FC03/Session3/wav_arrayMic/0050.wav,FC03,the lack of heat compounded the tenant's grievances,head,F,True,Session3
 2928,1237.9375,TORGO/FC03/Session3/wav_arrayMic/0038.wav,FC03,add,head,F,True,Session3
 2929,1986.25,TORGO/FC03/Session3/wav_arrayMic/0143.wav,FC03,tip,head,F,True,Session3
 2930,2030.8125,TORGO/FC03/Session3/wav_arrayMic/0175.wav,FC03,low,head,F,True,Session3
 2931,4899.4375,TORGO/FC03/Session3/wav_arrayMic/0032.wav,FC03,the prowler wore a ski mask for disguise,head,F,True,Session3
 2932,1799.25,TORGO/FC03/Session3/wav_arrayMic/0161.wav,FC03,hail,head,F,True,Session3
-2933,3179.3125,TORGO/FC03/Session3/wav_arrayMic/0113.wav,FC03,now im living exactly as i choose,head,F,True,Session3
+2933,3179.3125,TORGO/FC03/Session3/wav_arrayMic/0113.wav,FC03,now i'm living exactly as i choose,head,F,True,Session3
 2934,1085.3125,TORGO/FC03/Session3/wav_arrayMic/0035.wav,FC03,fill,head,F,True,Session3
 2935,1648.0625,TORGO/FC03/Session3/wav_arrayMic/0177.wav,FC03,pant,head,F,True,Session3
 2936,1327.625,TORGO/FC03/Session3/wav_arrayMic/0091.wav,FC03,bun,head,F,True,Session3
@@ -406,7 +406,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2957,1336.0625,TORGO/FC03/Session3/wav_arrayMic/0152.wav,FC03,sort,head,F,True,Session3
 2958,4650.0,TORGO/FC03/Session1/wav_arrayMic/0255.wav,FC03,the islands are sparsely populated,array,F,True,Session1
 2959,4650.0,TORGO/FC03/Session1/wav_arrayMic/0180.wav,FC03,jane may earn more money by working hard,array,F,True,Session1
-2960,3750.0,TORGO/FC03/Session1/wav_arrayMic/0303.wav,FC03,xxx,array,F,True,Session1
 2961,3750.0,TORGO/FC03/Session1/wav_arrayMic/0369.wav,FC03,the books are very expensive,array,F,True,Session1
 2962,1350.0,TORGO/FC03/Session1/wav_arrayMic/0197.wav,FC03,sigh,array,F,True,Session1
 2963,2250.0,TORGO/FC03/Session1/wav_arrayMic/0062.wav,FC03,feet,array,F,True,Session1
@@ -414,7 +413,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2965,2700.0,TORGO/FC03/Session1/wav_arrayMic/0071.wav,FC03,swarm,array,F,True,Session1
 2966,1950.0,TORGO/FC03/Session1/wav_arrayMic/0008.wav,FC03,train,array,F,True,Session1
 2967,2400.0,TORGO/FC03/Session1/wav_arrayMic/0010.wav,FC03,rate,array,F,True,Session1
-2968,5100.0,TORGO/FC03/Session1/wav_arrayMic/0170.wav,FC03,youd be better off taking a cold shower,array,F,True,Session1
+2968,5100.0,TORGO/FC03/Session1/wav_arrayMic/0170.wav,FC03,you'd be better off taking a cold shower,array,F,True,Session1
 2969,2400.0,TORGO/FC03/Session1/wav_arrayMic/0110.wav,FC03,lead ,array,F,True,Session1
 2970,2550.0,TORGO/FC03/Session1/wav_arrayMic/0391.wav,FC03,seeds,array,F,True,Session1
 2971,2400.0,TORGO/FC03/Session1/wav_arrayMic/0123.wav,FC03,hair,array,F,True,Session1
@@ -432,7 +431,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 2983,2550.0,TORGO/FC03/Session1/wav_arrayMic/0107.wav,FC03,fee,array,F,True,Session1
 2984,2550.0,TORGO/FC03/Session1/wav_arrayMic/0045.wav,FC03,tip,array,F,True,Session1
 2985,4050.0,TORGO/FC03/Session1/wav_arrayMic/0132.wav,FC03,i tried to tell people in the community,array,F,True,Session1
-2986,2700.0,TORGO/FC03/Session1/wav_arrayMic/0145.wav,FC03,were,array,F,True,Session1
+2986,2700.0,TORGO/FC03/Session1/wav_arrayMic/0145.wav,FC03,we're,array,F,True,Session1
 2987,2250.0,TORGO/FC03/Session1/wav_arrayMic/0399.wav,FC03,spark,array,F,True,Session1
 2988,2400.0,TORGO/FC03/Session1/wav_arrayMic/0281.wav,FC03,kitten,array,F,True,Session1
 2989,1350.0,TORGO/FC03/Session1/wav_arrayMic/0194.wav,FC03,know,array,F,True,Session1
@@ -467,7 +466,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3019,1950.0,TORGO/FC03/Session1/wav_arrayMic/0131.wav,FC03,bear,array,F,True,Session1
 3020,1950.0,TORGO/FC03/Session1/wav_arrayMic/0371.wav,FC03,mitten,array,F,True,Session1
 3021,2400.0,TORGO/FC03/Session1/wav_arrayMic/0043.wav,FC03,two,array,F,True,Session1
-3022,2700.0,TORGO/FC03/Session1/wav_arrayMic/0160.wav,FC03,xxx,array,F,True,Session1
 3024,2100.0,TORGO/FC03/Session1/wav_arrayMic/0305.wav,FC03,at,array,F,True,Session1
 3025,2850.0,TORGO/FC03/Session1/wav_arrayMic/0172.wav,FC03,charlie,array,F,True,Session1
 3026,1650.0,TORGO/FC03/Session1/wav_arrayMic/0013.wav,FC03,park,array,F,True,Session1
@@ -553,14 +551,13 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3109,2700.0,TORGO/FC03/Session1/wav_arrayMic/0029.wav,FC03,storm,array,F,True,Session1
 3110,2100.0,TORGO/FC03/Session1/wav_arrayMic/0147.wav,FC03,pad,array,F,True,Session1
 3111,2100.0,TORGO/FC03/Session1/wav_arrayMic/0239.wav,FC03,pay,array,F,True,Session1
-3112,4650.0,TORGO/FC03/Session1/wav_arrayMic/0385.wav,FC03,i expect well bounce back this week,array,F,True,Session1
+3112,4650.0,TORGO/FC03/Session1/wav_arrayMic/0385.wav,FC03,i expect we'll bounce back this week,array,F,True,Session1
 3113,2700.0,TORGO/FC03/Session1/wav_arrayMic/0081.wav,FC03,goat,array,F,True,Session1
 3114,2250.0,TORGO/FC03/Session1/wav_arrayMic/0227.wav,FC03,sleep,array,F,True,Session1
 3115,2700.0,TORGO/FC03/Session1/wav_arrayMic/0032.wav,FC03,spark,array,F,True,Session1
 3117,2400.0,TORGO/FC03/Session1/wav_arrayMic/0207.wav,FC03,four,array,F,True,Session1
 3118,1650.0,TORGO/FC03/Session1/wav_arrayMic/0038.wav,FC03,bubble,array,F,True,Session1
 3119,2250.0,TORGO/FC03/Session1/wav_arrayMic/0182.wav,FC03,tear ,array,F,True,Session1
-3120,2550.0,TORGO/FC03/Session1/wav_arrayMic/0245.wav,FC03,xxx,array,F,True,Session1
 3121,3900.0,TORGO/FC03/Session1/wav_arrayMic/0151.wav,FC03,this was easy for us,array,F,True,Session1
 3122,2400.0,TORGO/FC03/Session1/wav_arrayMic/0379.wav,FC03,shy,array,F,True,Session1
 3123,2400.0,TORGO/FC03/Session1/wav_arrayMic/0088.wav,FC03,sip,array,F,True,Session1
@@ -571,10 +568,10 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3128,2550.0,TORGO/FC03/Session1/wav_arrayMic/0326.wav,FC03,chop,array,F,True,Session1
 3129,2850.0,TORGO/FC03/Session1/wav_arrayMic/0242.wav,FC03,their house is grey and white,array,F,True,Session1
 3130,2400.0,TORGO/FC03/Session1/wav_arrayMic/0167.wav,FC03,fruit,array,F,True,Session1
-3131,3750.0,TORGO/FC03/Session1/wav_arrayMic/0198.wav,FC03,youre used to being on the field,array,F,True,Session1
+3131,3750.0,TORGO/FC03/Session1/wav_arrayMic/0198.wav,FC03,you're used to being on the field,array,F,True,Session1
 3132,2400.0,TORGO/FC03/Session1/wav_arrayMic/0177.wav,FC03,slay,array,F,True,Session1
 3134,2550.0,TORGO/FC03/Session1/wav_arrayMic/0363.wav,FC03,golf,array,F,True,Session1
-3135,5400.0,TORGO/FC03/Session1/wav_arrayMic/0332.wav,FC03,alimony harms a divorced mans wealth,array,F,True,Session1
+3135,5400.0,TORGO/FC03/Session1/wav_arrayMic/0332.wav,FC03,alimony harms a divorced man's wealth,array,F,True,Session1
 3136,2400.0,TORGO/FC03/Session1/wav_arrayMic/0306.wav,FC03,five,array,F,True,Session1
 3137,2550.0,TORGO/FC03/Session1/wav_arrayMic/0295.wav,FC03,lair,array,F,True,Session1
 3138,2700.0,TORGO/FC03/Session1/wav_arrayMic/0037.wav,FC03,range,array,F,True,Session1
@@ -583,7 +580,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3141,3450.0,TORGO/FC03/Session1/wav_arrayMic/0272.wav,FC03,alfalfa is healthy for you,array,F,True,Session1
 3142,1500.0,TORGO/FC03/Session1/wav_arrayMic/0005.wav,FC03,born,array,F,True,Session1
 3143,2850.0,TORGO/FC03/Session1/wav_arrayMic/0064.wav,FC03,raid,array,F,True,Session1
-3144,10050.0,TORGO/FC03/Session1/wav_arrayMic/0204.wav,FC03,xxx,array,F,True,Session1
 3145,2700.0,TORGO/FC03/Session1/wav_arrayMic/0044.wav,FC03,dagger,array,F,True,Session1
 3146,2100.0,TORGO/FC03/Session1/wav_arrayMic/0130.wav,FC03,cheer,array,F,True,Session1
 3147,2100.0,TORGO/FC03/Session1/wav_arrayMic/0284.wav,FC03,seven,array,F,True,Session1
@@ -619,7 +615,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3178,1800.0,TORGO/FC03/Session1/wav_arrayMic/0257.wav,FC03,side,array,F,True,Session1
 3179,1650.0,TORGO/FC03/Session1/wav_arrayMic/0178.wav,FC03,sigh,array,F,True,Session1
 3180,2850.0,TORGO/FC03/Session1/wav_arrayMic/0046.wav,FC03,warm,array,F,True,Session1
-3181,5250.0,TORGO/FC03/Session1/wav_arrayMic/0328.wav,FC03,before thursdays exam review every formula,array,F,True,Session1
+3181,5250.0,TORGO/FC03/Session1/wav_arrayMic/0328.wav,FC03,before thursday's exam review every formula,array,F,True,Session1
 3182,2400.0,TORGO/FC03/Session1/wav_arrayMic/0333.wav,FC03,and,array,F,True,Session1
 3183,5400.0,TORGO/FC03/Session1/wav_arrayMic/0035.wav,FC03,grandfather likes to be modern in his language,array,F,True,Session1
 3184,4800.0,TORGO/FC03/Session1/wav_arrayMic/0157.wav,FC03,they carried me off on the stretcher,array,F,True,Session1
@@ -679,7 +675,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3241,1650.0,TORGO/FC03/Session1/wav_arrayMic/0289.wav,FC03,written,array,F,True,Session1
 3242,2400.0,TORGO/FC03/Session1/wav_arrayMic/0346.wav,FC03,vat,array,F,True,Session1
 3243,5550.0,TORGO/FC03/Session1/wav_arrayMic/0059.wav,FC03,you wished to know all about my grandfather,array,F,True,Session1
-3244,7050.0,TORGO/FC03/Session1/wav_arrayMic/0343.wav,FC03,xxx,array,F,True,Session1
 3245,2700.0,TORGO/FC03/Session1/wav_arrayMic/0380.wav,FC03,bloat,array,F,True,Session1
 3246,2250.0,TORGO/FC03/Session1/wav_arrayMic/0163.wav,FC03,hear,array,F,True,Session1
 3247,2250.0,TORGO/FC03/Session1/wav_arrayMic/0016.wav,FC03,pat,array,F,True,Session1
@@ -729,7 +724,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3294,2550.0,TORGO/FC03/Session1/wav_arrayMic/0052.wav,FC03,sheet,array,F,True,Session1
 3295,2850.0,TORGO/FC03/Session1/wav_arrayMic/0072.wav,FC03,stick,array,F,True,Session1
 3296,1500.0,TORGO/FC03/Session1/wav_arrayMic/0349.wav,FC03,sell,array,F,True,Session1
-3297,5100.0,TORGO/FC03/Session1/wav_arrayMic/0097.wav,FC03,dont ask me to carry an oily rag like that,array,F,True,Session1
+3297,5100.0,TORGO/FC03/Session1/wav_arrayMic/0097.wav,FC03,don't ask me to carry an oily rag like that,array,F,True,Session1
 3298,2100.0,TORGO/FC03/Session1/wav_arrayMic/0098.wav,FC03,bit,array,F,True,Session1
 3299,1800.0,TORGO/FC03/Session1/wav_arrayMic/0094.wav,FC03,beat,array,F,True,Session1
 3300,2250.0,TORGO/FC03/Session1/wav_arrayMic/0027.wav,FC03,knee,array,F,True,Session1
@@ -769,7 +764,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3335,2250.0,TORGO/FC03/Session1/wav_arrayMic/0253.wav,FC03,pat,array,F,True,Session1
 3336,4950.0,TORGO/FC03/Session1/wav_arrayMic/0060.wav,FC03,but he always answers banana oil,array,F,True,Session1
 3337,2700.0,TORGO/FC03/Session1/wav_arrayMic/0310.wav,FC03,hark,array,F,True,Session1
-3338,4350.0,TORGO/FC03/Session1/wav_arrayMic/0190.wav,FC03,are your grades higher or lower than nancys,array,F,True,Session1
+3338,4350.0,TORGO/FC03/Session1/wav_arrayMic/0190.wav,FC03,are your grades higher or lower than nancy's,array,F,True,Session1
 3339,2100.0,TORGO/FC03/Session1/wav_arrayMic/0279.wav,FC03,hitting,array,F,True,Session1
 3340,2850.0,TORGO/FC03/Session1/wav_arrayMic/0397.wav,FC03,witch,array,F,True,Session1
 3341,1500.0,TORGO/FC03/Session1/wav_arrayMic/0277.wav,FC03,fat,array,F,True,Session1
@@ -792,7 +787,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3358,2125.0625,TORGO/FC03/Session1/wav_arrayMic/0306.wav,FC03,five,head,F,True,Session1
 3359,4750.0,TORGO/FC03/Session1/wav_arrayMic/0185.wav,FC03,everything went real smooth the sheriff said,head,F,True,Session1
 3360,5145.0,TORGO/FC03/Session1/wav_arrayMic/0049.wav,FC03,well he is nearly ninetythree years old,head,F,True,Session1
-3361,2915.0,TORGO/FC03/Session1/wav_arrayMic/0160.wav,FC03,xxx,head,F,True,Session1
 3362,1760.0,TORGO/FC03/Session1/wav_arrayMic/0199.wav,FC03,wish,head,F,True,Session1
 3363,1890.0,TORGO/FC03/Session1/wav_arrayMic/0370.wav,FC03,him,head,F,True,Session1
 3364,1990.0,TORGO/FC03/Session1/wav_arrayMic/0163.wav,FC03,hear,head,F,True,Session1
@@ -804,7 +798,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3370,4405.0,TORGO/FC03/Session1/wav_arrayMic/0053.wav,FC03,usually minus several buttons,head,F,True,Session1
 3371,3530.0,TORGO/FC03/Session1/wav_arrayMic/0301.wav,FC03,when all else fails use force,head,F,True,Session1
 3372,4405.0,TORGO/FC03/Session1/wav_arrayMic/0255.wav,FC03,the islands are sparsely populated,head,F,True,Session1
-3373,7170.0,TORGO/FC03/Session1/wav_arrayMic/0343.wav,FC03,xxx,head,F,True,Session1
 3374,2280.0,TORGO/FC03/Session1/wav_arrayMic/0403.wav,FC03,him,head,F,True,Session1
 3375,2950.0,TORGO/FC03/Session1/wav_arrayMic/0046.wav,FC03,warm,head,F,True,Session1
 3376,1720.0,TORGO/FC03/Session1/wav_arrayMic/0257.wav,FC03,side,head,F,True,Session1
@@ -812,7 +805,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3378,5075.0625,TORGO/FC03/Session1/wav_arrayMic/0035.wav,FC03,grandfather likes to be modern in his language,head,F,True,Session1
 3379,2155.0,TORGO/FC03/Session1/wav_arrayMic/0031.wav,FC03,sticks,head,F,True,Session1
 3380,2040.0,TORGO/FC03/Session1/wav_arrayMic/0217.wav,FC03,play,head,F,True,Session1
-3381,5010.0625,TORGO/FC03/Session1/wav_arrayMic/0332.wav,FC03,alimony harms a divorced mans wealth,head,F,True,Session1
+3381,5010.0625,TORGO/FC03/Session1/wav_arrayMic/0332.wav,FC03,alimony harms a divorced man's wealth,head,F,True,Session1
 3382,1805.0,TORGO/FC03/Session1/wav_arrayMic/0357.wav,FC03,witty,head,F,True,Session1
 3383,5835.0,TORGO/FC03/Session1/wav_arrayMic/0155.wav,FC03,two other cases were also under advisement,head,F,True,Session1
 3384,5020.0,TORGO/FC03/Session1/wav_arrayMic/0321.wav,FC03,swing your arm as high as you can,head,F,True,Session1
@@ -820,12 +813,10 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3387,4730.0,TORGO/FC03/Session1/wav_arrayMic/0304.wav,FC03,day after day some new episode is reported,head,F,True,Session1
 3388,1800.0,TORGO/FC03/Session1/wav_arrayMic/0269.wav,FC03,rich,head,F,True,Session1
 3389,7360.0,TORGO/FC03/Session1/wav_arrayMic/0373.wav,FC03,it also provides for funds to clear slums and help colleges build dormitories,head,F,True,Session1
-3390,3780.0,TORGO/FC03/Session1/wav_arrayMic/0303.wav,FC03,xxx,head,F,True,Session1
 3391,2725.0,TORGO/FC03/Session1/wav_arrayMic/0152.wav,FC03,forward,head,F,True,Session1
 3392,2555.0,TORGO/FC03/Session1/wav_arrayMic/0020.wav,FC03,rage,head,F,True,Session1
 3393,2060.0,TORGO/FC03/Session1/wav_arrayMic/0252.wav,FC03,pile,head,F,True,Session1
 3394,1985.0,TORGO/FC03/Session1/wav_arrayMic/0087.wav,FC03,fair,head,F,True,Session1
-3395,7010.0,TORGO/FC03/Session1/wav_arrayMic/0203.wav,FC03,xxx,head,F,True,Session1
 3396,1965.0,TORGO/FC03/Session1/wav_arrayMic/0223.wav,FC03,group,head,F,True,Session1
 3397,3345.0,TORGO/FC03/Session1/wav_arrayMic/0243.wav,FC03,their house is grey and white,head,F,True,Session1
 3399,4135.0,TORGO/FC03/Session1/wav_arrayMic/0270.wav,FC03,the box contained three sweaters,head,F,True,Session1
@@ -848,7 +839,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3416,1605.0,TORGO/FC03/Session1/wav_arrayMic/0250.wav,FC03,pot,head,F,True,Session1
 3417,1820.0,TORGO/FC03/Session1/wav_arrayMic/0275.wav,FC03,leak,head,F,True,Session1
 3418,1780.0,TORGO/FC03/Session1/wav_arrayMic/0094.wav,FC03,beat,head,F,True,Session1
-3419,315.0625,TORGO/FC03/Session1/wav_arrayMic/0344.wav,FC03,xxx,head,F,True,Session1
 3420,1589.9375,TORGO/FC03/Session1/wav_arrayMic/0196.wav,FC03,snoop,head,F,True,Session1
 3421,2020.0625,TORGO/FC03/Session1/wav_arrayMic/0045.wav,FC03,tip,head,F,True,Session1
 3422,2065.0,TORGO/FC03/Session1/wav_arrayMic/0378.wav,FC03,at,head,F,True,Session1
@@ -886,7 +876,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3458,2255.0,TORGO/FC03/Session1/wav_arrayMic/0384.wav,FC03,darn,head,F,True,Session1
 3459,1900.0,TORGO/FC03/Session1/wav_arrayMic/0271.wav,FC03,fitting,head,F,True,Session1
 3460,2260.0,TORGO/FC03/Session1/wav_arrayMic/0091.wav,FC03,rave,head,F,True,Session1
-3461,4935.0,TORGO/FC03/Session1/wav_arrayMic/0170.wav,FC03,youd be better off taking a cold shower,head,F,True,Session1
+3461,4935.0,TORGO/FC03/Session1/wav_arrayMic/0170.wav,FC03,you'd be better off taking a cold shower,head,F,True,Session1
 3462,3810.0,TORGO/FC03/Session1/wav_arrayMic/0331.wav,FC03,it was a good win for us,head,F,True,Session1
 3463,2010.0,TORGO/FC03/Session1/wav_arrayMic/0100.wav,FC03,go,head,F,True,Session1
 3464,2060.0,TORGO/FC03/Session1/wav_arrayMic/0282.wav,FC03,thorn,head,F,True,Session1
@@ -930,7 +920,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3504,1890.0,TORGO/FC03/Session1/wav_arrayMic/0192.wav,FC03,tie,head,F,True,Session1
 3505,2170.0,TORGO/FC03/Session1/wav_arrayMic/0128.wav,FC03,floor,head,F,True,Session1
 3506,5625.0,TORGO/FC03/Session1/wav_arrayMic/0026.wav,FC03,he slowly takes a short walk in the open air each day,head,F,True,Session1
-3507,3635.0,TORGO/FC03/Session1/wav_arrayMic/0198.wav,FC03,youre used to being on the field,head,F,True,Session1
+3507,3635.0,TORGO/FC03/Session1/wav_arrayMic/0198.wav,FC03,you're used to being on the field,head,F,True,Session1
 3508,1920.0,TORGO/FC03/Session1/wav_arrayMic/0233.wav,FC03,here,head,F,True,Session1
 3509,1870.0,TORGO/FC03/Session1/wav_arrayMic/0021.wav,FC03,sip,head,F,True,Session1
 3510,1965.0,TORGO/FC03/Session1/wav_arrayMic/0404.wav,FC03,no,head,F,True,Session1
@@ -1054,7 +1044,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3632,6225.0,TORGO/FC03/Session1/wav_arrayMic/0054.wav,FC03,when he speaks his voice is just a bit cracked and quivers a trifle,head,F,True,Session1
 3633,1705.0,TORGO/FC03/Session1/wav_arrayMic/0240.wav,FC03,much,head,F,True,Session1
 3634,1760.0,TORGO/FC03/Session1/wav_arrayMic/0244.wav,FC03,peer,head,F,True,Session1
-3635,2580.0,TORGO/FC03/Session1/wav_arrayMic/0204.wav,FC03,xxx,head,F,True,Session1
 3636,2210.0,TORGO/FC03/Session1/wav_arrayMic/0382.wav,FC03,brought,head,F,True,Session1
 3637,3520.0,TORGO/FC03/Session1/wav_arrayMic/0043.wav,FC03,two,head,F,True,Session1
 3638,1995.0,TORGO/FC03/Session1/wav_arrayMic/0327.wav,FC03,harp,head,F,True,Session1
@@ -1128,31 +1117,30 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3706,2055.0,TORGO/FC03/Session1/wav_arrayMic/0131.wav,FC03,bear,head,F,True,Session1
 3707,4505.0,TORGO/FC03/Session1/wav_arrayMic/0149.wav,FC03,why yell or worry over silly items,head,F,True,Session1
 3708,1745.0,TORGO/FC03/Session1/wav_arrayMic/0098.wav,FC03,bit,head,F,True,Session1
-3710,4725.0,TORGO/FC03/Session1/wav_arrayMic/0097.wav,FC03,dont ask me to carry an oily rag like that,head,F,True,Session1
+3710,4725.0,TORGO/FC03/Session1/wav_arrayMic/0097.wav,FC03,don't ask me to carry an oily rag like that,head,F,True,Session1
 3711,1965.0,TORGO/FC03/Session1/wav_arrayMic/0038.wav,FC03,bubble,head,F,True,Session1
 3712,2270.0,TORGO/FC03/Session1/wav_arrayMic/0402.wav,FC03,blow,head,F,True,Session1
 3713,2450.0,TORGO/FC03/Session1/wav_arrayMic/0221.wav,FC03,slip,head,F,True,Session1
 3714,2125.0,TORGO/FC03/Session1/wav_arrayMic/0325.wav,FC03,yes,head,F,True,Session1
 3715,2145.0,TORGO/FC03/Session1/wav_arrayMic/0365.wav,FC03,loyal,head,F,True,Session1
 3716,2180.0,TORGO/FC03/Session1/wav_arrayMic/0189.wav,FC03,prior,head,F,True,Session1
-3717,2280.0,TORGO/FC03/Session1/wav_arrayMic/0145.wav,FC03,were,head,F,True,Session1
+3717,2280.0,TORGO/FC03/Session1/wav_arrayMic/0145.wav,FC03,we're,head,F,True,Session1
 3718,1970.0,TORGO/FC03/Session1/wav_arrayMic/0399.wav,FC03,spark,head,F,True,Session1
 3719,2155.0,TORGO/FC03/Session1/wav_arrayMic/0129.wav,FC03,floor,head,F,True,Session1
 3720,8495.0625,TORGO/FC03/Session1/wav_arrayMic/0374.wav,FC03,it also provides for funds to clear slums and help colleges build dormitories,head,F,True,Session1
 3721,2270.0,TORGO/FC03/Session1/wav_arrayMic/0040.wav,FC03,share,head,F,True,Session1
 3722,2720.0,TORGO/FC03/Session1/wav_arrayMic/0242.wav,FC03,their house is grey and white,head,F,True,Session1
 3723,3135.0,TORGO/FC03/Session1/wav_arrayMic/0296.wav,FC03,he wrapped the package hastily,head,F,True,Session1
-3725,4405.0,TORGO/FC03/Session1/wav_arrayMic/0385.wav,FC03,i expect well bounce back this week,head,F,True,Session1
+3725,4405.0,TORGO/FC03/Session1/wav_arrayMic/0385.wav,FC03,i expect we'll bounce back this week,head,F,True,Session1
 3726,2225.0,TORGO/FC03/Session1/wav_arrayMic/0215.wav,FC03,error,head,F,True,Session1
 3728,1850.0625,TORGO/FC03/Session1/wav_arrayMic/0104.wav,FC03,bug,head,F,True,Session1
 3729,4015.0,TORGO/FC03/Session1/wav_arrayMic/0330.wav,FC03,it was a good win for us,head,F,True,Session1
 3730,2410.0,TORGO/FC03/Session1/wav_arrayMic/0092.wav,FC03,trade,head,F,True,Session1
 3731,1955.0,TORGO/FC03/Session1/wav_arrayMic/0164.wav,FC03,fate,head,F,True,Session1
-3732,4860.0,TORGO/FC03/Session1/wav_arrayMic/0328.wav,FC03,before thursdays exam review every formula,head,F,True,Session1
-3733,3895.0,TORGO/FC03/Session1/wav_arrayMic/0190.wav,FC03,are your grades higher or lower than nancys,head,F,True,Session1
+3732,4860.0,TORGO/FC03/Session1/wav_arrayMic/0328.wav,FC03,before thursday's exam review every formula,head,F,True,Session1
+3733,3895.0,TORGO/FC03/Session1/wav_arrayMic/0190.wav,FC03,are your grades higher or lower than nancy's,head,F,True,Session1
 3734,7220.0,TORGO/FC03/Session1/wav_arrayMic/0055.wav,FC03,when he speaks his voice is just a bit cracked and quivers a trifle,head,F,True,Session1
 3735,2135.0,TORGO/FC03/Session1/wav_arrayMic/0033.wav,FC03,gadget,head,F,True,Session1
-3736,315.0625,TORGO/FC03/Session1/wav_arrayMic/0202.wav,FC03,xxx,head,F,True,Session1
 3737,2090.0,TORGO/FC03/Session1/wav_arrayMic/0381.wav,FC03,seed,head,F,True,Session1
 3738,2839.9375,TORGO/FC03/Session1/wav_arrayMic/0237.wav,FC03,we gathered shells on the beach,head,F,True,Session1
 3739,2020.0,TORGO/FC03/Session1/wav_arrayMic/0103.wav,FC03,left,head,F,True,Session1
@@ -1174,12 +1162,11 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3755,1925.0,TORGO/FC03/Session1/wav_arrayMic/0141.wav,FC03,ate,head,F,True,Session1
 3756,1915.0,TORGO/FC03/Session1/wav_arrayMic/0351.wav,FC03,hem,head,F,True,Session1
 3757,2135.0,TORGO/FC03/Session1/wav_arrayMic/0359.wav,FC03,foxtrot,head,F,True,Session1
-3758,2710.0,TORGO/FC03/Session1/wav_arrayMic/0245.wav,FC03,xxx,head,F,True,Session1
 3759,2020.0,TORGO/FC03/Session1/wav_arrayMic/0051.wav,FC03,beat,head,F,True,Session1
 3760,2115.0,TORGO/FC03/Session1/wav_arrayMic/0093.wav,FC03,feet,head,F,True,Session1
 3761,1810.0,TORGO/FC03/Session1/wav_arrayMic/0014.wav,FC03,down,head,F,True,Session1
 3762,1780.0,TORGO/FC03/Session1/wav_arrayMic/0219.wav,FC03,write,head,F,True,Session1
-3763,4650.0,TORGO/FC03/Session2/wav_arrayMic/0257.wav,FC03,barbs gold bracelet was a graduation present,array,F,True,Session2
+3763,4650.0,TORGO/FC03/Session2/wav_arrayMic/0257.wav,FC03,barb's gold bracelet was a graduation present,array,F,True,Session2
 3764,2400.0,TORGO/FC03/Session2/wav_arrayMic/0062.wav,FC03,liquor,array,F,True,Session2
 3765,2700.0,TORGO/FC03/Session2/wav_arrayMic/0125.wav,FC03,blend,array,F,True,Session2
 3766,1650.0,TORGO/FC03/Session2/wav_arrayMic/0050.wav,FC03,flicker,array,F,True,Session2
@@ -1226,7 +1213,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3810,3750.0,TORGO/FC03/Session2/wav_arrayMic/0290.wav,FC03,i tell you it was wonderful,array,F,True,Session2
 3811,3600.0,TORGO/FC03/Session2/wav_arrayMic/0128.wav,FC03,life is short and precious,array,F,True,Session2
 3812,1650.0,TORGO/FC03/Session2/wav_arrayMic/0085.wav,FC03,fork,array,F,True,Session2
-3813,3750.0,TORGO/FC03/Session2/wav_arrayMic/0302.wav,FC03,i havent seen that friend for years,array,F,True,Session2
+3813,3750.0,TORGO/FC03/Session2/wav_arrayMic/0302.wav,FC03,i haven't seen that friend for years,array,F,True,Session2
 3814,1800.0,TORGO/FC03/Session2/wav_arrayMic/0092.wav,FC03,romeo,array,F,True,Session2
 3815,4050.0,TORGO/FC03/Session2/wav_arrayMic/0015.wav,FC03,please open the window quickly,array,F,True,Session2
 3816,5100.0,TORGO/FC03/Session2/wav_arrayMic/0346.wav,FC03,catastrophic economic cutbacks neglect the poor,array,F,True,Session2
@@ -1235,7 +1222,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3819,2136.25,TORGO/FC03/Session2/wav_arrayMic/0234.wav,FC03,threat,array,F,True,Session2
 3820,3750.0,TORGO/FC03/Session2/wav_arrayMic/0197.wav,FC03,suddenly my reflexes are gone,array,F,True,Session2
 3821,1950.0,TORGO/FC03/Session2/wav_arrayMic/0356.wav,FC03,to,array,F,True,Session2
-3822,3750.0,TORGO/FC03/Session2/wav_arrayMic/0248.wav,FC03,ive kept it with me ever since,array,F,True,Session2
+3822,3750.0,TORGO/FC03/Session2/wav_arrayMic/0248.wav,FC03,i've kept it with me ever since,array,F,True,Session2
 3823,2250.0,TORGO/FC03/Session2/wav_arrayMic/0294.wav,FC03,leap,array,F,True,Session2
 3824,7500.0,TORGO/FC03/Session2/wav_arrayMic/0296.wav,FC03,so if anybody solicits by phone make sure you mail the dough to the above,array,F,True,Session2
 3825,1350.0,TORGO/FC03/Session2/wav_arrayMic/0324.wav,FC03,reap,array,F,True,Session2
@@ -1276,12 +1263,12 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3860,2400.0,TORGO/FC03/Session2/wav_arrayMic/0366.wav,FC03,fender,array,F,True,Session2
 3861,2550.0,TORGO/FC03/Session2/wav_arrayMic/0244.wav,FC03,gill,array,F,True,Session2
 3862,2100.0,TORGO/FC03/Session2/wav_arrayMic/0208.wav,FC03,select,array,F,True,Session2
-3863,2700.0,TORGO/FC03/Session2/wav_arrayMic/0376.wav,FC03,we just didnt look good,array,F,True,Session2
+3863,2700.0,TORGO/FC03/Session2/wav_arrayMic/0376.wav,FC03,we just didn't look good,array,F,True,Session2
 3864,4500.0,TORGO/FC03/Session2/wav_arrayMic/0146.wav,FC03,the results were very disappointing,array,F,True,Session2
 3865,2400.0,TORGO/FC03/Session2/wav_arrayMic/0149.wav,FC03,ray,array,F,True,Session2
 3866,1500.0,TORGO/FC03/Session2/wav_arrayMic/0074.wav,FC03,him,array,F,True,Session2
 3867,3000.0,TORGO/FC03/Session2/wav_arrayMic/0052.wav,FC03,we have an excellent team,array,F,True,Session2
-3868,3450.0,TORGO/FC03/Session2/wav_arrayMic/0187.wav,FC03,dont do charlies dirty dishes,array,F,True,Session2
+3868,3450.0,TORGO/FC03/Session2/wav_arrayMic/0187.wav,FC03,don't do charlie's dirty dishes,array,F,True,Session2
 3869,2400.0,TORGO/FC03/Session2/wav_arrayMic/0263.wav,FC03,bread,array,F,True,Session2
 3870,1500.0,TORGO/FC03/Session2/wav_arrayMic/0076.wav,FC03,red,array,F,True,Session2
 3871,4800.0,TORGO/FC03/Session2/wav_arrayMic/0097.wav,FC03,help greg to pick a peck of potatoes,array,F,True,Session2
@@ -1302,7 +1289,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3886,2400.0,TORGO/FC03/Session2/wav_arrayMic/0106.wav,FC03,sitter,array,F,True,Session2
 3887,2100.0,TORGO/FC03/Session2/wav_arrayMic/0384.wav,FC03,nice,array,F,True,Session2
 3888,2100.0,TORGO/FC03/Session2/wav_arrayMic/0192.wav,FC03,forward,array,F,True,Session2
-3889,3450.0,TORGO/FC03/Session2/wav_arrayMic/0367.wav,FC03,i dont think its a good idea,array,F,True,Session2
+3889,3450.0,TORGO/FC03/Session2/wav_arrayMic/0367.wav,FC03,i don't think it's a good idea,array,F,True,Session2
 3890,5400.0,TORGO/FC03/Session2/wav_arrayMic/0111.wav,FC03,nobody really expects to evacuate,array,F,True,Session2
 3891,2100.0,TORGO/FC03/Session2/wav_arrayMic/0276.wav,FC03,feet,array,F,True,Session2
 3892,3000.0,TORGO/FC03/Session2/wav_arrayMic/0385.wav,FC03,we have a big house,array,F,True,Session2
@@ -1323,7 +1310,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3907,1650.0,TORGO/FC03/Session2/wav_arrayMic/0093.wav,FC03,sin,array,F,True,Session2
 3908,4050.0,TORGO/FC03/Session2/wav_arrayMic/0321.wav,FC03,they will take a wedding trip later,array,F,True,Session2
 3909,1950.0,TORGO/FC03/Session2/wav_arrayMic/0031.wav,FC03,whisky,array,F,True,Session2
-3910,3150.0,TORGO/FC03/Session2/wav_arrayMic/0178.wav,FC03,help celebrate your brothers success,array,F,True,Session2
+3910,3150.0,TORGO/FC03/Session2/wav_arrayMic/0178.wav,FC03,help celebrate your brother's success,array,F,True,Session2
 3911,2100.0,TORGO/FC03/Session2/wav_arrayMic/0265.wav,FC03,dug,array,F,True,Session2
 3912,2100.0,TORGO/FC03/Session2/wav_arrayMic/0016.wav,FC03,ticker,array,F,True,Session2
 3913,1200.0,TORGO/FC03/Session2/wav_arrayMic/0341.wav,FC03,she,array,F,True,Session2
@@ -1345,19 +1332,19 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3930,2550.0,TORGO/FC03/Session2/wav_arrayMic/0020.wav,FC03,and,array,F,True,Session2
 3931,2400.0,TORGO/FC03/Session2/wav_arrayMic/0131.wav,FC03,geese,array,F,True,Session2
 3932,2100.0,TORGO/FC03/Session2/wav_arrayMic/0288.wav,FC03,member,array,F,True,Session2
-3933,5400.0,TORGO/FC03/Session2/wav_arrayMic/0009.wav,FC03,people who value themselves are lifes winners,array,F,True,Session2
+3933,5400.0,TORGO/FC03/Session2/wav_arrayMic/0009.wav,FC03,people who value themselves are life's winners,array,F,True,Session2
 3934,4050.0,TORGO/FC03/Session2/wav_arrayMic/0099.wav,FC03,you want him to do well,array,F,True,Session2
 3935,4950.0,TORGO/FC03/Session2/wav_arrayMic/0102.wav,FC03,beg that guard for one gallon of gas,array,F,True,Session2
 3936,2250.0,TORGO/FC03/Session2/wav_arrayMic/0119.wav,FC03,sheet,array,F,True,Session2
 3937,4500.0,TORGO/FC03/Session2/wav_arrayMic/0195.wav,FC03,there was only one decision to be made,array,F,True,Session2
 3938,2400.0,TORGO/FC03/Session2/wav_arrayMic/0351.wav,FC03,sea,array,F,True,Session2
 3939,1800.0,TORGO/FC03/Session2/wav_arrayMic/0337.wav,FC03,tea,array,F,True,Session2
-3940,4350.0,TORGO/FC03/Session2/wav_arrayMic/0158.wav,FC03,she doesnt like to have it hanging around,array,F,True,Session2
+3940,4350.0,TORGO/FC03/Session2/wav_arrayMic/0158.wav,FC03,she doesn't like to have it hanging around,array,F,True,Session2
 3941,2250.0,TORGO/FC03/Session2/wav_arrayMic/0233.wav,FC03,leak,array,F,True,Session2
-3942,4050.0,TORGO/FC03/Session2/wav_arrayMic/0134.wav,FC03,who knows what youll discover about yourself,array,F,True,Session2
+3942,4050.0,TORGO/FC03/Session2/wav_arrayMic/0134.wav,FC03,who knows what you'll discover about yourself,array,F,True,Session2
 3943,1200.0,TORGO/FC03/Session2/wav_arrayMic/0053.wav,FC03,knot,array,F,True,Session2
 3944,6150.0,TORGO/FC03/Session2/wav_arrayMic/0094.wav,FC03,whitecapped waves covered the entire bay,array,F,True,Session2
-3945,2550.0,TORGO/FC03/Session2/wav_arrayMic/0375.wav,FC03,we just dont,array,F,True,Session2
+3945,2550.0,TORGO/FC03/Session2/wav_arrayMic/0375.wav,FC03,we just don't,array,F,True,Session2
 3946,2100.0,TORGO/FC03/Session2/wav_arrayMic/0151.wav,FC03,sew,array,F,True,Session2
 3947,3450.0,TORGO/FC03/Session2/wav_arrayMic/0148.wav,FC03,do they make any money,array,F,True,Session2
 3948,3600.0,TORGO/FC03/Session2/wav_arrayMic/0292.wav,FC03,the marriage went well from the start,array,F,True,Session2
@@ -1385,7 +1372,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 3970,2100.0,TORGO/FC03/Session2/wav_arrayMic/0264.wav,FC03,said,array,F,True,Session2
 3971,2100.0,TORGO/FC03/Session2/wav_arrayMic/0185.wav,FC03,yes,array,F,True,Session2
 3972,3000.0,TORGO/FC03/Session2/wav_arrayMic/0357.wav,FC03,i loved every minute of it,array,F,True,Session2
-3973,4200.0,TORGO/FC03/Session2/wav_arrayMic/0060.wav,FC03,im willing to experiment for the first time,array,F,True,Session2
+3973,4200.0,TORGO/FC03/Session2/wav_arrayMic/0060.wav,FC03,i'm willing to experiment for the first time,array,F,True,Session2
 3974,2250.0,TORGO/FC03/Session2/wav_arrayMic/0057.wav,FC03,sand,array,F,True,Session2
 3975,1200.0,TORGO/FC03/Session2/wav_arrayMic/0186.wav,FC03,back,array,F,True,Session2
 3976,1350.0,TORGO/FC03/Session2/wav_arrayMic/0069.wav,FC03,sin,array,F,True,Session2
@@ -1429,7 +1416,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4015,2250.0,TORGO/FC03/Session2/wav_arrayMic/0219.wav,FC03,menu,array,F,True,Session2
 4016,3900.0,TORGO/FC03/Session2/wav_arrayMic/0055.wav,FC03,some hotels are available nearby,array,F,True,Session2
 4017,3300.0,TORGO/FC03/Session2/wav_arrayMic/0098.wav,FC03,we bought a brown chair,array,F,True,Session2
-4018,4050.0,TORGO/FC03/Session2/wav_arrayMic/0140.wav,FC03,i think im full of this stuff,array,F,True,Session2
+4018,4050.0,TORGO/FC03/Session2/wav_arrayMic/0140.wav,FC03,i think i'm full of this stuff,array,F,True,Session2
 4019,2400.0,TORGO/FC03/Session2/wav_arrayMic/0239.wav,FC03,fork,array,F,True,Session2
 4020,2400.0,TORGO/FC03/Session2/wav_arrayMic/0225.wav,FC03,read,array,F,True,Session2
 4021,1950.0,TORGO/FC03/Session2/wav_arrayMic/0188.wav,FC03,chair,array,F,True,Session2
@@ -1443,7 +1430,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4029,1950.0,TORGO/FC03/Session2/wav_arrayMic/0255.wav,FC03,coat,array,F,True,Session2
 4030,1500.0,TORGO/FC03/Session2/wav_arrayMic/0342.wav,FC03,renter,array,F,True,Session2
 4032,3600.0,TORGO/FC03/Session2/wav_arrayMic/0362.wav,FC03,elderly people are often excluded,array,F,True,Session2
-4033,4200.0,TORGO/FC03/Session2/wav_arrayMic/0172.wav,FC03,stimulating discussions keep students attention,array,F,True,Session2
+4033,4200.0,TORGO/FC03/Session2/wav_arrayMic/0172.wav,FC03,stimulating discussions keep students' attention,array,F,True,Session2
 4034,1650.0,TORGO/FC03/Session2/wav_arrayMic/0334.wav,FC03,zero,array,F,True,Session2
 4035,1500.0,TORGO/FC03/Session2/wav_arrayMic/0166.wav,FC03,see,array,F,True,Session2
 4036,1350.0,TORGO/FC03/Session2/wav_arrayMic/0336.wav,FC03,center,array,F,True,Session2
@@ -1465,7 +1452,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4052,1800.0,TORGO/FC03/Session2/wav_arrayMic/0344.wav,FC03,nine,array,F,True,Session2
 4053,1500.0,TORGO/FC03/Session2/wav_arrayMic/0082.wav,FC03,shoot,array,F,True,Session2
 4054,1650.0,TORGO/FC03/Session2/wav_arrayMic/0213.wav,FC03,lip,array,F,True,Session2
-4055,5700.0,TORGO/FC03/Session2/wav_arrayMic/0320.wav,FC03,at twilight on the twelfth day well have chablis,array,F,True,Session2
+4055,5700.0,TORGO/FC03/Session2/wav_arrayMic/0320.wav,FC03,at twilight on the twelfth day we'll have chablis,array,F,True,Session2
 4056,1950.0,TORGO/FC03/Session2/wav_arrayMic/0317.wav,FC03,five,array,F,True,Session2
 4057,1650.0,TORGO/FC03/Session2/wav_arrayMic/0012.wav,FC03,hand,array,F,True,Session2
 4058,1350.0,TORGO/FC03/Session2/wav_arrayMic/0338.wav,FC03,feed,array,F,True,Session2
@@ -1489,7 +1476,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4077,2400.0,TORGO/FC03/Session2/wav_arrayMic/0380.wav,FC03,coat,array,F,True,Session2
 4078,1950.0,TORGO/FC03/Session2/wav_arrayMic/0036.wav,FC03,rock,array,F,True,Session2
 4079,5700.0,TORGO/FC03/Session2/wav_arrayMic/0028.wav,FC03,travel is about the only leisure we have,array,F,True,Session2
-4080,2100.0,TORGO/FC03/Session2/wav_arrayMic/0330.wav,FC03,xxx,array,F,True,Session2
 4081,1350.0,TORGO/FC03/Session2/wav_arrayMic/0089.wav,FC03,two,array,F,True,Session2
 4082,1950.0,TORGO/FC03/Session2/wav_arrayMic/0194.wav,FC03,dead,array,F,True,Session2
 4083,5100.0,TORGO/FC03/Session2/wav_arrayMic/0374.wav,FC03,her classical performance gained critical acclaim,array,F,True,Session2
@@ -1537,15 +1523,15 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4125,2700.0,TORGO/FC03/Session2/wav_arrayMic/0115.wav,FC03,right,array,F,True,Session2
 4126,1950.0,TORGO/FC03/Session2/wav_arrayMic/0228.wav,FC03,catch,array,F,True,Session2
 4127,2250.0,TORGO/FC03/Session2/wav_arrayMic/0162.wav,FC03,shoot,array,F,True,Session2
-4128,4200.0,TORGO/FC03/Session2/wav_arrayMic/0226.wav,FC03,thats what life is really all about,array,F,True,Session2
-4129,5550.0,TORGO/FC03/Session2/wav_arrayMic/0022.wav,FC03,its fun to roast marshmallows on a gas burner,array,F,True,Session2
+4128,4200.0,TORGO/FC03/Session2/wav_arrayMic/0226.wav,FC03,that's what life is really all about,array,F,True,Session2
+4129,5550.0,TORGO/FC03/Session2/wav_arrayMic/0022.wav,FC03,it's fun to roast marshmallows on a gas burner,array,F,True,Session2
 4130,2400.0,TORGO/FC03/Session2/wav_arrayMic/0253.wav,FC03,steak,array,F,True,Session2
 4131,3000.0,TORGO/FC03/Session2/wav_arrayMic/0090.wav,FC03,he took me out one day,array,F,True,Session2
 4132,2400.0,TORGO/FC03/Session2/wav_arrayMic/0364.wav,FC03,spit,array,F,True,Session2
 4133,4468.75,TORGO/FC03/Session2/wav_arrayMic/0101.wav,FC03,the pair of shoes was new,array,F,True,Session2
 4134,4500.0,TORGO/FC03/Session2/wav_arrayMic/0005.wav,FC03,although always alone we survive,array,F,True,Session2
 4136,1950.0,TORGO/FC03/Session2/wav_arrayMic/0135.wav,FC03,in,array,F,True,Session2
-4137,4200.0,TORGO/FC03/Session2/wav_arrayMic/0025.wav,FC03,then wed really have someplace to go,array,F,True,Session2
+4137,4200.0,TORGO/FC03/Session2/wav_arrayMic/0025.wav,FC03,then we'd really have someplace to go,array,F,True,Session2
 4138,2100.0,TORGO/FC03/Session2/wav_arrayMic/0297.wav,FC03,seven,array,F,True,Session2
 4139,4650.0,TORGO/FC03/Session2/wav_arrayMic/0379.wav,FC03,she suggested we all have dinner together,array,F,True,Session2
 4140,2700.0,TORGO/FC03/Session2/wav_arrayMic/0064.wav,FC03,one,array,F,True,Session2
@@ -1572,7 +1558,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4163,1940.0,TORGO/FC03/Session2/wav_arrayMic/0255.wav,FC03,coat,head,F,True,Session2
 4164,1630.0,TORGO/FC03/Session2/wav_arrayMic/0343.wav,FC03,mock,head,F,True,Session2
 4165,1830.0,TORGO/FC03/Session2/wav_arrayMic/0046.wav,FC03,bread,head,F,True,Session2
-4166,4195.0,TORGO/FC03/Session2/wav_arrayMic/0257.wav,FC03,barbs gold bracelet was a graduation present,head,F,True,Session2
+4166,4195.0,TORGO/FC03/Session2/wav_arrayMic/0257.wav,FC03,barb's gold bracelet was a graduation present,head,F,True,Session2
 4167,4925.0,TORGO/FC03/Session2/wav_arrayMic/0028.wav,FC03,travel is about the only leisure we have,head,F,True,Session2
 4168,1880.0,TORGO/FC03/Session2/wav_arrayMic/0035.wav,FC03,nut,head,F,True,Session2
 4169,2195.0,TORGO/FC03/Session2/wav_arrayMic/0031.wav,FC03,whisky,head,F,True,Session2
@@ -1598,14 +1584,14 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4189,1740.0625,TORGO/FC03/Session2/wav_arrayMic/0270.wav,FC03,geese,head,F,True,Session2
 4190,2000.0,TORGO/FC03/Session2/wav_arrayMic/0311.wav,FC03,knife,head,F,True,Session2
 4191,1980.0,TORGO/FC03/Session2/wav_arrayMic/0231.wav,FC03,hold,head,F,True,Session2
-4192,4545.0,TORGO/FC03/Session2/wav_arrayMic/0060.wav,FC03,im willing to experiment for the first time,head,F,True,Session2
+4192,4545.0,TORGO/FC03/Session2/wav_arrayMic/0060.wav,FC03,i'm willing to experiment for the first time,head,F,True,Session2
 4193,2360.0,TORGO/FC03/Session2/wav_arrayMic/0229.wav,FC03,dread,head,F,True,Session2
 4194,2180.0,TORGO/FC03/Session2/wav_arrayMic/0132.wav,FC03,write,head,F,True,Session2
 4195,1685.0,TORGO/FC03/Session2/wav_arrayMic/0340.wav,FC03,bender,head,F,True,Session2
 4196,2905.0,TORGO/FC03/Session2/wav_arrayMic/0061.wav,FC03,uniform,head,F,True,Session2
-4197,4990.0,TORGO/FC03/Session2/wav_arrayMic/0009.wav,FC03,people who value themselves are lifes winners,head,F,True,Session2
+4197,4990.0,TORGO/FC03/Session2/wav_arrayMic/0009.wav,FC03,people who value themselves are life's winners,head,F,True,Session2
 4198,1695.0,TORGO/FC03/Session2/wav_arrayMic/0273.wav,FC03,eight,head,F,True,Session2
-4199,3870.0,TORGO/FC03/Session2/wav_arrayMic/0172.wav,FC03,stimulating discussions keep students attention,head,F,True,Session2
+4199,3870.0,TORGO/FC03/Session2/wav_arrayMic/0172.wav,FC03,stimulating discussions keep students' attention,head,F,True,Session2
 4200,4850.0625,TORGO/FC03/Session2/wav_arrayMic/0111.wav,FC03,nobody really expects to evacuate,head,F,True,Session2
 4201,1905.0,TORGO/FC03/Session2/wav_arrayMic/0380.wav,FC03,coat,head,F,True,Session2
 4202,1895.0,TORGO/FC03/Session2/wav_arrayMic/0261.wav,FC03,rip,head,F,True,Session2
@@ -1656,7 +1642,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4248,1970.0,TORGO/FC03/Session2/wav_arrayMic/0091.wav,FC03,zip,head,F,True,Session2
 4249,2449.9375,TORGO/FC03/Session2/wav_arrayMic/0170.wav,FC03,sheet,head,F,True,Session2
 4250,4335.0,TORGO/FC03/Session2/wav_arrayMic/0331.wav,FC03,ambidextrous pickpockets accomplish more,head,F,True,Session2
-4251,315.0625,TORGO/FC03/Session2/wav_arrayMic/0100.wav,FC03,xxx,head,F,True,Session2
 4252,1745.0,TORGO/FC03/Session2/wav_arrayMic/0282.wav,FC03,bumper,head,F,True,Session2
 4253,2125.0,TORGO/FC03/Session2/wav_arrayMic/0147.wav,FC03,four,head,F,True,Session2
 4254,2105.0,TORGO/FC03/Session2/wav_arrayMic/0194.wav,FC03,dead,head,F,True,Session2
@@ -1673,17 +1658,17 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4266,2190.0,TORGO/FC03/Session2/wav_arrayMic/0319.wav,FC03,one,head,F,True,Session2
 4267,2175.0,TORGO/FC03/Session2/wav_arrayMic/0225.wav,FC03,read,head,F,True,Session2
 4268,2030.0,TORGO/FC03/Session2/wav_arrayMic/0310.wav,FC03,ok,head,F,True,Session2
-4269,2575.0,TORGO/FC03/Session2/wav_arrayMic/0375.wav,FC03,we just dont,head,F,True,Session2
+4269,2575.0,TORGO/FC03/Session2/wav_arrayMic/0375.wav,FC03,we just don't,head,F,True,Session2
 4270,1560.0,TORGO/FC03/Session2/wav_arrayMic/0236.wav,FC03,short,head,F,True,Session2
 4271,2065.0,TORGO/FC03/Session2/wav_arrayMic/0173.wav,FC03,sin,head,F,True,Session2
 4272,4405.0,TORGO/FC03/Session2/wav_arrayMic/0011.wav,FC03,the wait for work can be very long,head,F,True,Session2
 4273,3460.0,TORGO/FC03/Session2/wav_arrayMic/0212.wav,FC03,biblical scholars argue history,head,F,True,Session2
 4274,1870.0,TORGO/FC03/Session2/wav_arrayMic/0122.wav,FC03,thread,head,F,True,Session2
 4275,1865.0,TORGO/FC03/Session2/wav_arrayMic/0279.wav,FC03,tail,head,F,True,Session2
-4276,5350.0,TORGO/FC03/Session2/wav_arrayMic/0320.wav,FC03,at twilight on the twelfth day well have chablis,head,F,True,Session2
+4276,5350.0,TORGO/FC03/Session2/wav_arrayMic/0320.wav,FC03,at twilight on the twelfth day we'll have chablis,head,F,True,Session2
 4277,1535.0,TORGO/FC03/Session2/wav_arrayMic/0078.wav,FC03,meat,head,F,True,Session2
 4278,4075.0,TORGO/FC03/Session2/wav_arrayMic/0018.wav,FC03,you can ride stagecoach,head,F,True,Session2
-4279,3090.0,TORGO/FC03/Session2/wav_arrayMic/0367.wav,FC03,i dont think its a good idea,head,F,True,Session2
+4279,3090.0,TORGO/FC03/Session2/wav_arrayMic/0367.wav,FC03,i don't think it's a good idea,head,F,True,Session2
 4280,1570.0,TORGO/FC03/Session2/wav_arrayMic/0209.wav,FC03,goose,head,F,True,Session2
 4281,1665.0,TORGO/FC03/Session2/wav_arrayMic/0075.wav,FC03,victor,head,F,True,Session2
 4282,4430.0,TORGO/FC03/Session2/wav_arrayMic/0224.wav,FC03,trespassers can be prosecuted and fined,head,F,True,Session2
@@ -1706,7 +1691,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4299,1835.0,TORGO/FC03/Session2/wav_arrayMic/0007.wav,FC03,tin,head,F,True,Session2
 4300,2100.0625,TORGO/FC03/Session2/wav_arrayMic/0161.wav,FC03,mill,head,F,True,Session2
 4301,2485.0,TORGO/FC03/Session2/wav_arrayMic/0142.wav,FC03,goat,head,F,True,Session2
-4302,4480.0,TORGO/FC03/Session2/wav_arrayMic/0025.wav,FC03,then wed really have someplace to go,head,F,True,Session2
+4302,4480.0,TORGO/FC03/Session2/wav_arrayMic/0025.wav,FC03,then we'd really have someplace to go,head,F,True,Session2
 4303,1990.0,TORGO/FC03/Session2/wav_arrayMic/0355.wav,FC03,food,head,F,True,Session2
 4304,1690.0,TORGO/FC03/Session2/wav_arrayMic/0387.wav,FC03,hail,head,F,True,Session2
 4305,1555.0,TORGO/FC03/Session2/wav_arrayMic/0349.wav,FC03,ash,head,F,True,Session2
@@ -1717,7 +1702,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4310,2120.0,TORGO/FC03/Session2/wav_arrayMic/0062.wav,FC03,liquor,head,F,True,Session2
 4311,1830.0,TORGO/FC03/Session2/wav_arrayMic/0156.wav,FC03,tear ,head,F,True,Session2
 4312,1970.0,TORGO/FC03/Session2/wav_arrayMic/0308.wav,FC03,sheer,head,F,True,Session2
-4313,3820.0,TORGO/FC03/Session2/wav_arrayMic/0226.wav,FC03,thats what life is really all about,head,F,True,Session2
+4313,3820.0,TORGO/FC03/Session2/wav_arrayMic/0226.wav,FC03,that's what life is really all about,head,F,True,Session2
 4314,1840.0,TORGO/FC03/Session2/wav_arrayMic/0386.wav,FC03,three,head,F,True,Session2
 4315,2290.0,TORGO/FC03/Session2/wav_arrayMic/0041.wav,FC03,sip,head,F,True,Session2
 4316,1815.0,TORGO/FC03/Session2/wav_arrayMic/0230.wav,FC03,no,head,F,True,Session2
@@ -1740,7 +1725,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4334,1535.0,TORGO/FC03/Session2/wav_arrayMic/0335.wav,FC03,nine,head,F,True,Session2
 4335,1780.0,TORGO/FC03/Session2/wav_arrayMic/0241.wav,FC03,red,head,F,True,Session2
 4336,1700.0,TORGO/FC03/Session2/wav_arrayMic/0315.wav,FC03,reap,head,F,True,Session2
-4337,3380.0,TORGO/FC03/Session2/wav_arrayMic/0248.wav,FC03,ive kept it with me ever since,head,F,True,Session2
+4337,3380.0,TORGO/FC03/Session2/wav_arrayMic/0248.wav,FC03,i've kept it with me ever since,head,F,True,Session2
 4338,1719.9375,TORGO/FC03/Session2/wav_arrayMic/0336.wav,FC03,center,head,F,True,Session2
 4339,1945.0,TORGO/FC03/Session2/wav_arrayMic/0010.wav,FC03,walk,head,F,True,Session2
 4340,2125.0,TORGO/FC03/Session2/wav_arrayMic/0023.wav,FC03,quicker,head,F,True,Session2
@@ -1770,12 +1755,12 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4365,1784.9375,TORGO/FC03/Session2/wav_arrayMic/0339.wav,FC03,fork,head,F,True,Session2
 4366,1495.0,TORGO/FC03/Session2/wav_arrayMic/0341.wav,FC03,she,head,F,True,Session2
 4367,2145.0,TORGO/FC03/Session2/wav_arrayMic/0115.wav,FC03,right,head,F,True,Session2
-4368,3990.0,TORGO/FC03/Session2/wav_arrayMic/0158.wav,FC03,she doesnt like to have it hanging around,head,F,True,Session2
+4368,3990.0,TORGO/FC03/Session2/wav_arrayMic/0158.wav,FC03,she doesn't like to have it hanging around,head,F,True,Session2
 4369,1755.0,TORGO/FC03/Session2/wav_arrayMic/0139.wav,FC03,dill,head,F,True,Session2
 4370,1840.0,TORGO/FC03/Session2/wav_arrayMic/0166.wav,FC03,see,head,F,True,Session2
 4371,4445.0,TORGO/FC03/Session2/wav_arrayMic/0102.wav,FC03,beg that guard for one gallon of gas,head,F,True,Session2
 4372,1590.0,TORGO/FC03/Session2/wav_arrayMic/0084.wav,FC03,wicked,head,F,True,Session2
-4373,4035.0,TORGO/FC03/Session2/wav_arrayMic/0134.wav,FC03,who knows what youll discover about yourself,head,F,True,Session2
+4373,4035.0,TORGO/FC03/Session2/wav_arrayMic/0134.wav,FC03,who knows what you'll discover about yourself,head,F,True,Session2
 4374,1565.0,TORGO/FC03/Session2/wav_arrayMic/0316.wav,FC03,beep,head,F,True,Session2
 4375,1585.0,TORGO/FC03/Session2/wav_arrayMic/0338.wav,FC03,feed,head,F,True,Session2
 4376,2075.0,TORGO/FC03/Session2/wav_arrayMic/0388.wav,FC03,forks,head,F,True,Session2
@@ -1825,10 +1810,10 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4422,2135.0,TORGO/FC03/Session2/wav_arrayMic/0125.wav,FC03,blend,head,F,True,Session2
 4423,1860.0,TORGO/FC03/Session2/wav_arrayMic/0322.wav,FC03,reef,head,F,True,Session2
 4424,2140.0,TORGO/FC03/Session2/wav_arrayMic/0016.wav,FC03,ticker,head,F,True,Session2
-4425,2285.0,TORGO/FC03/Session2/wav_arrayMic/0376.wav,FC03,we just didnt look good,head,F,True,Session2
+4425,2285.0,TORGO/FC03/Session2/wav_arrayMic/0376.wav,FC03,we just didn't look good,head,F,True,Session2
 4426,1600.0,TORGO/FC03/Session2/wav_arrayMic/0300.wav,FC03,row,head,F,True,Session2
 4427,3660.0,TORGO/FC03/Session2/wav_arrayMic/0285.wav,FC03,those people are much quicker than i am,head,F,True,Session2
-4428,3000.0,TORGO/FC03/Session2/wav_arrayMic/0187.wav,FC03,dont do charlies dirty dishes,head,F,True,Session2
+4428,3000.0,TORGO/FC03/Session2/wav_arrayMic/0187.wav,FC03,don't do charlie's dirty dishes,head,F,True,Session2
 4429,2040.0,TORGO/FC03/Session2/wav_arrayMic/0280.wav,FC03,code,head,F,True,Session2
 4430,2425.0,TORGO/FC03/Session2/wav_arrayMic/0276.wav,FC03,feet,head,F,True,Session2
 4431,1770.0625,TORGO/FC03/Session2/wav_arrayMic/0176.wav,FC03,foe,head,F,True,Session2
@@ -1845,7 +1830,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4442,2090.0,TORGO/FC03/Session2/wav_arrayMic/0106.wav,FC03,sitter,head,F,True,Session2
 4443,1810.0,TORGO/FC03/Session2/wav_arrayMic/0183.wav,FC03,bill,head,F,True,Session2
 4444,3705.0,TORGO/FC03/Session2/wav_arrayMic/0345.wav,FC03,it was very popular with our fans,head,F,True,Session2
-4445,3835.0,TORGO/FC03/Session2/wav_arrayMic/0302.wav,FC03,i havent seen that friend for years,head,F,True,Session2
+4445,3835.0,TORGO/FC03/Session2/wav_arrayMic/0302.wav,FC03,i haven't seen that friend for years,head,F,True,Session2
 4446,1395.0,TORGO/FC03/Session2/wav_arrayMic/0350.wav,FC03,ache,head,F,True,Session2
 4447,1760.0,TORGO/FC03/Session2/wav_arrayMic/0371.wav,FC03,woe,head,F,True,Session2
 4448,2140.0,TORGO/FC03/Session2/wav_arrayMic/0169.wav,FC03,old,head,F,True,Session2
@@ -1866,7 +1851,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4463,4135.0625,TORGO/FC03/Session2/wav_arrayMic/0377.wav,FC03,the golfing fathers ruled in his favor,head,F,True,Session2
 4464,1525.0625,TORGO/FC03/Session2/wav_arrayMic/0056.wav,FC03,in,head,F,True,Session2
 4465,1770.0,TORGO/FC03/Session2/wav_arrayMic/0234.wav,FC03,threat,head,F,True,Session2
-4466,3430.0,TORGO/FC03/Session2/wav_arrayMic/0140.wav,FC03,i think im full of this stuff,head,F,True,Session2
+4466,3430.0,TORGO/FC03/Session2/wav_arrayMic/0140.wav,FC03,i think i'm full of this stuff,head,F,True,Session2
 4467,2160.0,TORGO/FC03/Session2/wav_arrayMic/0058.wav,FC03,slicker,head,F,True,Session2
 4468,4025.000000000001,TORGO/FC03/Session2/wav_arrayMic/0005.wav,FC03,although always alone we survive,head,F,True,Session2
 4469,1580.0,TORGO/FC03/Session2/wav_arrayMic/0356.wav,FC03,to,head,F,True,Session2
@@ -1899,12 +1884,11 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4498,2415.0,TORGO/FC03/Session2/wav_arrayMic/0040.wav,FC03,tango,head,F,True,Session2
 4499,1975.0,TORGO/FC03/Session2/wav_arrayMic/0242.wav,FC03,shot,head,F,True,Session2
 4500,7235.0,TORGO/FC03/Session2/wav_arrayMic/0296.wav,FC03,so if anybody solicits by phone make sure you mail the dough to the above,head,F,True,Session2
-4501,5240.0,TORGO/FC03/Session2/wav_arrayMic/0022.wav,FC03,its fun to roast marshmallows on a gas burner,head,F,True,Session2
+4501,5240.0,TORGO/FC03/Session2/wav_arrayMic/0022.wav,FC03,it's fun to roast marshmallows on a gas burner,head,F,True,Session2
 4502,2480.0,TORGO/FC03/Session2/wav_arrayMic/0385.wav,FC03,we have a big house,head,F,True,Session2
 4503,1570.0,TORGO/FC03/Session2/wav_arrayMic/0215.wav,FC03,air,head,F,True,Session2
 4504,3950.0625,TORGO/FC03/Session2/wav_arrayMic/0001.wav,FC03,the hotel owner struggled,head,F,True,Session2
 4505,3390.0,TORGO/FC03/Session2/wav_arrayMic/0104.wav,FC03,get a calico cat to keep,head,F,True,Session2
-4506,2500.0625,TORGO/FC03/Session2/wav_arrayMic/0330.wav,FC03,xxx,head,F,True,Session2
 4507,2150.0,TORGO/FC03/Session2/wav_arrayMic/0092.wav,FC03,romeo,head,F,True,Session2
 4508,1935.0,TORGO/FC03/Session2/wav_arrayMic/0164.wav,FC03,court,head,F,True,Session2
 4509,3945.0,TORGO/FC03/Session2/wav_arrayMic/0328.wav,FC03,addition and subtraction are learned skills,head,F,True,Session2
@@ -1916,7 +1900,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4515,1510.0,TORGO/FC03/Session2/wav_arrayMic/0237.wav,FC03,lake,head,F,True,Session2
 4516,2145.0,TORGO/FC03/Session2/wav_arrayMic/0103.wav,FC03,xray,head,F,True,Session2
 4517,1915.0,TORGO/FC03/Session2/wav_arrayMic/0263.wav,FC03,bread,head,F,True,Session2
-4518,3245.0,TORGO/FC03/Session2/wav_arrayMic/0178.wav,FC03,help celebrate your brothers success,head,F,True,Session2
+4518,3245.0,TORGO/FC03/Session2/wav_arrayMic/0178.wav,FC03,help celebrate your brother's success,head,F,True,Session2
 4519,1485.0,TORGO/FC03/Session2/wav_arrayMic/0222.wav,FC03,snake,head,F,True,Session2
 4520,1505.0,TORGO/FC03/Session2/wav_arrayMic/0337.wav,FC03,tea,head,F,True,Session2
 4521,2010.0,TORGO/FC03/Session2/wav_arrayMic/0117.wav,FC03,neat,head,F,True,Session2
@@ -1941,7 +1925,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4540,1950.0,TORGO/M02/Session1/wav_arrayMic/0049.wav,M02,swarm,array,M,False,Session1
 4541,1950.0,TORGO/M02/Session1/wav_arrayMic/0160.wav,M02,sprinkle,array,M,False,Session1
 4542,2400.0,TORGO/M02/Session1/wav_arrayMic/0199.wav,M02,slay,array,M,False,Session1
-4543,900.0,TORGO/M02/Session1/wav_arrayMic/0163.wav,M02,were,array,M,False,Session1
+4543,900.0,TORGO/M02/Session1/wav_arrayMic/0163.wav,M02,we're,array,M,False,Session1
 4544,1350.0,TORGO/M02/Session1/wav_arrayMic/0008.wav,M02,alpha,array,M,False,Session1
 4545,1200.0,TORGO/M02/Session1/wav_arrayMic/0179.wav,M02,near,array,M,False,Session1
 4546,2250.0,TORGO/M02/Session1/wav_arrayMic/0053.wav,M02,stubble,array,M,False,Session1
@@ -1952,7 +1936,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4551,3750.0,TORGO/M02/Session1/wav_arrayMic/0217.wav,M02,i was conscious all the time,array,M,False,Session1
 4552,1500.0,TORGO/M02/Session1/wav_arrayMic/0155.wav,M02,knot,array,M,False,Session1
 4553,1650.0,TORGO/M02/Session1/wav_arrayMic/0079.wav,M02,stick,array,M,False,Session1
-4554,5250.0,TORGO/M02/Session1/wav_arrayMic/0152.wav,M02,youd be better off taking a cold shower,array,M,False,Session1
+4554,5250.0,TORGO/M02/Session1/wav_arrayMic/0152.wav,M02,you'd be better off taking a cold shower,array,M,False,Session1
 4555,8250.0,TORGO/M02/Session1/wav_arrayMic/0020.wav,M02,grandfather likes to be modern in his language,array,M,False,Session1
 4556,1650.0,TORGO/M02/Session1/wav_arrayMic/0087.wav,M02,form,array,M,False,Session1
 4557,3600.0,TORGO/M02/Session1/wav_arrayMic/0203.wav,M02,she is thinner than i am,array,M,False,Session1
@@ -2019,7 +2003,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4623,1650.0,TORGO/M02/Session1/wav_arrayMic/0113.wav,M02,corn,array,M,False,Session1
 4624,1350.0,TORGO/M02/Session1/wav_arrayMic/0133.wav,M02,here,array,M,False,Session1
 4625,1500.0,TORGO/M02/Session1/wav_arrayMic/0165.wav,M02,suit,array,M,False,Session1
-4626,150.0,TORGO/M02/Session1/wav_arrayMic/0153.wav,M02,xxx,array,M,False,Session1
 4627,1500.0,TORGO/M02/Session1/wav_arrayMic/0180.wav,M02,steer,array,M,False,Session1
 4628,1050.0,TORGO/M02/Session1/wav_arrayMic/0007.wav,M02,feed,array,M,False,Session1
 4629,1500.0,TORGO/M02/Session1/wav_arrayMic/0161.wav,M02,mut,array,M,False,Session1
@@ -2102,7 +2085,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4710,1650.0,TORGO/M02/Session1/wav_arrayMic/0083.wav,M02,double,array,M,False,Session1
 4711,1800.0,TORGO/M02/Session1/wav_arrayMic/0177.wav,M02,witch,array,M,False,Session1
 4712,1500.0,TORGO/M02/Session1/wav_arrayMic/0175.wav,M02,write,array,M,False,Session1
-4713,6600.0,TORGO/M02/Session1/wav_arrayMic/0106.wav,M02,dont ask me to carry an oily rag like that,array,M,False,Session1
+4713,6600.0,TORGO/M02/Session1/wav_arrayMic/0106.wav,M02,don't ask me to carry an oily rag like that,array,M,False,Session1
 4714,4950.0,TORGO/M02/Session1/wav_arrayMic/0183.wav,M02,bright sunshine shimmers on the ocean,array,M,False,Session1
 4715,6300.0,TORGO/M02/Session1/wav_arrayMic/0169.wav,M02,all the big baseball players get traded,array,M,False,Session1
 4716,1650.0,TORGO/M02/Session1/wav_arrayMic/0138.wav,M02,ate,array,M,False,Session1
@@ -2120,7 +2103,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4728,1350.0,TORGO/M02/Session1/wav_arrayMic/0234.wav,M02,troop,array,M,False,Session1
 4729,1050.0,TORGO/M02/Session1/wav_arrayMic/0140.wav,M02,hate,array,M,False,Session1
 4730,1950.0,TORGO/M02/Session1/wav_arrayMic/0058.wav,M02,sheet,array,M,False,Session1
-4732,6150.0,TORGO/M02/Session1/wav_arrayMic/0150.wav,M02,are your grades higher or lower than nancys,array,M,False,Session1
+4732,6150.0,TORGO/M02/Session1/wav_arrayMic/0150.wav,M02,are your grades higher or lower than nancy's,array,M,False,Session1
 4733,2100.0,TORGO/M02/Session1/wav_arrayMic/0048.wav,M02,chair,array,M,False,Session1
 4734,1950.0,TORGO/M02/Session1/wav_arrayMic/0085.wav,M02,fee,array,M,False,Session1
 4735,1950.0,TORGO/M02/Session1/wav_arrayMic/0039.wav,M02,sticks,array,M,False,Session1
@@ -2159,7 +2142,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4770,1500.0,TORGO/M02/Session1/wav_arrayMic/0214.wav,M02,delta,array,M,False,Session1
 4771,3450.0,TORGO/M02/Session1/wav_arrayMic/0208.wav,M02,just one side got wet,array,M,False,Session1
 4772,1650.0,TORGO/M02/Session1/wav_arrayMic/0123.wav,M02,cycle,array,M,False,Session1
-4773,4650.0,TORGO/M02/Session1/wav_arrayMic/0210.wav,M02,youre used to being on the field,array,M,False,Session1
+4773,4650.0,TORGO/M02/Session1/wav_arrayMic/0210.wav,M02,you're used to being on the field,array,M,False,Session1
 4774,3300.0,TORGO/M02/Session1/wav_arrayMic/0141.wav,M02,this was easy for us,array,M,False,Session1
 4775,1050.0,TORGO/M02/Session1/wav_arrayMic/0051.wav,M02,bat,array,M,False,Session1
 4776,1050.0,TORGO/M02/Session1/wav_arrayMic/0093.wav,M02,dug,array,M,False,Session1
@@ -2188,7 +2171,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4800,5050.375,TORGO/M02/Session1/wav_arrayMic/0035.wav,M02,i can,head,M,False,Session1
 4801,2890.0625,TORGO/M02/Session1/wav_arrayMic/0139.wav,M02,write,head,M,False,Session1
 4802,2469.1875,TORGO/M02/Session1/wav_arrayMic/0145.wav,M02,droop,head,M,False,Session1
-4804,2364.6875,TORGO/M02/Session1/wav_arrayMic/0163.wav,M02,were,head,M,False,Session1
+4804,2364.6875,TORGO/M02/Session1/wav_arrayMic/0163.wav,M02,we're,head,M,False,Session1
 4805,2110.375,TORGO/M02/Session1/wav_arrayMic/0165.wav,M02,suit,head,M,False,Session1
 4806,4932.75,TORGO/M02/Session1/wav_arrayMic/0184.wav,M02,we gathered shells on the beach,head,M,False,Session1
 4807,4096.625,TORGO/M02/Session1/wav_arrayMic/0128.wav,M02,menu,head,M,False,Session1
@@ -2231,7 +2214,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4848,2296.875,TORGO/M02/Session1/wav_arrayMic/0083.wav,M02,double,head,M,False,Session1
 4849,2132.5,TORGO/M02/Session1/wav_arrayMic/0138.wav,M02,ate,head,M,False,Session1
 4850,2695.1875,TORGO/M02/Session1/wav_arrayMic/0202.wav,M02,rocks,head,M,False,Session1
-4851,8137.1875,TORGO/M02/Session1/wav_arrayMic/0106.wav,M02,dont ask me to carry an oily rag like that,head,M,False,Session1
+4851,8137.1875,TORGO/M02/Session1/wav_arrayMic/0106.wav,M02,don't ask me to carry an oily rag like that,head,M,False,Session1
 4852,2084.9375,TORGO/M02/Session1/wav_arrayMic/0192.wav,M02,through,head,M,False,Session1
 4853,2862.0625,TORGO/M02/Session1/wav_arrayMic/0111.wav,M02,goat,head,M,False,Session1
 4854,2665.625,TORGO/M02/Session1/wav_arrayMic/0107.wav,M02,rage,head,M,False,Session1
@@ -2269,7 +2252,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4888,2431.9375,TORGO/M02/Session1/wav_arrayMic/0094.wav,M02,storm,head,M,False,Session1
 4889,1729.0,TORGO/M02/Session1/wav_arrayMic/0151.wav,M02,fruit,head,M,False,Session1
 4890,2272.75,TORGO/M02/Session1/wav_arrayMic/0148.wav,M02,shout,head,M,False,Session1
-4891,7463.75,TORGO/M02/Session1/wav_arrayMic/0150.wav,M02,are your grades higher or lower than nancys,head,M,False,Session1
+4891,7463.75,TORGO/M02/Session1/wav_arrayMic/0150.wav,M02,are your grades higher or lower than nancy's,head,M,False,Session1
 4892,1373.0625,TORGO/M02/Session1/wav_arrayMic/0193.wav,M02,though,head,M,False,Session1
 4893,2470.5625,TORGO/M02/Session1/wav_arrayMic/0063.wav,M02,car,head,M,False,Session1
 4894,2118.875,TORGO/M02/Session1/wav_arrayMic/0231.wav,M02,rock,head,M,False,Session1
@@ -2353,8 +2336,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4975,2489.8125,TORGO/M02/Session1/wav_arrayMic/0058.wav,M02,sheet,head,M,False,Session1
 4976,4983.5625,TORGO/M02/Session1/wav_arrayMic/0174.wav,M02,they carried me off on the stretcher,head,M,False,Session1
 4977,2008.5625,TORGO/M02/Session1/wav_arrayMic/0221.wav,M02,back,head,M,False,Session1
-4978,7246.5,TORGO/M02/Session1/wav_arrayMic/0152.wav,M02,youd be better off taking a cold shower,head,M,False,Session1
-4979,457.6875,TORGO/M02/Session1/wav_arrayMic/0153.wav,M02,xxx,head,M,False,Session1
+4978,7246.5,TORGO/M02/Session1/wav_arrayMic/0152.wav,M02,you'd be better off taking a cold shower,head,M,False,Session1
 4980,2637.5,TORGO/M02/Session1/wav_arrayMic/0024.wav,M02,trouble,head,M,False,Session1
 4981,12586.0,TORGO/M02/Session1/wav_arrayMic/0168.wav,M02,if you destroy confidence in banks you do something to the economy he said,head,M,False,Session1
 4982,2609.5,TORGO/M02/Session1/wav_arrayMic/0122.wav,M02,trace,head,M,False,Session1
@@ -2365,7 +2347,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 4987,2466.3125,TORGO/M02/Session1/wav_arrayMic/0209.wav,M02,pile,head,M,False,Session1
 4988,2920.8125,TORGO/M02/Session1/wav_arrayMic/0047.wav,M02,store,head,M,False,Session1
 4989,1830.6875,TORGO/M02/Session1/wav_arrayMic/0207.wav,M02,suit,head,M,False,Session1
-4990,4602.125,TORGO/M02/Session1/wav_arrayMic/0210.wav,M02,youre used to being on the field,head,M,False,Session1
+4990,4602.125,TORGO/M02/Session1/wav_arrayMic/0210.wav,M02,you're used to being on the field,head,M,False,Session1
 4991,2497.3125,TORGO/M02/Session1/wav_arrayMic/0133.wav,M02,here,head,M,False,Session1
 4992,2405.875,TORGO/M02/Session1/wav_arrayMic/0214.wav,M02,delta,head,M,False,Session1
 4993,2440.9375,TORGO/M02/Session1/wav_arrayMic/0156.wav,M02,pot,head,M,False,Session1
@@ -2483,7 +2465,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5109,3000.0,TORGO/M02/Session2/wav_arrayMic/0150.wav,M02,kitten,array,M,False,Session2
 5110,3000.0,TORGO/M02/Session2/wav_arrayMic/0126.wav,M02,written,array,M,False,Session2
 5111,2700.0,TORGO/M02/Session2/wav_arrayMic/0185.wav,M02,seven,array,M,False,Session2
-5112,9450.0,TORGO/M02/Session2/wav_arrayMic/0133.wav,M02,alimony harms a divorced mans wealth,array,M,False,Session2
+5112,9450.0,TORGO/M02/Session2/wav_arrayMic/0133.wav,M02,alimony harms a divorced man's wealth,array,M,False,Session2
 5113,3750.0,TORGO/M02/Session2/wav_arrayMic/0229.wav,M02,darn,array,M,False,Session2
 5114,2550.0,TORGO/M02/Session2/wav_arrayMic/0206.wav,M02,league,array,M,False,Session2
 5115,10200.0,TORGO/M02/Session2/wav_arrayMic/0098.wav,M02,aluminum silverware can often be flimsy,array,M,False,Session2
@@ -2509,7 +2491,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5135,7350.0,TORGO/M02/Session2/wav_arrayMic/0209.wav,M02,we rode horseback to the farm,array,M,False,Session2
 5136,2700.0,TORGO/M02/Session2/wav_arrayMic/0220.wav,M02,no,array,M,False,Session2
 5137,8850.0,TORGO/M02/Session2/wav_arrayMic/0119.wav,M02,the misguided souls have lost their way,array,M,False,Session2
-5138,12000.0,TORGO/M02/Session2/wav_arrayMic/0128.wav,M02,before thursdays exam review every formula,array,M,False,Session2
+5138,12000.0,TORGO/M02/Session2/wav_arrayMic/0128.wav,M02,before thursday's exam review every formula,array,M,False,Session2
 5139,6000.0,TORGO/M02/Session2/wav_arrayMic/0212.wav,M02,the job provides many benefits,array,M,False,Session2
 5140,2700.0,TORGO/M02/Session2/wav_arrayMic/0110.wav,M02,lick,array,M,False,Session2
 5141,6900.0,TORGO/M02/Session2/wav_arrayMic/0096.wav,M02,a roll of wire lay near the wall,array,M,False,Session2
@@ -2517,7 +2499,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5143,7050.0,TORGO/M02/Session2/wav_arrayMic/0178.wav,M02,the books are very expensive,array,M,False,Session2
 5144,2550.0,TORGO/M02/Session2/wav_arrayMic/0226.wav,M02,golf,array,M,False,Session2
 5145,8550.0,TORGO/M02/Session2/wav_arrayMic/0139.wav,M02,he wrapped the package hastily,array,M,False,Session2
-5146,8550.0,TORGO/M02/Session2/wav_arrayMic/0187.wav,M02,i expect well bounce back this week,array,M,False,Session2
+5146,8550.0,TORGO/M02/Session2/wav_arrayMic/0187.wav,M02,i expect we'll bounce back this week,array,M,False,Session2
 5147,3000.0,TORGO/M02/Session2/wav_arrayMic/0221.wav,M02,fitting,array,M,False,Session2
 5148,4500.0,TORGO/M02/Session2/wav_arrayMic/0094.wav,M02,pat,array,M,False,Session2
 5149,2400.0,TORGO/M02/Session2/wav_arrayMic/0141.wav,M02,pit,array,M,False,Session2
@@ -2553,7 +2535,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5179,2695.0,TORGO/M02/Session2/wav_arrayMic/0125.wav,M02,sign,head,M,False,Session2
 5180,11625.0,TORGO/M02/Session2/wav_arrayMic/0161.wav,M02,the museum hires musicians every evening,head,M,False,Session2
 5181,8445.0,TORGO/M02/Session2/wav_arrayMic/0235.wav,M02,the owners regularly look for plumbing leaks,head,M,False,Session2
-5182,4475.0,TORGO/M02/Session2/wav_arrayMic/0230.wav,M02,xxx,head,M,False,Session2
 5183,2705.0,TORGO/M02/Session2/wav_arrayMic/0180.wav,M02,cart,head,M,False,Session2
 5184,2805.0,TORGO/M02/Session2/wav_arrayMic/0218.wav,M02,mush,head,M,False,Session2
 5185,2305.0,TORGO/M02/Session2/wav_arrayMic/0142.wav,M02,pit,head,M,False,Session2
@@ -2568,7 +2549,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5194,9750.0,TORGO/M02/Session2/wav_arrayMic/0163.wav,M02,she wore warm fleecy woolen overalls,head,M,False,Session2
 5195,3005.0,TORGO/M02/Session2/wav_arrayMic/0165.wav,M02,at,head,M,False,Session2
 5196,2885.0,TORGO/M02/Session2/wav_arrayMic/0184.wav,M02,zero,head,M,False,Session2
-5197,11535.0625,TORGO/M02/Session2/wav_arrayMic/0128.wav,M02,before thursdays exam review every formula,head,M,False,Session2
+5197,11535.0625,TORGO/M02/Session2/wav_arrayMic/0128.wav,M02,before thursday's exam review every formula,head,M,False,Session2
 5198,2420.0,TORGO/M02/Session2/wav_arrayMic/0085.wav,M02,white,head,M,False,Session2
 5199,2435.0,TORGO/M02/Session2/wav_arrayMic/0092.wav,M02,coupe,head,M,False,Session2
 5200,1350.0,TORGO/M02/Session2/wav_arrayMic/0155.wav,M02,oh,head,M,False,Session2
@@ -2577,7 +2558,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5203,3120.0,TORGO/M02/Session2/wav_arrayMic/0080.wav,M02,air,head,M,False,Session2
 5204,1715.0625,TORGO/M02/Session2/wav_arrayMic/0079.wav,M02,air,head,M,False,Session2
 5205,6225.0625,TORGO/M02/Session2/wav_arrayMic/0200.wav,M02,there is a treehouse up above,head,M,False,Session2
-5206,315.0,TORGO/M02/Session2/wav_arrayMic/0175.wav,M02,xxx,head,M,False,Session2
 5207,2780.0,TORGO/M02/Session2/wav_arrayMic/0123.wav,M02,hem,head,M,False,Session2
 5208,2140.0,TORGO/M02/Session2/wav_arrayMic/0206.wav,M02,league,head,M,False,Session2
 5209,2435.0,TORGO/M02/Session2/wav_arrayMic/0105.wav,M02,at,head,M,False,Session2
@@ -2590,7 +2570,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5216,13785.0,TORGO/M02/Session2/wav_arrayMic/0208.wav,M02,nothing has been done yet to take advantage of the enabling legislation,head,M,False,Session2
 5217,3115.0,TORGO/M02/Session2/wav_arrayMic/0146.wav,M02,barn,head,M,False,Session2
 5218,4575.0,TORGO/M02/Session2/wav_arrayMic/0149.wav,M02,foxtrot,head,M,False,Session2
-5220,7895.0,TORGO/M02/Session2/wav_arrayMic/0187.wav,M02,i expect well bounce back this week,head,M,False,Session2
+5220,7895.0,TORGO/M02/Session2/wav_arrayMic/0187.wav,M02,i expect we'll bounce back this week,head,M,False,Session2
 5221,2780.0,TORGO/M02/Session2/wav_arrayMic/0076.wav,M02,group,head,M,False,Session2
 5222,2520.0,TORGO/M02/Session2/wav_arrayMic/0097.wav,M02,echo,head,M,False,Session2
 5223,2890.0625,TORGO/M02/Session2/wav_arrayMic/0116.wav,M02,witty,head,M,False,Session2
@@ -2612,7 +2592,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5240,6880.0,TORGO/M02/Session2/wav_arrayMic/0178.wav,M02,the books are very expensive,head,M,False,Session2
 5241,3070.0,TORGO/M02/Session2/wav_arrayMic/0100.wav,M02,mike,head,M,False,Session2
 5242,2940.0,TORGO/M02/Session2/wav_arrayMic/0216.wav,M02,leak,head,M,False,Session2
-5243,315.0,TORGO/M02/Session2/wav_arrayMic/0224.wav,M02,xxx,head,M,False,Session2
 5244,3445.0625,TORGO/M02/Session2/wav_arrayMic/0179.wav,M02,harp,head,M,False,Session2
 5245,2280.0,TORGO/M02/Session2/wav_arrayMic/0201.wav,M02,pit,head,M,False,Session2
 5246,7075.0,TORGO/M02/Session2/wav_arrayMic/0131.wav,M02,the box contained three sweaters,head,M,False,Session2
@@ -2654,7 +2633,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5284,9515.0,TORGO/M02/Session2/wav_arrayMic/0098.wav,M02,aluminum silverware can often be flimsy,head,M,False,Session2
 5285,1220.0625,TORGO/M02/Session2/wav_arrayMic/0140.wav,M02,pit,head,M,False,Session2
 5286,2670.0,TORGO/M02/Session2/wav_arrayMic/0239.wav,M02,witch,head,M,False,Session2
-5287,1755.0,TORGO/M02/Session2/wav_arrayMic/0225.wav,M02,xxx,head,M,False,Session2
 5288,7345.0,TORGO/M02/Session2/wav_arrayMic/0188.wav,M02,the little schoolhouse stood empty,head,M,False,Session2
 5289,1580.0,TORGO/M02/Session2/wav_arrayMic/0136.wav,M02,knitting,head,M,False,Session2
 5290,2620.0,TORGO/M02/Session2/wav_arrayMic/0141.wav,M02,pit,head,M,False,Session2
@@ -2698,7 +2676,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 5328,7575.0,TORGO/M02/Session2/wav_arrayMic/0209.wav,M02,we rode horseback to the farm,head,M,False,Session2
 5329,10145.0,TORGO/M02/Session2/wav_arrayMic/0207.wav,M02,it eventually became a rather proud claim,head,M,False,Session2
 5330,4035.0,TORGO/M02/Session2/wav_arrayMic/0210.wav,M02,quebec,head,M,False,Session2
-5331,9140.0,TORGO/M02/Session2/wav_arrayMic/0133.wav,M02,alimony harms a divorced mans wealth,head,M,False,Session2
+5331,9140.0,TORGO/M02/Session2/wav_arrayMic/0133.wav,M02,alimony harms a divorced man's wealth,head,M,False,Session2
 5332,2780.0,TORGO/M02/Session2/wav_arrayMic/0214.wav,M02,hat,head,M,False,Session2
 5333,3935.0,TORGO/M02/Session2/wav_arrayMic/0156.wav,M02,yes,head,M,False,Session2
 5334,2980.0,TORGO/M02/Session2/wav_arrayMic/0159.wav,M02,oscar,head,M,False,Session2
@@ -2718,7 +2696,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10232,6750.0,TORGO/F04/Session2/wav_arrayMic/0062.wav,F04,jane may earn more money by working hard,array,F,False,Session2
 10233,1800.0,TORGO/F04/Session2/wav_arrayMic/0125.wav,F04,city,array,F,False,Session2
 10234,4200.0,TORGO/F04/Session2/wav_arrayMic/0050.wav,F04,sigh,array,F,False,Session2
-10235,3450.0,TORGO/F04/Session2/wav_arrayMic/0161.wav,F04,xxx,array,F,False,Session2
 10236,1950.0,TORGO/F04/Session2/wav_arrayMic/0235.wav,F04,him,array,F,False,Session2
 10237,4200.0,TORGO/F04/Session2/wav_arrayMic/0230.wav,F04,and,array,F,False,Session2
 10238,3300.0,TORGO/F04/Session2/wav_arrayMic/0180.wav,F04,kilo,array,F,False,Session2
@@ -2730,7 +2707,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10244,3150.0,TORGO/F04/Session2/wav_arrayMic/0056.wav,F04,explore,array,F,False,Session2
 10245,2850.0,TORGO/F04/Session2/wav_arrayMic/0065.wav,F04,write,array,F,False,Session2
 10246,2850.0,TORGO/F04/Session2/wav_arrayMic/0084.wav,F04,five,array,F,False,Session2
-10247,7800.0,TORGO/F04/Session2/wav_arrayMic/0227.wav,F04,people who value themselves are lifes winners,array,F,False,Session2
+10247,7800.0,TORGO/F04/Session2/wav_arrayMic/0227.wav,F04,people who value themselves are life's winners,array,F,False,Session2
 10248,2850.0,TORGO/F04/Session2/wav_arrayMic/0061.wav,F04,floor,array,F,False,Session2
 10249,3600.0,TORGO/F04/Session2/wav_arrayMic/0014.wav,F04,this was easy for us,array,F,False,Session2
 10250,2700.0,TORGO/F04/Session2/wav_arrayMic/0038.wav,F04,peer,array,F,False,Session2
@@ -2797,7 +2774,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10312,3450.0,TORGO/F04/Session2/wav_arrayMic/0107.wav,F04,sergeant,array,F,False,Session2
 10313,4800.0,TORGO/F04/Session2/wav_arrayMic/0126.wav,F04,this is a period of transition for me,array,F,False,Session2
 10314,2100.0,TORGO/F04/Session2/wav_arrayMic/0205.wav,F04,park,array,F,False,Session2
-10315,6150.0,TORGO/F04/Session2/wav_arrayMic/0103.wav,F04,alimony harms a divorced mans wealth,array,F,False,Session2
+10315,6150.0,TORGO/F04/Session2/wav_arrayMic/0103.wav,F04,alimony harms a divorced man's wealth,array,F,False,Session2
 10316,2550.0,TORGO/F04/Session2/wav_arrayMic/0181.wav,F04,knitting,array,F,False,Session2
 10317,3000.0,TORGO/F04/Session2/wav_arrayMic/0045.wav,F04,sigh,array,F,False,Session2
 10318,4365.375,TORGO/F04/Session2/wav_arrayMic/0049.wav,F04,sigh,array,F,False,Session2
@@ -2827,7 +2804,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10342,3000.0,TORGO/F04/Session2/wav_arrayMic/0158.wav,F04,hark,array,F,False,Session2
 10343,3450.0,TORGO/F04/Session2/wav_arrayMic/0233.wav,F04,lock,array,F,False,Session2
 10344,3600.0,TORGO/F04/Session2/wav_arrayMic/0134.wav,F04,witty,array,F,False,Session2
-10345,7200.0,TORGO/F04/Session2/wav_arrayMic/0053.wav,F04,are your grades higher or lower than nancys,array,F,False,Session2
+10345,7200.0,TORGO/F04/Session2/wav_arrayMic/0053.wav,F04,are your grades higher or lower than nancy's,array,F,False,Session2
 10346,2850.0,TORGO/F04/Session2/wav_arrayMic/0094.wav,F04,darn,array,F,False,Session2
 10347,3900.0,TORGO/F04/Session2/wav_arrayMic/0151.wav,F04,kitten,array,F,False,Session2
 10348,5700.0,TORGO/F04/Session2/wav_arrayMic/0148.wav,F04,the little schoolhouse stood empty,array,F,False,Session2
@@ -2865,7 +2842,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10380,3900.0,TORGO/F04/Session2/wav_arrayMic/0039.wav,F04,lip,array,F,False,Session2
 10381,2400.0,TORGO/F04/Session2/wav_arrayMic/0117.wav,F04,bloat,array,F,False,Session2
 10382,6000.0,TORGO/F04/Session2/wav_arrayMic/0176.wav,F04,i have had my bell rung,array,F,False,Session2
-10383,4800.0,TORGO/F04/Session2/wav_arrayMic/0241.wav,F04,im willing to experiment for the first time,array,F,False,Session2
+10383,4800.0,TORGO/F04/Session2/wav_arrayMic/0241.wav,F04,i'm willing to experiment for the first time,array,F,False,Session2
 10384,4350.0,TORGO/F04/Session2/wav_arrayMic/0232.wav,F04,xray,array,F,False,Session2
 10385,2100.0,TORGO/F04/Session2/wav_arrayMic/0023.wav,F04,witch,array,F,False,Session2
 10386,3300.0,TORGO/F04/Session2/wav_arrayMic/0240.wav,F04,right,array,F,False,Session2
@@ -2883,8 +2860,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10398,2850.0,TORGO/F04/Session2/wav_arrayMic/0130.wav,F04,papa,array,F,False,Session2
 10399,3900.0,TORGO/F04/Session2/wav_arrayMic/0217.wav,F04,the hotel owner shrugged,array,F,False,Session2
 10400,2100.0,TORGO/F04/Session2/wav_arrayMic/0026.wav,F04,though,array,F,False,Session2
-10401,3000.0,TORGO/F04/Session2/wav_arrayMic/0068.wav,F04,xxx,array,F,False,Session2
-10402,6300.0,TORGO/F04/Session2/wav_arrayMic/0172.wav,F04,before thursdays exam review every formula,array,F,False,Session2
+10402,6300.0,TORGO/F04/Session2/wav_arrayMic/0172.wav,F04,before thursday's exam review every formula,array,F,False,Session2
 10403,3450.0,TORGO/F04/Session2/wav_arrayMic/0166.wav,F04,top,array,F,False,Session2
 10404,2550.0,TORGO/F04/Session2/wav_arrayMic/0137.wav,F04,written,array,F,False,Session2
 10405,3000.0,TORGO/F04/Session2/wav_arrayMic/0071.wav,F04,him,array,F,False,Session2
@@ -2899,8 +2875,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10414,2700.0,TORGO/F04/Session2/wav_arrayMic/0021.wav,F04,boot,array,F,False,Session2
 10415,3450.0,TORGO/F04/Session2/wav_arrayMic/0082.wav,F04,sell,array,F,False,Session2
 10416,4200.0,TORGO/F04/Session2/wav_arrayMic/0213.wav,F04,ticker,array,F,False,Session2
-10417,4500.0,TORGO/F04/Session2/wav_arrayMic/0012.wav,F04,xxx,array,F,False,Session2
-10418,6000.0,TORGO/F04/Session2/wav_arrayMic/0096.wav,F04,i expect well bounce back this week,array,F,False,Session2
+10418,6000.0,TORGO/F04/Session2/wav_arrayMic/0096.wav,F04,i expect we'll bounce back this week,array,F,False,Session2
 10419,1950.0,TORGO/F04/Session2/wav_arrayMic/0169.wav,F04,lima,array,F,False,Session2
 10420,2850.0,TORGO/F04/Session2/wav_arrayMic/0077.wav,F04,sign,array,F,False,Session2
 10421,2400.0,TORGO/F04/Session2/wav_arrayMic/0033.wav,F04,bear,array,F,False,Session2
@@ -2955,7 +2930,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10471,3900.0,TORGO/F04/Session2/wav_arrayMic/0005.wav,F04,i was conscious all the time,array,F,False,Session2
 10472,4650.0,TORGO/F04/Session2/wav_arrayMic/0066.wav,F04,write,array,F,False,Session2
 10473,3900.9375,TORGO/F04/Session2/wav_arrayMic/0135.wav,F04,tell,array,F,False,Session2
-10474,3300.0,TORGO/F04/Session2/wav_arrayMic/0025.wav,F04,xxx,array,F,False,Session2
 10475,3450.0,TORGO/F04/Session2/wav_arrayMic/0064.wav,F04,sigh,array,F,False,Session2
 10476,2550.0,TORGO/F04/Session2/wav_arrayMic/0043.wav,F04,tie,array,F,False,Session2
 10477,2250.0,TORGO/F04/Session2/wav_arrayMic/0121.wav,F04,shy,array,F,False,Session2
@@ -2965,7 +2939,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10481,6255.0,TORGO/F04/Session2/wav_arrayMic/0062.wav,F04,jane may earn more money by working hard,head,F,False,Session2
 10482,2160.0,TORGO/F04/Session2/wav_arrayMic/0125.wav,F04,city,head,F,False,Session2
 10483,3765.0,TORGO/F04/Session2/wav_arrayMic/0050.wav,F04,sigh,head,F,False,Session2
-10484,3175.0,TORGO/F04/Session2/wav_arrayMic/0161.wav,F04,xxx,head,F,False,Session2
 10485,1580.0,TORGO/F04/Session2/wav_arrayMic/0235.wav,F04,him,head,F,False,Session2
 10486,3760.0,TORGO/F04/Session2/wav_arrayMic/0230.wav,F04,and,head,F,False,Session2
 10487,3190.0,TORGO/F04/Session2/wav_arrayMic/0180.wav,F04,kilo,head,F,False,Session2
@@ -2977,7 +2950,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10493,2820.0,TORGO/F04/Session2/wav_arrayMic/0056.wav,F04,explore,head,F,False,Session2
 10494,2495.0,TORGO/F04/Session2/wav_arrayMic/0065.wav,F04,write,head,F,False,Session2
 10495,2350.0,TORGO/F04/Session2/wav_arrayMic/0084.wav,F04,five,head,F,False,Session2
-10496,7340.0,TORGO/F04/Session2/wav_arrayMic/0227.wav,F04,people who value themselves are lifes winners,head,F,False,Session2
+10496,7340.0,TORGO/F04/Session2/wav_arrayMic/0227.wav,F04,people who value themselves are life's winners,head,F,False,Session2
 10497,2565.0,TORGO/F04/Session2/wav_arrayMic/0061.wav,F04,floor,head,F,False,Session2
 10498,3165.0,TORGO/F04/Session2/wav_arrayMic/0014.wav,F04,this was easy for us,head,F,False,Session2
 10499,2225.0,TORGO/F04/Session2/wav_arrayMic/0038.wav,F04,peer,head,F,False,Session2
@@ -3044,7 +3017,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10561,3185.0,TORGO/F04/Session2/wav_arrayMic/0107.wav,F04,sergeant,head,F,False,Session2
 10562,4465.0,TORGO/F04/Session2/wav_arrayMic/0126.wav,F04,this is a period of transition for me,head,F,False,Session2
 10563,1860.0625,TORGO/F04/Session2/wav_arrayMic/0205.wav,F04,park,head,F,False,Session2
-10564,5860.0,TORGO/F04/Session2/wav_arrayMic/0103.wav,F04,alimony harms a divorced mans wealth,head,F,False,Session2
+10564,5860.0,TORGO/F04/Session2/wav_arrayMic/0103.wav,F04,alimony harms a divorced man's wealth,head,F,False,Session2
 10565,2585.0,TORGO/F04/Session2/wav_arrayMic/0181.wav,F04,knitting,head,F,False,Session2
 10566,2370.0,TORGO/F04/Session2/wav_arrayMic/0045.wav,F04,sigh,head,F,False,Session2
 10567,4765.0,TORGO/F04/Session2/wav_arrayMic/0049.wav,F04,sigh,head,F,False,Session2
@@ -3074,7 +3047,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10591,2580.0,TORGO/F04/Session2/wav_arrayMic/0158.wav,F04,hark,head,F,False,Session2
 10592,3195.0,TORGO/F04/Session2/wav_arrayMic/0233.wav,F04,lock,head,F,False,Session2
 10593,3325.0,TORGO/F04/Session2/wav_arrayMic/0134.wav,F04,witty,head,F,False,Session2
-10594,6440.0,TORGO/F04/Session2/wav_arrayMic/0053.wav,F04,are your grades higher or lower than nancys,head,F,False,Session2
+10594,6440.0,TORGO/F04/Session2/wav_arrayMic/0053.wav,F04,are your grades higher or lower than nancy's,head,F,False,Session2
 10595,2620.0,TORGO/F04/Session2/wav_arrayMic/0094.wav,F04,darn,head,F,False,Session2
 10596,3485.0,TORGO/F04/Session2/wav_arrayMic/0151.wav,F04,kitten,head,F,False,Session2
 10597,5150.0,TORGO/F04/Session2/wav_arrayMic/0148.wav,F04,the little schoolhouse stood empty,head,F,False,Session2
@@ -3112,7 +3085,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10629,3535.0,TORGO/F04/Session2/wav_arrayMic/0039.wav,F04,lip,head,F,False,Session2
 10630,2075.0,TORGO/F04/Session2/wav_arrayMic/0117.wav,F04,bloat,head,F,False,Session2
 10631,5630.0,TORGO/F04/Session2/wav_arrayMic/0176.wav,F04,i have had my bell rung,head,F,False,Session2
-10632,4250.0,TORGO/F04/Session2/wav_arrayMic/0241.wav,F04,im willing to experiment for the first time,head,F,False,Session2
+10632,4250.0,TORGO/F04/Session2/wav_arrayMic/0241.wav,F04,i'm willing to experiment for the first time,head,F,False,Session2
 10633,3860.0,TORGO/F04/Session2/wav_arrayMic/0232.wav,F04,xray,head,F,False,Session2
 10634,2060.0,TORGO/F04/Session2/wav_arrayMic/0023.wav,F04,witch,head,F,False,Session2
 10635,2795.0,TORGO/F04/Session2/wav_arrayMic/0240.wav,F04,right,head,F,False,Session2
@@ -3130,8 +3103,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10647,2560.0,TORGO/F04/Session2/wav_arrayMic/0130.wav,F04,papa,head,F,False,Session2
 10648,3430.0,TORGO/F04/Session2/wav_arrayMic/0217.wav,F04,the hotel owner shrugged,head,F,False,Session2
 10649,2180.0,TORGO/F04/Session2/wav_arrayMic/0026.wav,F04,though,head,F,False,Session2
-10650,3630.0,TORGO/F04/Session2/wav_arrayMic/0068.wav,F04,xxx,head,F,False,Session2
-10651,5865.0,TORGO/F04/Session2/wav_arrayMic/0172.wav,F04,before thursdays exam review every formula,head,F,False,Session2
+10651,5865.0,TORGO/F04/Session2/wav_arrayMic/0172.wav,F04,before thursday's exam review every formula,head,F,False,Session2
 10652,3570.0,TORGO/F04/Session2/wav_arrayMic/0166.wav,F04,top,head,F,False,Session2
 10653,2215.0,TORGO/F04/Session2/wav_arrayMic/0137.wav,F04,written,head,F,False,Session2
 10654,2520.0,TORGO/F04/Session2/wav_arrayMic/0071.wav,F04,him,head,F,False,Session2
@@ -3146,8 +3118,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10663,2160.0,TORGO/F04/Session2/wav_arrayMic/0021.wav,F04,boot,head,F,False,Session2
 10664,3075.0,TORGO/F04/Session2/wav_arrayMic/0082.wav,F04,sell,head,F,False,Session2
 10665,3820.0,TORGO/F04/Session2/wav_arrayMic/0213.wav,F04,ticker,head,F,False,Session2
-10666,3850.0,TORGO/F04/Session2/wav_arrayMic/0012.wav,F04,xxx,head,F,False,Session2
-10667,5585.0,TORGO/F04/Session2/wav_arrayMic/0096.wav,F04,i expect well bounce back this week,head,F,False,Session2
+10667,5585.0,TORGO/F04/Session2/wav_arrayMic/0096.wav,F04,i expect we'll bounce back this week,head,F,False,Session2
 10668,1565.0625,TORGO/F04/Session2/wav_arrayMic/0169.wav,F04,lima,head,F,False,Session2
 10669,2385.0,TORGO/F04/Session2/wav_arrayMic/0077.wav,F04,sign,head,F,False,Session2
 10670,1985.0,TORGO/F04/Session2/wav_arrayMic/0033.wav,F04,bear,head,F,False,Session2
@@ -3203,7 +3174,6 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10721,3645.0,TORGO/F04/Session2/wav_arrayMic/0005.wav,F04,i was conscious all the time,head,F,False,Session2
 10722,4460.0,TORGO/F04/Session2/wav_arrayMic/0066.wav,F04,write,head,F,False,Session2
 10723,3465.0,TORGO/F04/Session2/wav_arrayMic/0135.wav,F04,tell,head,F,False,Session2
-10724,3460.0,TORGO/F04/Session2/wav_arrayMic/0025.wav,F04,xxx,head,F,False,Session2
 10725,2895.0,TORGO/F04/Session2/wav_arrayMic/0064.wav,F04,sigh,head,F,False,Session2
 10726,2270.0,TORGO/F04/Session2/wav_arrayMic/0043.wav,F04,tie,head,F,False,Session2
 10727,1760.0,TORGO/F04/Session2/wav_arrayMic/0121.wav,F04,shy,head,F,False,Session2
@@ -3234,14 +3204,14 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10754,1650.0,TORGO/F04/Session1/wav_arrayMic/0111.wav,F04,beat,array,F,False,Session1
 10755,1500.0,TORGO/F04/Session1/wav_arrayMic/0074.wav,F04,range,array,F,False,Session1
 10756,1500.0,TORGO/F04/Session1/wav_arrayMic/0094.wav,F04,alpha,array,F,False,Session1
-10757,2550.0,TORGO/F04/Session1/wav_arrayMic/0196.wav,F04,were,array,F,False,Session1
+10757,2550.0,TORGO/F04/Session1/wav_arrayMic/0196.wav,F04,we're,array,F,False,Session1
 10758,1200.0,TORGO/F04/Session1/wav_arrayMic/0045.wav,F04,rake,array,F,False,Session1
 10760,6750.0,TORGO/F04/Session1/wav_arrayMic/0120.wav,F04,a long flowing beard clings to his chin,array,F,False,Session1
 10761,1350.0,TORGO/F04/Session1/wav_arrayMic/0044.wav,F04,air,array,F,False,Session1
 10762,1650.0,TORGO/F04/Session1/wav_arrayMic/0064.wav,F04,fair,array,F,False,Session1
 10763,1200.0,TORGO/F04/Session1/wav_arrayMic/0137.wav,F04,here,array,F,False,Session1
 10764,1500.0,TORGO/F04/Session1/wav_arrayMic/0182.wav,F04,pay,array,F,False,Session1
-10765,4650.0,TORGO/F04/Session1/wav_arrayMic/0042.wav,F04,dont ask me to carry an oily rag like that,array,F,False,Session1
+10765,4650.0,TORGO/F04/Session1/wav_arrayMic/0042.wav,F04,don't ask me to carry an oily rag like that,array,F,False,Session1
 10766,900.0,TORGO/F04/Session1/wav_arrayMic/0036.wav,F04,dug,array,F,False,Session1
 10767,5250.0,TORGO/F04/Session1/wav_arrayMic/0065.wav,F04,the quick brown fox jumps over the lazy dog,array,F,False,Session1
 10769,1350.0,TORGO/F04/Session1/wav_arrayMic/0029.wav,F04,knew,array,F,False,Session1
@@ -3307,7 +3277,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10835,2250.0,TORGO/F04/Session1/wav_arrayMic/0102.wav,F04,feed,array,F,False,Session1
 10836,1350.0,TORGO/F04/Session1/wav_arrayMic/0084.wav,F04,know,array,F,False,Session1
 10837,1650.0,TORGO/F04/Session1/wav_arrayMic/0134.wav,F04,charlie,array,F,False,Session1
-10838,3900.0,TORGO/F04/Session1/wav_arrayMic/0174.wav,F04,youre used to being on the field,array,F,False,Session1
+10838,3900.0,TORGO/F04/Session1/wav_arrayMic/0174.wav,F04,you're used to being on the field,array,F,False,Session1
 10839,1350.0,TORGO/F04/Session1/wav_arrayMic/0052.wav,F04,horn,array,F,False,Session1
 10840,5100.0,TORGO/F04/Session1/wav_arrayMic/0112.wav,F04,we have often urged him to walk more and smoke less,array,F,False,Session1
 10841,1800.0,TORGO/F04/Session1/wav_arrayMic/0047.wav,F04,glow,array,F,False,Session1
@@ -3315,7 +3285,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10843,1500.0,TORGO/F04/Session1/wav_arrayMic/0181.wav,F04,ate,array,F,False,Session1
 10844,1350.0,TORGO/F04/Session1/wav_arrayMic/0080.wav,F04,trouble,array,F,False,Session1
 10845,1950.0,TORGO/F04/Session1/wav_arrayMic/0059.wav,F04,race,array,F,False,Session1
-10846,4050.0,TORGO/F04/Session1/wav_arrayMic/0130.wav,F04,youd be better off taking a cold shower,array,F,False,Session1
+10846,4050.0,TORGO/F04/Session1/wav_arrayMic/0130.wav,F04,you'd be better off taking a cold shower,array,F,False,Session1
 10847,1200.0,TORGO/F04/Session1/wav_arrayMic/0057.wav,F04,the,array,F,False,Session1
 10848,1650.0,TORGO/F04/Session1/wav_arrayMic/0151.wav,F04,deer,array,F,False,Session1
 10849,1650.0,TORGO/F04/Session1/wav_arrayMic/0066.wav,F04,read ,array,F,False,Session1
@@ -3371,7 +3341,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 10901,1800.0,TORGO/F04/Session1/wav_arrayMic/0168.wav,F04,steer,array,F,False,Session1
 10902,2400.0,TORGO/F04/Session1/wav_arrayMic/0157.wav,F04,thigh,array,F,False,Session1
 10903,1500.0,TORGO/F04/Session1/wav_arrayMic/0154.wav,F04,bad,array,F,False,Session1
-10904,4050.0,TORGO/F04/Session1/wav_arrayMic/0131.wav,F04,youd be better off taking a cold shower,array,F,False,Session1
+10904,4050.0,TORGO/F04/Session1/wav_arrayMic/0131.wav,F04,you'd be better off taking a cold shower,array,F,False,Session1
 10905,1950.0,TORGO/F04/Session1/wav_arrayMic/0149.wav,F04,bad,array,F,False,Session1
 10906,1650.0,TORGO/F04/Session1/wav_arrayMic/0098.wav,F04,for,array,F,False,Session1
 10907,2550.0,TORGO/F04/Session1/wav_arrayMic/0116.wav,F04,sip,array,F,False,Session1
@@ -3424,7 +3394,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 11792,3300.0,TORGO/MC02/Session1/wav_arrayMic/0014.wav,MC02,sticks,array,M,True,Session1
 11793,2550.0,TORGO/MC02/Session1/wav_arrayMic/0038.wav,MC02,trait,array,M,True,Session1
 11794,2850.0,TORGO/MC02/Session1/wav_arrayMic/0081.wav,MC02,range,array,M,True,Session1
-11795,5100.0,TORGO/MC02/Session1/wav_arrayMic/0170.wav,MC02,youd be better off taking a cold shower,array,M,True,Session1
+11795,5100.0,TORGO/MC02/Session1/wav_arrayMic/0170.wav,MC02,you'd be better off taking a cold shower,array,M,True,Session1
 11796,3450.0,TORGO/MC02/Session1/wav_arrayMic/0189.wav,MC02,fear,array,M,True,Session1
 11797,3300.0,TORGO/MC02/Session1/wav_arrayMic/0347.wav,MC02,fat,array,M,True,Session1
 11798,4200.0,TORGO/MC02/Session1/wav_arrayMic/0361.wav,MC02,the little schoolhouse stood empty,array,M,True,Session1
@@ -3478,7 +3448,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 11849,6750.0,TORGO/MC02/Session1/wav_arrayMic/0359.wav,MC02,nothing has been done yet to take advantage of the enabling legislation,array,M,True,Session1
 11850,3450.0,TORGO/MC02/Session1/wav_arrayMic/0312.wav,MC02,sigh,array,M,True,Session1
 11851,4950.0,TORGO/MC02/Session1/wav_arrayMic/0304.wav,MC02,there is a treehouse up above,array,M,True,Session1
-11852,4800.0,TORGO/MC02/Session1/wav_arrayMic/0032.wav,MC02,dont ask me to carry an oily rag like that,array,M,True,Session1
+11852,4800.0,TORGO/MC02/Session1/wav_arrayMic/0032.wav,MC02,don't ask me to carry an oily rag like that,array,M,True,Session1
 11853,3150.0,TORGO/MC02/Session1/wav_arrayMic/0268.wav,MC02,top,array,M,True,Session1
 11854,3150.0,TORGO/MC02/Session1/wav_arrayMic/0329.wav,MC02,hum,array,M,True,Session1
 11855,3150.0,TORGO/MC02/Session1/wav_arrayMic/0182.wav,MC02,mere,array,M,True,Session1
@@ -3492,7 +3462,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 11863,3000.0,TORGO/MC02/Session1/wav_arrayMic/0366.wav,MC02,seeds,array,M,True,Session1
 11864,4050.0,TORGO/MC02/Session1/wav_arrayMic/0244.wav,MC02,she is thinner than i am,array,M,True,Session1
 11865,2850.0,TORGO/MC02/Session1/wav_arrayMic/0208.wav,MC02,troop,array,M,True,Session1
-11866,5100.0,TORGO/MC02/Session1/wav_arrayMic/0376.wav,MC02,alimony harms a divorced mans wealth,array,M,True,Session1
+11866,5100.0,TORGO/MC02/Session1/wav_arrayMic/0376.wav,MC02,alimony harms a divorced man's wealth,array,M,True,Session1
 11867,4200.0,TORGO/MC02/Session1/wav_arrayMic/0146.wav,MC02,i just try to do my best,array,M,True,Session1
 11868,3150.0,TORGO/MC02/Session1/wav_arrayMic/0149.wav,MC02,suit,array,M,True,Session1
 11870,7650.0,TORGO/MC02/Session1/wav_arrayMic/0052.wav,MC02,twice each day he plays skillfully and with zest upon our small organ,array,M,True,Session1
@@ -3564,7 +3534,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 11941,5100.0,TORGO/MC02/Session1/wav_arrayMic/0195.wav,MC02,bright sunshine shimmers on the ocean,array,M,True,Session1
 11942,2700.0,TORGO/MC02/Session1/wav_arrayMic/0351.wav,MC02,fitting,array,M,True,Session1
 11943,3300.0,TORGO/MC02/Session1/wav_arrayMic/0337.wav,MC02,spain,array,M,True,Session1
-11944,4050.0,TORGO/MC02/Session1/wav_arrayMic/0158.wav,MC02,youre used to being on the field,array,M,True,Session1
+11944,4050.0,TORGO/MC02/Session1/wav_arrayMic/0158.wav,MC02,you're used to being on the field,array,M,True,Session1
 11945,4690.4375,TORGO/MC02/Session1/wav_arrayMic/0233.wav,MC02,nothing is as offensive as innocence,array,M,True,Session1
 11946,3450.0,TORGO/MC02/Session1/wav_arrayMic/0134.wav,MC02,four,array,M,True,Session1
 11947,5400.0,TORGO/MC02/Session1/wav_arrayMic/0053.wav,MC02,grandfather likes to be modern in his language,array,M,True,Session1
@@ -3632,7 +3602,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12011,2850.0,TORGO/MC02/Session1/wav_arrayMic/0039.wav,MC02,rake,array,M,True,Session1
 12012,2550.0,TORGO/MC02/Session1/wav_arrayMic/0117.wav,MC02,air,array,M,True,Session1
 12013,3450.0,TORGO/MC02/Session1/wav_arrayMic/0176.wav,MC02,boot,array,M,True,Session1
-12014,3000.0,TORGO/MC02/Session1/wav_arrayMic/0241.wav,MC02,were,array,M,True,Session1
+12014,3000.0,TORGO/MC02/Session1/wav_arrayMic/0241.wav,MC02,we're,array,M,True,Session1
 12015,3600.0,TORGO/MC02/Session1/wav_arrayMic/0232.wav,MC02,steer,array,M,True,Session1
 12016,3000.0,TORGO/MC02/Session1/wav_arrayMic/0023.wav,MC02,feet,array,M,True,Session1
 12017,4200.0,TORGO/MC02/Session1/wav_arrayMic/0240.wav,MC02,mother sews yellow gingham aprons,array,M,True,Session1
@@ -3698,7 +3668,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12079,3000.0,TORGO/MC02/Session1/wav_arrayMic/0196.wav,MC02,gnaw,array,M,True,Session1
 12080,3450.0,TORGO/MC02/Session1/wav_arrayMic/0238.wav,MC02,yes,array,M,True,Session1
 12081,3450.0,TORGO/MC02/Session1/wav_arrayMic/0220.wav,MC02,bad,array,M,True,Session1
-12082,5250.0,TORGO/MC02/Session1/wav_arrayMic/0380.wav,MC02,before thursdays exam review every formula,array,M,True,Session1
+12082,5250.0,TORGO/MC02/Session1/wav_arrayMic/0380.wav,MC02,before thursday's exam review every formula,array,M,True,Session1
 12083,2700.0,TORGO/MC02/Session1/wav_arrayMic/0036.wav,MC02,sip,array,M,True,Session1
 12084,3000.0,TORGO/MC02/Session1/wav_arrayMic/0028.wav,MC02,left,array,M,True,Session1
 12085,3150.0,TORGO/MC02/Session1/wav_arrayMic/0330.wav,MC02,harp,array,M,True,Session1
@@ -3727,7 +3697,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12108,2550.0,TORGO/MC02/Session1/wav_arrayMic/0007.wav,MC02,jagged,array,M,True,Session1
 12109,3300.0,TORGO/MC02/Session1/wav_arrayMic/0222.wav,MC02,pot,array,M,True,Session1
 12110,3450.0,TORGO/MC02/Session1/wav_arrayMic/0373.wav,MC02,cart,array,M,True,Session1
-12111,5250.0,TORGO/MC02/Session1/wav_arrayMic/0129.wav,MC02,are your grades higher or lower than nancys,array,M,True,Session1
+12111,5250.0,TORGO/MC02/Session1/wav_arrayMic/0129.wav,MC02,are your grades higher or lower than nancy's,array,M,True,Session1
 12112,4800.0,TORGO/MC02/Session1/wav_arrayMic/0177.wav,MC02,the train approached the depot slowly,array,M,True,Session1
 12113,4350.0,TORGO/MC02/Session1/wav_arrayMic/0209.wav,MC02,where were you while we were away,array,M,True,Session1
 12114,2550.0,TORGO/MC02/Session1/wav_arrayMic/0047.wav,MC02,raid,array,M,True,Session1
@@ -3741,7 +3711,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12122,2700.0,TORGO/MC02/Session1/wav_arrayMic/0203.wav,MC02,tear ,array,M,True,Session1
 12123,3000.0,TORGO/MC02/Session1/wav_arrayMic/0104.wav,MC02,beat,array,M,True,Session1
 12124,3150.0,TORGO/MC02/Session1/wav_arrayMic/0070.wav,MC02,dark,array,M,True,Session1
-12125,5400.0,TORGO/MC02/Session1/wav_arrayMic/0281.wav,MC02,i expect well bounce back this week,array,M,True,Session1
+12125,5400.0,TORGO/MC02/Session1/wav_arrayMic/0281.wav,MC02,i expect we'll bounce back this week,array,M,True,Session1
 12126,3000.0,TORGO/MC02/Session1/wav_arrayMic/0017.wav,MC02,knew,array,M,True,Session1
 12127,3150.0,TORGO/MC02/Session1/wav_arrayMic/0054.wav,MC02,trade,array,M,True,Session1
 12128,2850.0,TORGO/MC02/Session1/wav_arrayMic/0029.wav,MC02,fee,array,M,True,Session1
@@ -3777,7 +3747,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12160,4465.0,TORGO/MC02/Session1/wav_arrayMic/0062.wav,MC02,yet he still thinks as swiftly as ever,head,M,True,Session1
 12162,3915.0,TORGO/MC02/Session1/wav_arrayMic/0071.wav,MC02,usually minus several buttons,head,M,True,Session1
 12164,2545.0,TORGO/MC02/Session1/wav_arrayMic/0010.wav,MC02,alpha,head,M,True,Session1
-12165,4755.0,TORGO/MC02/Session1/wav_arrayMic/0170.wav,MC02,youd be better off taking a cold shower,head,M,True,Session1
+12165,4755.0,TORGO/MC02/Session1/wav_arrayMic/0170.wav,MC02,you'd be better off taking a cold shower,head,M,True,Session1
 12166,2760.0625,TORGO/MC02/Session1/wav_arrayMic/0110.wav,MC02,trace,head,M,True,Session1
 12167,2995.0,TORGO/MC02/Session1/wav_arrayMic/0123.wav,MC02,single,head,M,True,Session1
 12168,4390.0,TORGO/MC02/Session1/wav_arrayMic/0317.wav,MC02,swing your arm as high as you can,head,M,True,Session1
@@ -3794,7 +3764,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12179,2665.0,TORGO/MC02/Session1/wav_arrayMic/0107.wav,MC02,spark,head,M,True,Session1
 12181,2995.0,TORGO/MC02/Session1/wav_arrayMic/0132.wav,MC02,slay,head,M,True,Session1
 12182,4160.0,TORGO/MC02/Session1/wav_arrayMic/0145.wav,MC02,we gathered shells on the beach,head,M,True,Session1
-12183,5015.0,TORGO/MC02/Session1/wav_arrayMic/0281.wav,MC02,i expect well bounce back this week,head,M,True,Session1
+12183,5015.0,TORGO/MC02/Session1/wav_arrayMic/0281.wav,MC02,i expect we'll bounce back this week,head,M,True,Session1
 12184,3180.0,TORGO/MC02/Session1/wav_arrayMic/0194.wav,MC02,coupe,head,M,True,Session1
 12185,4115.0,TORGO/MC02/Session1/wav_arrayMic/0082.wav,MC02,you wished to know all about my grandfather,head,M,True,Session1
 12186,3640.0,TORGO/MC02/Session1/wav_arrayMic/0210.wav,MC02,the humidity is overwhelming there,head,M,True,Session1
@@ -3856,7 +3826,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12247,4700.0,TORGO/MC02/Session1/wav_arrayMic/0383.wav,MC02,this is not a program of socialized medicine,head,M,True,Session1
 12248,3735.0,TORGO/MC02/Session1/wav_arrayMic/0240.wav,MC02,mother sews yellow gingham aprons,head,M,True,Session1
 12249,4765.0625,TORGO/MC02/Session1/wav_arrayMic/0367.wav,MC02,she wore warm fleecy woolen overalls,head,M,True,Session1
-12250,3730.0,TORGO/MC02/Session1/wav_arrayMic/0158.wav,MC02,youre used to being on the field,head,M,True,Session1
+12250,3730.0,TORGO/MC02/Session1/wav_arrayMic/0158.wav,MC02,you're used to being on the field,head,M,True,Session1
 12251,2750.0,TORGO/MC02/Session1/wav_arrayMic/0243.wav,MC02,air,head,M,True,Session1
 12252,2950.0,TORGO/MC02/Session1/wav_arrayMic/0164.wav,MC02,jungle,head,M,True,Session1
 12253,2830.0,TORGO/MC02/Session1/wav_arrayMic/0093.wav,MC02,race,head,M,True,Session1
@@ -3912,7 +3882,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12305,2690.0,TORGO/MC02/Session1/wav_arrayMic/0385.wav,MC02,witty,head,M,True,Session1
 12306,2575.0,TORGO/MC02/Session1/wav_arrayMic/0081.wav,MC02,range,head,M,True,Session1
 12307,4190.0,TORGO/MC02/Session1/wav_arrayMic/0227.wav,MC02,i scrubbed the floors thoroughly,head,M,True,Session1
-12308,4420.0,TORGO/MC02/Session1/wav_arrayMic/0032.wav,MC02,dont ask me to carry an oily rag like that,head,M,True,Session1
+12308,4420.0,TORGO/MC02/Session1/wav_arrayMic/0032.wav,MC02,don't ask me to carry an oily rag like that,head,M,True,Session1
 12309,4765.0,TORGO/MC02/Session1/wav_arrayMic/0022.wav,MC02,but he always answers banana oil,head,M,True,Session1
 12310,2565.0,TORGO/MC02/Session1/wav_arrayMic/0207.wav,MC02,fruit,head,M,True,Session1
 12311,2295.0,TORGO/MC02/Session1/wav_arrayMic/0038.wav,MC02,trait,head,M,True,Session1
@@ -3982,7 +3952,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12376,5445.0,TORGO/MC02/Session1/wav_arrayMic/0157.wav,MC02,jane may earn more money by working hard,head,M,True,Session1
 12377,3015.0,TORGO/MC02/Session1/wav_arrayMic/0150.wav,MC02,whoop,head,M,True,Session1
 12378,2295.0,TORGO/MC02/Session1/wav_arrayMic/0042.wav,MC02,one,head,M,True,Session1
-12379,2495.0,TORGO/MC02/Session1/wav_arrayMic/0241.wav,MC02,were,head,M,True,Session1
+12379,2495.0,TORGO/MC02/Session1/wav_arrayMic/0241.wav,MC02,we're,head,M,True,Session1
 12380,3555.0,TORGO/MC02/Session1/wav_arrayMic/0278.wav,MC02,sitting,head,M,True,Session1
 12381,3260.0,TORGO/MC02/Session1/wav_arrayMic/0185.wav,MC02,thigh,head,M,True,Session1
 12382,2580.0,TORGO/MC02/Session1/wav_arrayMic/0012.wav,MC02,dug,head,M,True,Session1
@@ -4014,7 +3984,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12409,2820.0,TORGO/MC02/Session1/wav_arrayMic/0214.wav,MC02,delta,head,M,True,Session1
 12410,2465.0,TORGO/MC02/Session1/wav_arrayMic/0047.wav,MC02,raid,head,M,True,Session1
 12411,2960.0,TORGO/MC02/Session1/wav_arrayMic/0299.wav,MC02,league,head,M,True,Session1
-12412,4870.0,TORGO/MC02/Session1/wav_arrayMic/0129.wav,MC02,are your grades higher or lower than nancys,head,M,True,Session1
+12412,4870.0,TORGO/MC02/Session1/wav_arrayMic/0129.wav,MC02,are your grades higher or lower than nancy's,head,M,True,Session1
 12413,3330.0625,TORGO/MC02/Session1/wav_arrayMic/0126.wav,MC02,cheer,head,M,True,Session1
 12414,2920.0,TORGO/MC02/Session1/wav_arrayMic/0028.wav,MC02,left,head,M,True,Session1
 12415,2950.0,TORGO/MC02/Session1/wav_arrayMic/0118.wav,MC02,storm,head,M,True,Session1
@@ -4037,7 +4007,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12432,2420.0,TORGO/MC02/Session1/wav_arrayMic/0346.wav,MC02,brought,head,M,True,Session1
 12433,2845.0,TORGO/MC02/Session1/wav_arrayMic/0059.wav,MC02,knee,head,M,True,Session1
 12434,2550.0,TORGO/MC02/Session1/wav_arrayMic/0343.wav,MC02,oscar,head,M,True,Session1
-12435,4840.0,TORGO/MC02/Session1/wav_arrayMic/0380.wav,MC02,before thursdays exam review every formula,head,M,True,Session1
+12435,4840.0,TORGO/MC02/Session1/wav_arrayMic/0380.wav,MC02,before thursday's exam review every formula,head,M,True,Session1
 12436,3665.0,TORGO/MC02/Session1/wav_arrayMic/0163.wav,MC02,this was easy for us,head,M,True,Session1
 12437,2495.0625,TORGO/MC02/Session1/wav_arrayMic/0016.wav,MC02,chair,head,M,True,Session1
 12438,2540.0,TORGO/MC02/Session1/wav_arrayMic/0050.wav,MC02,trouble,head,M,True,Session1
@@ -4130,7 +4100,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12528,2910.0,TORGO/MC02/Session1/wav_arrayMic/0348.wav,MC02,thorn,head,M,True,Session1
 12529,2665.0625,TORGO/MC02/Session1/wav_arrayMic/0143.wav,MC02,group,head,M,True,Session1
 12530,2595.0,TORGO/MC02/Session1/wav_arrayMic/0215.wav,MC02,slip,head,M,True,Session1
-12531,4700.0,TORGO/MC02/Session1/wav_arrayMic/0376.wav,MC02,alimony harms a divorced mans wealth,head,M,True,Session1
+12531,4700.0,TORGO/MC02/Session1/wav_arrayMic/0376.wav,MC02,alimony harms a divorced man's wealth,head,M,True,Session1
 12532,2885.0,TORGO/MC02/Session1/wav_arrayMic/0165.wav,MC02,fate,head,M,True,Session1
 12533,2790.0,TORGO/MC02/Session1/wav_arrayMic/0298.wav,MC02,leak,head,M,True,Session1
 12534,3170.0,TORGO/MC02/Session1/wav_arrayMic/0115.wav,MC02,car,head,M,True,Session1
@@ -4162,7 +4132,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12561,3150.0,TORGO/MC02/Session2/wav_arrayMic/0222.wav,MC02,fork,array,M,True,Session2
 12562,3300.0,TORGO/MC02/Session2/wav_arrayMic/0107.wav,MC02,sand,array,M,True,Session2
 12563,3000.0,TORGO/MC02/Session2/wav_arrayMic/0045.wav,MC02,spit,array,M,True,Session2
-12564,5550.0,TORGO/MC02/Session2/wav_arrayMic/0132.wav,MC02,stimulating discussions keep students attention,array,M,True,Session2
+12564,5550.0,TORGO/MC02/Session2/wav_arrayMic/0132.wav,MC02,stimulating discussions keep students' attention,array,M,True,Session2
 12565,3450.0,TORGO/MC02/Session2/wav_arrayMic/0145.wav,MC02,cake,array,M,True,Session2
 12566,3150.0,TORGO/MC02/Session2/wav_arrayMic/0281.wav,MC02,member,array,M,True,Session2
 12567,4200.0,TORGO/MC02/Session2/wav_arrayMic/0194.wav,MC02,four,array,M,True,Session2
@@ -4189,18 +4159,18 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12588,4950.0,TORGO/MC02/Session2/wav_arrayMic/0051.wav,MC02,being able to dance can help too,array,M,True,Session2
 12589,3150.0,TORGO/MC02/Session2/wav_arrayMic/0216.wav,MC02,see,array,M,True,Session2
 12590,4500.0,TORGO/MC02/Session2/wav_arrayMic/0111.wav,MC02,the hotel owner shrugged,array,M,True,Session2
-12591,4950.0,TORGO/MC02/Session2/wav_arrayMic/0131.wav,MC02,i think im full of this stuff,array,M,True,Session2
+12591,4950.0,TORGO/MC02/Session2/wav_arrayMic/0131.wav,MC02,i think i'm full of this stuff,array,M,True,Session2
 12592,4950.0,TORGO/MC02/Session2/wav_arrayMic/0043.wav,MC02,some hotels are available nearby,array,M,True,Session2
 12593,7050.0,TORGO/MC02/Session2/wav_arrayMic/0160.wav,MC02,etiquette mandates compliance with existing regulations,array,M,True,Session2
 12594,3300.0,TORGO/MC02/Session2/wav_arrayMic/0305.wav,MC02,five,array,M,True,Session2
 12595,4800.0,TORGO/MC02/Session2/wav_arrayMic/0172.wav,MC02,life is short and precious,array,M,True,Session2
-12596,6000.0,TORGO/MC02/Session2/wav_arrayMic/0013.wav,MC02,people who value themselves are lifes winners,array,M,True,Session2
+12596,6000.0,TORGO/MC02/Session2/wav_arrayMic/0013.wav,MC02,people who value themselves are life's winners,array,M,True,Session2
 12597,2700.0,TORGO/MC02/Session2/wav_arrayMic/0092.wav,MC02,in,array,M,True,Session2
 12598,3600.0,TORGO/MC02/Session2/wav_arrayMic/0202.wav,MC02,sew,array,M,True,Session2
 12599,6000.0,TORGO/MC02/Session2/wav_arrayMic/0142.wav,MC02,some prefer the traditional steel kind,array,M,True,Session2
 12600,3300.0,TORGO/MC02/Session2/wav_arrayMic/0260.wav,MC02,geese,array,M,True,Session2
 12601,4650.0,TORGO/MC02/Session2/wav_arrayMic/0237.wav,MC02,biblical scholars argue history,array,M,True,Session2
-12602,4500.0,TORGO/MC02/Session2/wav_arrayMic/0009.wav,MC02,then wed really have someplace to go,array,M,True,Session2
+12602,4500.0,TORGO/MC02/Session2/wav_arrayMic/0009.wav,MC02,then we'd really have someplace to go,array,M,True,Session2
 12603,3000.0,TORGO/MC02/Session2/wav_arrayMic/0169.wav,MC02,weep,array,M,True,Session2
 12604,3150.0,TORGO/MC02/Session2/wav_arrayMic/0266.wav,MC02,zero,array,M,True,Session2
 12605,3150.0,TORGO/MC02/Session2/wav_arrayMic/0226.wav,MC02,cork,array,M,True,Session2
@@ -4216,7 +4186,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12615,3300.0,TORGO/MC02/Session2/wav_arrayMic/0240.wav,MC02,dread,array,M,True,Session2
 12616,3300.0,TORGO/MC02/Session2/wav_arrayMic/0158.wav,MC02,pork,array,M,True,Session2
 12617,3600.0,TORGO/MC02/Session2/wav_arrayMic/0243.wav,MC02,do they make any money,array,M,True,Session2
-12618,4800.0,TORGO/MC02/Session2/wav_arrayMic/0164.wav,MC02,who knows what youll discover about yourself,array,M,True,Session2
+12618,4800.0,TORGO/MC02/Session2/wav_arrayMic/0164.wav,MC02,who knows what you'll discover about yourself,array,M,True,Session2
 12619,3300.0,TORGO/MC02/Session2/wav_arrayMic/0093.wav,MC02,xray,array,M,True,Session2
 12620,2850.0,TORGO/MC02/Session2/wav_arrayMic/0086.wav,MC02,down,array,M,True,Session2
 12621,3300.0,TORGO/MC02/Session2/wav_arrayMic/0201.wav,MC02,rake,array,M,True,Session2
@@ -4227,9 +4197,9 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12626,5250.0,TORGO/MC02/Session2/wav_arrayMic/0304.wav,MC02,she suggested we all have dinner together,array,M,True,Session2
 12627,2850.0,TORGO/MC02/Session2/wav_arrayMic/0313.wav,MC02,leap,array,M,True,Session2
 12628,4200.0,TORGO/MC02/Session2/wav_arrayMic/0283.wav,MC02,i loved every minute of it,array,M,True,Session2
-12629,4800.0,TORGO/MC02/Session2/wav_arrayMic/0285.wav,MC02,i dont think its a good idea,array,M,True,Session2
+12629,4800.0,TORGO/MC02/Session2/wav_arrayMic/0285.wav,MC02,i don't think it's a good idea,array,M,True,Session2
 12630,3300.0,TORGO/MC02/Session2/wav_arrayMic/0153.wav,MC02,sketch,array,M,True,Session2
-12631,7350.0,TORGO/MC02/Session2/wav_arrayMic/0265.wav,MC02,at twilight on the twelfth day well have chablis,array,M,True,Session2
+12631,7350.0,TORGO/MC02/Session2/wav_arrayMic/0265.wav,MC02,at twilight on the twelfth day we'll have chablis,array,M,True,Session2
 12632,3450.0,TORGO/MC02/Session2/wav_arrayMic/0014.wav,MC02,best,array,M,True,Session2
 12633,3150.0,TORGO/MC02/Session2/wav_arrayMic/0125.wav,MC02,blend,array,M,True,Session2
 12634,3000.0,TORGO/MC02/Session2/wav_arrayMic/0091.wav,MC02,walk,array,M,True,Session2
@@ -4240,7 +4210,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12639,2400.0,TORGO/MC02/Session2/wav_arrayMic/0025.wav,MC02,up,array,M,True,Session2
 12640,3600.0,TORGO/MC02/Session2/wav_arrayMic/0146.wav,MC02,shop,array,M,True,Session2
 12641,4500.0,TORGO/MC02/Session2/wav_arrayMic/0084.wav,MC02,whitecapped waves covered the entire bay,array,M,True,Session2
-12642,6450.0,TORGO/MC02/Session2/wav_arrayMic/0011.wav,MC02,its fun to roast marshmallows on a gas burner,array,M,True,Session2
+12642,6450.0,TORGO/MC02/Session2/wav_arrayMic/0011.wav,MC02,it's fun to roast marshmallows on a gas burner,array,M,True,Session2
 12643,3000.0,TORGO/MC02/Session2/wav_arrayMic/0096.wav,MC02,sitter,array,M,True,Session2
 12644,3150.0,TORGO/MC02/Session2/wav_arrayMic/0267.wav,MC02,hash,array,M,True,Session2
 12645,3000.0,TORGO/MC02/Session2/wav_arrayMic/0236.wav,MC02,goose,array,M,True,Session2
@@ -4276,7 +4246,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12676,3450.0,TORGO/MC02/Session2/wav_arrayMic/0295.wav,MC02,ash,array,M,True,Session2
 12677,3150.0,TORGO/MC02/Session2/wav_arrayMic/0037.wav,MC02,rock,array,M,True,Session2
 12678,3300.0,TORGO/MC02/Session2/wav_arrayMic/0054.wav,MC02,sicker,array,M,True,Session2
-12679,5400.0,TORGO/MC02/Session2/wav_arrayMic/0206.wav,MC02,thats what life is really all about,array,M,True,Session2
+12679,5400.0,TORGO/MC02/Session2/wav_arrayMic/0206.wav,MC02,that's what life is really all about,array,M,True,Session2
 12680,3300.0,TORGO/MC02/Session2/wav_arrayMic/0272.wav,MC02,sheer,array,M,True,Session2
 12681,3300.0,TORGO/MC02/Session2/wav_arrayMic/0064.wav,MC02,ship,array,M,True,Session2
 12682,3300.0,TORGO/MC02/Session2/wav_arrayMic/0204.wav,MC02,ray,array,M,True,Session2
@@ -4297,7 +4267,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12698,3450.0,TORGO/MC02/Session2/wav_arrayMic/0179.wav,MC02,sew,array,M,True,Session2
 12699,3900.0,TORGO/MC02/Session2/wav_arrayMic/0083.wav,MC02,sink,array,M,True,Session2
 12700,4200.0,TORGO/MC02/Session2/wav_arrayMic/0258.wav,MC02,there was only one decision to be made,array,M,True,Session2
-12701,4200.0,TORGO/MC02/Session2/wav_arrayMic/0211.wav,MC02,ive kept it with me ever since,array,M,True,Session2
+12701,4200.0,TORGO/MC02/Session2/wav_arrayMic/0211.wav,MC02,i've kept it with me ever since,array,M,True,Session2
 12702,3450.0,TORGO/MC02/Session2/wav_arrayMic/0288.wav,MC02,center,array,M,True,Session2
 12703,3600.0,TORGO/MC02/Session2/wav_arrayMic/0090.wav,MC02,litter,array,M,True,Session2
 12704,3000.0,TORGO/MC02/Session2/wav_arrayMic/0070.wav,MC02,and,array,M,True,Session2
@@ -4311,7 +4281,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12712,3000.0,TORGO/MC02/Session2/wav_arrayMic/0046.wav,MC02,left,array,M,True,Session2
 12713,4950.0,TORGO/MC02/Session2/wav_arrayMic/0035.wav,MC02,each one volunteered to jump first,array,M,True,Session2
 12714,3450.0,TORGO/MC02/Session2/wav_arrayMic/0157.wav,MC02,read,array,M,True,Session2
-12715,5250.0,TORGO/MC02/Session2/wav_arrayMic/0150.wav,MC02,dont do charlies dirty dishes,array,M,True,Session2
+12715,5250.0,TORGO/MC02/Session2/wav_arrayMic/0150.wav,MC02,don't do charlie's dirty dishes,array,M,True,Session2
 12716,3450.0,TORGO/MC02/Session2/wav_arrayMic/0042.wav,MC02,red,array,M,True,Session2
 12717,3450.0,TORGO/MC02/Session2/wav_arrayMic/0241.wav,MC02,old,array,M,True,Session2
 12718,3450.0,TORGO/MC02/Session2/wav_arrayMic/0278.wav,MC02,sea,array,M,True,Session2
@@ -4344,7 +4314,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12746,3000.0,TORGO/MC02/Session2/wav_arrayMic/0126.wav,MC02,red,array,M,True,Session2
 12747,5400.0,TORGO/MC02/Session2/wav_arrayMic/0028.wav,MC02,the wait for work can be very long,array,M,True,Session2
 12748,3150.0,TORGO/MC02/Session2/wav_arrayMic/0118.wav,MC02,wise,array,M,True,Session2
-12749,4950.0,TORGO/MC02/Session2/wav_arrayMic/0128.wav,MC02,she doesnt like to have it hanging around,array,M,True,Session2
+12749,4950.0,TORGO/MC02/Session2/wav_arrayMic/0128.wav,MC02,she doesn't like to have it hanging around,array,M,True,Session2
 12750,3600.0,TORGO/MC02/Session2/wav_arrayMic/0053.wav,MC02,glitter,array,M,True,Session2
 12751,3150.0,TORGO/MC02/Session2/wav_arrayMic/0075.wav,MC02,chip,array,M,True,Session2
 12752,3750.0,TORGO/MC02/Session2/wav_arrayMic/0308.wav,MC02,fork,array,M,True,Session2
@@ -4369,7 +4339,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12771,4650.0,TORGO/MC02/Session2/wav_arrayMic/0106.wav,MC02,a good attitude is unbeatable,array,M,True,Session2
 12772,3450.0,TORGO/MC02/Session2/wav_arrayMic/0063.wav,MC02,romeo,array,M,True,Session2
 12773,2850.0,TORGO/MC02/Session2/wav_arrayMic/0232.wav,MC02,dill,array,M,True,Session2
-12774,4650.0,TORGO/MC02/Session2/wav_arrayMic/0293.wav,MC02,i havent seen that friend for years,array,M,True,Session2
+12774,4650.0,TORGO/MC02/Session2/wav_arrayMic/0293.wav,MC02,i haven't seen that friend for years,array,M,True,Session2
 12775,3000.0,TORGO/MC02/Session2/wav_arrayMic/0026.wav,MC02,shoot,array,M,True,Session2
 12776,3600.0,TORGO/MC02/Session2/wav_arrayMic/0250.wav,MC02,mill,array,M,True,Session2
 12777,3600.0,TORGO/MC02/Session2/wav_arrayMic/0057.wav,MC02,ticker,array,M,True,Session2
@@ -4387,12 +4357,12 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12790,3600.0,TORGO/MC02/Session2/wav_arrayMic/0187.wav,MC02,sight,array,M,True,Session2
 12791,3300.0,TORGO/MC02/Session2/wav_arrayMic/0307.wav,MC02,sticks,array,M,True,Session2
 12792,3750.0,TORGO/MC02/Session2/wav_arrayMic/0149.wav,MC02,rise,array,M,True,Session2
-12793,4950.0,TORGO/MC02/Session2/wav_arrayMic/0108.wav,MC02,im willing to experiment for the first time,array,M,True,Session2
+12793,4950.0,TORGO/MC02/Session2/wav_arrayMic/0108.wav,MC02,i'm willing to experiment for the first time,array,M,True,Session2
 12794,3750.0,TORGO/MC02/Session2/wav_arrayMic/0275.wav,MC02,seat,array,M,True,Session2
 12795,3150.0,TORGO/MC02/Session2/wav_arrayMic/0188.wav,MC02,three,array,M,True,Session2
 12796,3150.0,TORGO/MC02/Session2/wav_arrayMic/0208.wav,MC02,in,array,M,True,Session2
 12797,4500.0,TORGO/MC02/Session2/wav_arrayMic/0049.wav,MC02,he is definitely a notch above us,array,M,True,Session2
-12798,4200.0,TORGO/MC02/Session2/wav_arrayMic/0280.wav,MC02,we just didnt look good,array,M,True,Session2
+12798,4200.0,TORGO/MC02/Session2/wav_arrayMic/0280.wav,MC02,we just didn't look good,array,M,True,Session2
 12799,3150.0,TORGO/MC02/Session2/wav_arrayMic/0099.wav,MC02,said,array,M,True,Session2
 12800,3150.0,TORGO/MC02/Session2/wav_arrayMic/0052.wav,MC02,sell,array,M,True,Session2
 12801,3150.0,TORGO/MC02/Session2/wav_arrayMic/0072.wav,MC02,tread,array,M,True,Session2
@@ -4404,7 +4374,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12807,5550.0,TORGO/MC02/Session2/wav_arrayMic/0171.wav,MC02,the results were very disappointing,array,M,True,Session2
 12808,3150.0,TORGO/MC02/Session2/wav_arrayMic/0074.wav,MC02,a,array,M,True,Session2
 12809,3300.0,TORGO/MC02/Session2/wav_arrayMic/0156.wav,MC02,said,array,M,True,Session2
-12810,4800.0,TORGO/MC02/Session2/wav_arrayMic/0148.wav,MC02,help celebrate your brothers success,array,M,True,Session2
+12810,4800.0,TORGO/MC02/Session2/wav_arrayMic/0148.wav,MC02,help celebrate your brother's success,array,M,True,Session2
 12811,3750.0,TORGO/MC02/Session2/wav_arrayMic/0175.wav,MC02,cash,array,M,True,Session2
 12812,5250.0,TORGO/MC02/Session2/wav_arrayMic/0162.wav,MC02,critical equipment needs proper maintenance,array,M,True,Session2
 12813,3450.0,TORGO/MC02/Session2/wav_arrayMic/0136.wav,MC02,tug,array,M,True,Session2
@@ -4424,7 +4394,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12827,3300.0,TORGO/MC02/Session2/wav_arrayMic/0056.wav,MC02,rock,array,M,True,Session2
 12828,3750.0,TORGO/MC02/Session2/wav_arrayMic/0161.wav,MC02,beat,array,M,True,Session2
 12829,3300.0,TORGO/MC02/Session2/wav_arrayMic/0154.wav,MC02,eat,array,M,True,Session2
-12830,5250.0,TORGO/MC02/Session2/wav_arrayMic/0223.wav,MC02,barbs gold bracelet was a graduation present,array,M,True,Session2
+12830,5250.0,TORGO/MC02/Session2/wav_arrayMic/0223.wav,MC02,barb's gold bracelet was a graduation present,array,M,True,Session2
 12831,5250.0,TORGO/MC02/Session2/wav_arrayMic/0176.wav,MC02,the fish swam across the pond,array,M,True,Session2
 12832,3900.0,TORGO/MC02/Session2/wav_arrayMic/0015.wav,MC02,sierra,array,M,True,Session2
 12833,2850.0,TORGO/MC02/Session2/wav_arrayMic/0253.wav,MC02,bread,array,M,True,Session2
@@ -4457,8 +4427,8 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12861,4470.0,TORGO/MC02/Session2/wav_arrayMic/0051.wav,MC02,being able to dance can help too,head,M,True,Session2
 12862,4665.0,TORGO/MC02/Session2/wav_arrayMic/0043.wav,MC02,some hotels are available nearby,head,M,True,Session2
 12863,2715.0,TORGO/MC02/Session2/wav_arrayMic/0004.wav,MC02,sip,head,M,True,Session2
-12864,5610.0,TORGO/MC02/Session2/wav_arrayMic/0013.wav,MC02,people who value themselves are lifes winners,head,M,True,Session2
-12865,4210.0,TORGO/MC02/Session2/wav_arrayMic/0009.wav,MC02,then wed really have someplace to go,head,M,True,Session2
+12864,5610.0,TORGO/MC02/Session2/wav_arrayMic/0013.wav,MC02,people who value themselves are life's winners,head,M,True,Session2
+12865,4210.0,TORGO/MC02/Session2/wav_arrayMic/0009.wav,MC02,then we'd really have someplace to go,head,M,True,Session2
 12866,3015.0,TORGO/MC02/Session2/wav_arrayMic/0006.wav,MC02,sit,head,M,True,Session2
 12867,3215.0,TORGO/MC02/Session2/wav_arrayMic/0023.wav,MC02,slicker,head,M,True,Session2
 12868,2705.0,TORGO/MC02/Session2/wav_arrayMic/0061.wav,MC02,meat,head,M,True,Session2
@@ -4468,7 +4438,7 @@ ID,duration,wav,spk_id,wrd,micsetup,gender,control,session
 12872,4595.0,TORGO/MC02/Session2/wav_arrayMic/0048.wav,MC02,this is a good place though small,head,M,True,Session2
 12873,2885.0,TORGO/MC02/Session2/wav_arrayMic/0039.wav,MC02,knot,head,M,True,Session2
 12874,2245.0,TORGO/MC02/Session2/wav_arrayMic/0025.wav,MC02,up,head,M,True,Session2
-12875,5725.0625,TORGO/MC02/Session2/wav_arrayMic/0011.wav,MC02,its fun to roast marshmallows on a gas burner,head,M,True,Session2
+12875,5725.0625,TORGO/MC02/Session2/wav_arrayMic/0011.wav,MC02,it's fun to roast marshmallows on a gas burner,head,M,True,Session2
 12876,2405.0,TORGO/MC02/Session2/wav_arrayMic/0030.wav,MC02,one,head,M,True,Session2
 12877,2775.0,TORGO/MC02/Session2/wav_arrayMic/0029.wav,MC02,ham,head,M,True,Session2
 12878,3035.0,TORGO/MC02/Session2/wav_arrayMic/0032.wav,MC02,hand,head,M,True,Session2

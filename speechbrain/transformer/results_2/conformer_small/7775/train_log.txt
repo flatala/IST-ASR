@@ -1,0 +1,3 @@
+epoch: 1, lr: 3.64e-04, steps: 9101, optimizer: Adam - train loss: 32.79 - valid loss: 25.83, valid ACC: 2.96e-01
+epoch: 2, lr: 7.28e-04, steps: 18202, optimizer: Adam - train loss: 24.98 - valid loss: 23.49, valid ACC: 4.07e-01
+Epoch loaded: 2 - test loss: 23.71, test ACC: 3.77e-01, test WER: 99.79

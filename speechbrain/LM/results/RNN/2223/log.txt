@@ -1,8 +1,8 @@
-2025-03-16 14:39:08,103 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
-2025-03-16 14:39:08,183 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
-2025-03-16 14:39:08,183 - speechbrain.core - INFO - Beginning experiment!
-2025-03-16 14:39:08,183 - speechbrain.core - INFO - Experiment folder: results/RNN/2223
-2025-03-16 14:39:34,720 - speechbrain.utils.superpowers - DEBUG - aiohappyeyeballs==2.6.1
+2025-03-16 16:33:43,596 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [disable_jit_profiling, allow_tf32]
+2025-03-16 16:33:43,699 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-03-16 16:33:43,700 - speechbrain.core - INFO - Beginning experiment!
+2025-03-16 16:33:43,700 - speechbrain.core - INFO - Experiment folder: results/RNN/2223
+2025-03-16 16:33:45,084 - speechbrain.utils.superpowers - DEBUG - aiohappyeyeballs==2.6.1
 aiohttp==3.11.13
 aiosignal==1.3.2
 anyio==4.8.0
@@ -169,82 +169,87 @@ yarl==1.18.3
 zipp==3.21.0
 
 
-2025-03-16 14:39:34,755 - speechbrain.utils.superpowers - DEBUG - 9348aed
+2025-03-16 16:33:45,119 - speechbrain.utils.superpowers - DEBUG - 9079702
 
 
-2025-03-16 14:39:34,757 - __main__ - INFO - generating datasets...
-2025-03-16 14:39:34,770 - filelock - DEBUG - Attempting to acquire lock 23452401168288 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:34,771 - filelock - DEBUG - Lock 23452401168288 acquired on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:34,951 - filelock - DEBUG - Attempting to release lock 23452401168288 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:34,951 - filelock - DEBUG - Lock 23452401168288 released on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:34,998 - huggingface_hub.repocard - WARNING - Repo card metadata block was not found. Setting CardData to empty.
-2025-03-16 14:39:35,000 - filelock - DEBUG - Attempting to acquire lock 23452639751328 on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-8896484c186bc436_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
-2025-03-16 14:39:35,000 - filelock - DEBUG - Lock 23452639751328 acquired on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-8896484c186bc436_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
-2025-03-16 14:39:35,001 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f/dataset_info.json
-2025-03-16 14:39:35,016 - filelock - DEBUG - Attempting to release lock 23452639751328 on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-8896484c186bc436_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
-2025-03-16 14:39:35,016 - filelock - DEBUG - Lock 23452639751328 released on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-8896484c186bc436_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
-2025-03-16 14:39:35,670 - filelock - DEBUG - Attempting to acquire lock 23452002404048 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:35,671 - filelock - DEBUG - Lock 23452002404048 acquired on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:35,685 - filelock - DEBUG - Attempting to release lock 23452002404048 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:35,686 - filelock - DEBUG - Lock 23452002404048 released on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
-2025-03-16 14:39:35,686 - filelock - DEBUG - Attempting to acquire lock 23452401218944 on /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
-2025-03-16 14:39:35,686 - filelock - DEBUG - Lock 23452401218944 acquired on /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
-2025-03-16 14:39:35,687 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f/dataset_info.json
-2025-03-16 14:39:35,687 - filelock - DEBUG - Attempting to release lock 23452401218944 on /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
-2025-03-16 14:39:35,687 - filelock - DEBUG - Lock 23452401218944 released on /home/flatala/.cache/huggingface/datasets/dataset/default-8896484c186bc436/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
-2025-03-16 14:39:35,787 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results/RNN/2223/save.
-2025-03-16 14:39:35,788 - speechbrain.utils.fetching - DEBUG - Fetch: Local file found, creating symlink '/scratch/flatala/speechbrain/LM/../tokenizer/results/1000_unigram.model' -> '/scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt'
-2025-03-16 14:39:35,789 - speechbrain.utils.parameter_transfer - DEBUG - Set local path in self.paths["tokenizer"] = /scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt
-2025-03-16 14:39:35,789 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: tokenizer
-2025-03-16 14:39:35,789 - speechbrain.utils.parameter_transfer - DEBUG - Redirecting (loading from local path): tokenizer -> /scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt
-2025-03-16 14:39:35,814 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
-2025-03-16 14:39:35,815 - speechbrain.core - INFO - Info: grad_accumulation_factor arg from hparam file is used
-2025-03-16 14:39:36,419 - speechbrain.core - INFO - Gradscaler enabled: False. Using precision: fp32.
-2025-03-16 14:39:36,420 - speechbrain.core - INFO - LM Model Statistics:
+2025-03-16 16:33:45,180 - __main__ - INFO - generating datasets...
+2025-03-16 16:33:45,187 - filelock - DEBUG - Attempting to acquire lock 23452746669168 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,188 - filelock - DEBUG - Lock 23452746669168 acquired on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,200 - filelock - DEBUG - Attempting to release lock 23452746669168 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,200 - filelock - DEBUG - Lock 23452746669168 released on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,204 - huggingface_hub.repocard - WARNING - Repo card metadata block was not found. Setting CardData to empty.
+2025-03-16 16:33:45,205 - filelock - DEBUG - Attempting to acquire lock 23452582422848 on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-d39804cc1725740d_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
+2025-03-16 16:33:45,206 - filelock - DEBUG - Lock 23452582422848 acquired on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-d39804cc1725740d_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
+2025-03-16 16:33:45,206 - filelock - DEBUG - Attempting to release lock 23452582422848 on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-d39804cc1725740d_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
+2025-03-16 16:33:45,206 - filelock - DEBUG - Lock 23452582422848 released on /home/flatala/.cache/huggingface/datasets/_home_flatala_.cache_huggingface_datasets_dataset_default-d39804cc1725740d_0.1.0_338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.lock
+2025-03-16 16:33:45,238 - filelock - DEBUG - Attempting to acquire lock 23452545705248 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,238 - filelock - DEBUG - Lock 23452545705248 acquired on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,241 - filelock - DEBUG - Attempting to release lock 23452545705248 on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,241 - filelock - DEBUG - Lock 23452545705248 released on /home/flatala/.cache/huggingface/modules/datasets_modules/datasets/dataset.lock
+2025-03-16 16:33:45,243 - filelock - DEBUG - Attempting to acquire lock 23452545705248 on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
+2025-03-16 16:33:45,243 - filelock - DEBUG - Lock 23452545705248 acquired on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
+2025-03-16 16:33:45,261 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete/dataset-train-00000-00000-of-NNNNN.arrow
+2025-03-16 16:33:45,528 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete/dataset-dev-00000-00000-of-NNNNN.arrow
+2025-03-16 16:33:45,626 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete/dataset-test-00000-00000-of-NNNNN.arrow
+2025-03-16 16:33:45,724 - filelock - DEBUG - Attempting to acquire lock 23452548694992 on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete_info.lock
+2025-03-16 16:33:45,725 - filelock - DEBUG - Lock 23452548694992 acquired on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete_info.lock
+2025-03-16 16:33:45,725 - fsspec.local - DEBUG - open file: /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete/dataset_info.json
+2025-03-16 16:33:45,726 - filelock - DEBUG - Attempting to release lock 23452548694992 on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete_info.lock
+2025-03-16 16:33:45,727 - filelock - DEBUG - Lock 23452548694992 released on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f.incomplete_info.lock
+2025-03-16 16:33:45,727 - filelock - DEBUG - Attempting to release lock 23452545705248 on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
+2025-03-16 16:33:45,728 - filelock - DEBUG - Lock 23452545705248 released on /home/flatala/.cache/huggingface/datasets/dataset/default-d39804cc1725740d/0.1.0/338c810913eae22a9eab0e3d931024715a8b2008caf7f0a8af507b47ba23cb6f_builder.lock
+2025-03-16 16:33:45,736 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in results/RNN/2223/save.
+2025-03-16 16:33:45,736 - speechbrain.utils.fetching - DEBUG - Fetch: Local file found, creating symlink '/scratch/flatala/speechbrain/LM/../tokenizer/results/1000_unigram.model' -> '/scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt'
+2025-03-16 16:33:45,957 - speechbrain.utils.parameter_transfer - DEBUG - Set local path in self.paths["tokenizer"] = /scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt
+2025-03-16 16:33:45,958 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: tokenizer
+2025-03-16 16:33:45,958 - speechbrain.utils.parameter_transfer - DEBUG - Redirecting (loading from local path): tokenizer -> /scratch/flatala/speechbrain/LM/results/RNN/2223/save/tokenizer.ckpt
+2025-03-16 16:33:45,961 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2025-03-16 16:33:45,961 - speechbrain.core - INFO - Info: grad_accumulation_factor arg from hparam file is used
+2025-03-16 16:33:46,179 - speechbrain.core - INFO - Gradscaler enabled: False. Using precision: fp32.
+2025-03-16 16:33:46,180 - speechbrain.core - INFO - LM Model Statistics:
 * Total Number of Trainable Parameters: 53.1M
 * Total Number of Parameters: 53.1M
 * Trainable Parameters represent 100.0000% of the total size.
-2025-03-16 14:39:49,430 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
-2025-03-16 14:39:49,430 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
-2025-03-16 14:41:29,143 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.00e-03 - train loss: 3.16 - valid loss: 2.19
-2025-03-16 14:41:30,658 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-41-29+00
-2025-03-16 14:41:30,664 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
-2025-03-16 14:43:07,660 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 1.00e-03 - train loss: 1.38 - valid loss: 2.10
-2025-03-16 14:43:14,268 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-43-07+00
-2025-03-16 14:43:14,283 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-41-29+00
-2025-03-16 14:43:14,284 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
-2025-03-16 14:44:51,244 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 1.00e-03 - train loss: 1.31 - valid loss: 2.07
-2025-03-16 14:44:52,954 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-44-51+00
-2025-03-16 14:44:52,971 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-43-07+00
-2025-03-16 14:44:52,971 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
-2025-03-16 14:46:30,060 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 1.00e-03 - train loss: 1.30 - valid loss: 2.05
-2025-03-16 14:46:32,569 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-46-30+00
-2025-03-16 14:46:32,592 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-44-51+00
-2025-03-16 14:46:32,593 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
-2025-03-16 14:48:09,760 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 1.00e-03 - train loss: 1.28 - valid loss: 2.04
-2025-03-16 14:48:11,431 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-48-10+00
-2025-03-16 14:48:11,455 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-46-30+00
-2025-03-16 14:48:11,455 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
-2025-03-16 14:49:48,494 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 1.00e-03 - train loss: 1.27 - valid loss: 2.03
-2025-03-16 14:49:53,687 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-49-48+00
-2025-03-16 14:49:53,714 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-48-10+00
-2025-03-16 14:49:53,735 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
-2025-03-16 14:51:30,720 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.001 to 0.0008
-2025-03-16 14:51:30,752 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 1.00e-03 - train loss: 1.27 - valid loss: 2.03
-2025-03-16 14:51:32,690 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-51-30+00
-2025-03-16 14:51:32,721 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
-2025-03-16 14:53:09,644 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 8.00e-04 - train loss: 1.26 - valid loss: 2.02
-2025-03-16 14:53:11,283 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-53-09+00
-2025-03-16 14:53:11,331 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-51-30+00
-2025-03-16 14:53:11,333 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-49-48+00
-2025-03-16 14:53:11,333 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
-2025-03-16 14:54:48,080 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0008 to 0.00064
-2025-03-16 14:54:48,119 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 8.00e-04 - train loss: 1.25 - valid loss: 2.01
-2025-03-16 14:54:49,464 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-54-48+00
-2025-03-16 14:54:49,502 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-53-09+00
-2025-03-16 14:54:49,503 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
-2025-03-16 14:56:26,286 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 6.40e-04 - train loss: 1.24 - valid loss: 2.01
-2025-03-16 14:56:27,921 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-56-26+00
-2025-03-16 14:56:27,988 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+14-54-48+00
-2025-03-16 14:56:28,029 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results/RNN/2223/save/CKPT+2025-03-16+14-56-26+00
-2025-03-16 14:56:28,278 - speechbrain.dataio.dataloader - DEBUG - SaveableDataLoader was requested to load a checkpoint, but the DataLoader has already been iterated. The DataLoader file will be ignored. This is normal in evaluation, when a checkpoint is loaded just to retrieve the best model.
+2025-03-16 16:33:47,602 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2025-03-16 16:33:47,602 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2025-03-16 16:34:26,606 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.00e-03 - train loss: 3.18 - valid loss: 2.19
+2025-03-16 16:34:27,757 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-34-26+00
+2025-03-16 16:34:27,763 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2025-03-16 16:35:05,154 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 1.00e-03 - train loss: 1.38 - valid loss: 2.09
+2025-03-16 16:35:06,717 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-35-05+00
+2025-03-16 16:35:06,732 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-34-26+00
+2025-03-16 16:35:06,732 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2025-03-16 16:35:44,128 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 1.00e-03 - train loss: 1.31 - valid loss: 2.08
+2025-03-16 16:35:45,520 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-35-44+00
+2025-03-16 16:35:45,539 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-35-05+00
+2025-03-16 16:35:45,559 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2025-03-16 16:36:23,115 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 1.00e-03 - train loss: 1.30 - valid loss: 2.05
+2025-03-16 16:36:24,647 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-36-23+00
+2025-03-16 16:36:24,672 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-35-44+00
+2025-03-16 16:36:24,672 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2025-03-16 16:37:02,318 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 1.00e-03 - train loss: 1.28 - valid loss: 2.03
+2025-03-16 16:37:05,912 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-37-02+00
+2025-03-16 16:37:05,940 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-36-23+00
+2025-03-16 16:37:05,940 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2025-03-16 16:37:43,465 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 1.00e-03 - train loss: 1.27 - valid loss: 2.03
+2025-03-16 16:37:46,660 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-37-43+00
+2025-03-16 16:37:46,692 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-37-02+00
+2025-03-16 16:37:46,692 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2025-03-16 16:38:24,226 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 1.00e-03 - train loss: 1.27 - valid loss: 2.02
+2025-03-16 16:38:26,007 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-38-24+00
+2025-03-16 16:38:26,042 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-37-43+00
+2025-03-16 16:38:26,042 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2025-03-16 16:39:03,461 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.001 to 0.0008
+2025-03-16 16:39:03,463 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 1.00e-03 - train loss: 1.27 - valid loss: 2.02
+2025-03-16 16:39:04,148 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-39-03+00
+2025-03-16 16:39:04,187 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-38-24+00
+2025-03-16 16:39:04,187 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2025-03-16 16:39:41,526 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 8.00e-04 - train loss: 1.26 - valid loss: 2.01
+2025-03-16 16:39:42,368 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-39-41+00
+2025-03-16 16:39:42,422 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-39-03+00
+2025-03-16 16:39:42,423 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2025-03-16 16:40:19,769 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0008 to 0.00064
+2025-03-16 16:40:19,774 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 8.00e-04 - train loss: 1.24 - valid loss: 2.01
+2025-03-16 16:40:22,085 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/RNN/2223/save/CKPT+2025-03-16+16-40-19+00
+2025-03-16 16:40:22,135 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results/RNN/2223/save/CKPT+2025-03-16+16-39-41+00
+2025-03-16 16:40:22,228 - speechbrain.dataio.dataloader - DEBUG - SaveableDataLoader was requested to load a checkpoint, but the DataLoader has already been iterated. The DataLoader file will be ignored. This is normal in evaluation, when a checkpoint is loaded just to retrieve the best model.

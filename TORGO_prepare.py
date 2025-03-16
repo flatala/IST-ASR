@@ -93,7 +93,7 @@ for speaker in tqdm(speakers, desc="Processing speakers"):
                         df = pd.concat([df, pd.DataFrame({
                                                 'ID': [counter_id],
                                                 'duration': [duration],
-                                                'path': [os.path.join(wav_arrayMic, wav_file)],
+                                                'path': [os.path.join(wav_headMic, wav_file)],
                                                 'speaker_id': [speaker],
                                                 'transcription': [transcription],
                                                 'micsetup': ['head'],

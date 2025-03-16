@@ -1,4 +1,4 @@
-# Generated 2025-03-13 from:
+# Generated 2025-03-16 from:
 # /scratch/flatala/speechbrain/tokenizer/tokenizer.yaml
 # yamllint disable
 # ############################################################################
@@ -7,7 +7,7 @@
 # Authors:  Abdel Heba 2021
 # ############################################################################
 
-output_folder: results_2/
+output_folder: results/
 # train_log: !ref <output_folder>/train_log.txt
 
 # Data files
@@ -25,7 +25,7 @@ eos_id: 2
 tokenizer: !name:speechbrain.tokenizers.SentencePiece.SentencePiece
   bos_id: 1
   eos_id: 2
-  model_dir: results_2/
+  model_dir: results/
   vocab_size: 1000
   annotation_train: ../datasets/train.csv
   annotation_read: wrd

@@ -33,9 +33,9 @@ data_folder: ../datasets/ # e.g., /path/to/LibriSpeech
 
 skip_prep: True
 train_csv: !ref <data_folder>/train.csv
-valid_csv: !ref <data_folder>/val.csv
+valid_csv: !ref <data_folder>/test.csv
 test_csv:
-    - !ref <data_folder>/test.csv
+    - !ref <data_folder>/val.csv
 
 ####################### Training Parameters ####################################
 
@@ -51,7 +51,7 @@ max_grad_norm: 5.0
 loss_reduction: 'batchmean'
 sorting: random
 num_workers: 4
-precision: fp32 # bf16, fp16 or fp32
+precision: fp16 # bf16, fp16 or fp32
 avg_checkpoints: 10 # Number of checkpoints to average for evaluation
 
 # stages related parameters
@@ -66,7 +66,7 @@ n_mels: 80
 
 # This setup works well for V100 32GB GPU, adapts it to your needs.
 # Or turn it off (but training speed will decrease)
-dynamic_batching: False
+dynamic_batching: True
 max_batch_length_train: 900
 max_batch_length_val: 100 # we reduce it as the beam is much wider (VRAM)
 num_bucket: 200
@@ -95,10 +95,10 @@ train_dataloader_opts:
     num_workers: !ref <num_workers>
 
 valid_dataloader_opts:
-    batch_size: 1
+    batch_size: !ref <batch_size>
 
 test_dataloader_opts:
-    batch_size: 1
+    batch_size: !red <batch_size>
 
 ####################### Model Parameters #######################################
 
@@ -125,7 +125,7 @@ max_decode_ratio: 1.0
 valid_search_interval: 10
 valid_beam_size: 10
 test_beam_size: 66
-lm_weight: 0.20
+lm_weight: 0.00
 ctc_weight_decode: 0.40
 
 ############################## Models ##########################################

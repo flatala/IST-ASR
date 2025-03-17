@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
-"""Recipe for training a Transformer ASR system with librispeech.
-The system employs an encoder, a decoder, and an attention mechanism
-between them. Decoding is performed with (CTC/Att joint) beamsearch coupled with a neural
-language model.
+"""Recipe for training a Bayesian Transformer ASR system (https://arxiv.org/abs/2301.11276)
+with LibriSpeech via Bayes by Backprop (https://arxiv.org/abs/1505.05424).
+The system employs an encoder, a decoder, and an attention mechanism between them.
+Decoding is performed with (CTC/Att joint) beamsearch coupled with a neural language model.
 
 To run this recipe, do the following:
-> python train.py hparams/transformer.yaml
-> python train.py hparams/conformer.yaml
+> python train_bayesspeech.py hparams/transformer_bayesspeech.yaml
 
 With the default hyperparameters, the system employs a convolutional frontend and a transformer.
 The decoder is based on a Transformer decoder. Beamsearch coupled with a Transformer
 language model is used  on the top of decoder probabilities.
 
-The neural network is trained on both CTC and negative-log likelihood
-targets and sub-word units estimated with Byte Pairwise Encoding (BPE)
-are used as basic recognition tokens. Training is performed on the full
-LibriSpeech dataset (960 h).
+Linear layers are turned into Bayesian linear layers by placing a normal prior and a normal
+variational posterior upon their weights and biases. The Bayesian neural network is trained
+to minimize the evidence lower bound (ELBO), which is a trade-off between the simplicity
+of the prior (complexity loss) and the complexity of the data (likelihood loss).
+The likelihood loss is the standard loss function used in non-Bayesian ASR transformers
+(CTC + negative-log likelihood), the complexity loss is the Kullback-Leibler divergence between
+variational posterior and prior. Sub-word units estimated with Byte Pairwise Encoding (BPE) are
+used as basic recognition tokens. Training is performed on the full LibriSpeech dataset (960 h).
 
 The best model is the average of the checkpoints from last 5 epochs.
 
@@ -32,6 +35,7 @@ Authors
  * Peter Plantinga 2020
  * Samuele Cornell 2020, 2021, 2022
  * Titouan Parcollet 2021, 2022
+ * Luca Della Libera 2023
 """
 
 import os
@@ -46,10 +50,6 @@ from speechbrain.utils.distributed import if_main_process, run_on_main
 from speechbrain.utils.logger import get_logger
 
 logger = get_logger(__name__)
-if torch.cuda.is_available():
-    device = torch.device('cuda')
-else:
-    raise ValueError("No GPU available")
 
 
 # Define training procedure
@@ -66,15 +66,9 @@ class ASR(sb.core.Brain):
         feats = self.modules.normalize(feats, wav_lens, epoch=current_epoch)
 
         # Add feature augmentation if specified.
-        augment_warmup = 0
-        if hasattr(self.hparams, "augment_warmup"):
-            augment_warmup = self.hparams.augment_warmup
         if stage == sb.Stage.TRAIN and hasattr(self.hparams, "fea_augment"):
-            if self.optimizer_step > augment_warmup:
-                feats, fea_lens = self.hparams.fea_augment(feats, wav_lens)
-                tokens_bos = self.hparams.fea_augment.replicate_labels(
-                    tokens_bos
-                )
+            feats, fea_lens = self.hparams.fea_augment(feats, wav_lens)
+            tokens_bos = self.hparams.fea_augment.replicate_labels(tokens_bos)
 
         # forward modules
         src = self.modules.CNN(feats)
@@ -126,22 +120,16 @@ class ASR(sb.core.Brain):
         tokens, tokens_lens = batch.tokens
 
         if stage == sb.Stage.TRAIN:
-            # Labels must be extended if parallel augmentation or concatenated
-            # augmentation was performed on the input (increasing the time dimension)
-            augment_warmup = 0
-            if hasattr(self.hparams, "augment_warmup"):
-                augment_warmup = self.hparams.augment_warmup
-            if (
-                hasattr(self.hparams, "fea_augment")
-                and self.optimizer_step > augment_warmup
-            ):
-                (
-                    tokens,
-                    tokens_lens,
-                    tokens_eos,
-                    tokens_eos_lens,
-                ) = self.hparams.fea_augment.replicate_multiple_labels(
-                    tokens, tokens_lens, tokens_eos, tokens_eos_lens
+            if hasattr(self.hparams, "fea_augment"):
+                tokens = self.hparams.fea_augment.replicate_labels(tokens)
+                tokens_lens = self.hparams.fea_augment.replicate_labels(
+                    tokens_lens
+                )
+                tokens_eos = self.hparams.fea_augment.replicate_labels(
+                    tokens_eos
+                )
+                tokens_eos_lens = self.hparams.fea_augment.replicate_labels(
+                    tokens_eos_lens
                 )
 
         loss_seq = self.hparams.seq_cost(
@@ -155,6 +143,7 @@ class ASR(sb.core.Brain):
         loss = (
             self.hparams.ctc_weight * loss_ctc
             + (1 - self.hparams.ctc_weight) * loss_seq
+            + self.hparams.kl_div_weight * self.modules.Transformer.kl_div
         )
 
         if stage != sb.Stage.TRAIN:
@@ -403,13 +392,28 @@ if __name__ == "__main__":
     sb.utils.distributed.ddp_init_group(run_opts)
 
     # 1.  # Dataset prep (parsing Librispeech)
-    # from librispeech_prepare import prepare_librispeech  # noqa
+    from librispeech_prepare import prepare_librispeech  # noqa
 
     # Create experiment directory
     sb.create_experiment_directory(
         experiment_directory=hparams["output_folder"],
         hyperparams_to_save=hparams_file,
         overrides=overrides,
+    )
+
+    # multi-gpu (ddp) save data preparation
+    run_on_main(
+        prepare_librispeech,
+        kwargs={
+            "data_folder": hparams["data_folder"],
+            "tr_splits": hparams["train_splits"],
+            "dev_splits": hparams["dev_splits"],
+            "te_splits": hparams["test_splits"],
+            "save_folder": hparams["output_folder"],
+            "merge_lst": hparams["train_splits"],
+            "merge_name": "train.csv",
+            "skip_prep": hparams["skip_prep"],
+        },
     )
 
     # here we create the datasets objects as well as tokenization and encoding
@@ -426,6 +430,78 @@ if __name__ == "__main__":
     # the path given in the YAML file). The tokenizer is loaded at the same time.
     hparams["pretrainer"].collect_files()
     hparams["pretrainer"].load_collected()
+
+    # ###################################################################
+    # Define Bayesian modules
+    # ###################################################################
+    from speechbrain.nnet.attention import PositionalwiseFeedForward
+
+    try:
+        from bayestorch.distributions import (
+            get_log_scale_normal,
+            get_softplus_inv_scale_normal,
+        )
+        from bayestorch.nn import VariationalPosteriorModule
+    except ImportError:
+        raise ImportError(
+            "Please install BayesTorch to use BayesSpeech (e.g. `pip install bayestorch>=0.0.3`)"
+        )
+
+    # Minimize number of modifications to existing training/evaluation loops
+    # NOTE: differently from https://arxiv.org/abs/2301.11276, we employ the standard
+    # reparameterization trick instead of the local reparameterization trick
+    class BBBModule(VariationalPosteriorModule):
+        def forward(self, *args, **kwargs):
+            if self.training:
+                output, self.kl_div = super().forward(
+                    *args, num_mc_samples=1, return_kl_div=True, **kwargs
+                )
+                return output
+            output, self.kl_div = (
+                super().forward(
+                    *args,
+                    num_mc_samples=hparams["num_eval_mc_samples"],
+                    **kwargs,
+                ),
+                0.0,
+            )
+            return output
+
+    parameters = []
+    for module in hparams["modules"]["Transformer"].modules():
+        if isinstance(module, PositionalwiseFeedForward):
+            parameters += list(module.parameters())
+    prior_builder, prior_kwargs = get_log_scale_normal(
+        parameters,
+        log_scale=hparams["normal_prior_log_scale"],
+    )
+    posterior_builder, posterior_kwargs = get_softplus_inv_scale_normal(
+        parameters,
+        softplus_inv_scale=hparams["normal_posterior_softplus_inv_scale"],
+        requires_grad=True,
+    )
+    hparams["Transformer"] = hparams["modules"]["Transformer"] = BBBModule(
+        hparams["modules"]["Transformer"],
+        prior_builder,
+        prior_kwargs,
+        posterior_builder,
+        posterior_kwargs,
+        parameters,
+    )
+    hparams["model"] = torch.nn.ModuleList(
+        [hparams["CNN"], hparams["seq_lin"], hparams["ctc_lin"]]
+    )
+    hparams["ctc_scorer"].ctc_fc = hparams["ctc_lin"]
+    hparams["test_search"].modules = hparams["valid_search"].modules = [
+        hparams["Transformer"],
+        hparams["seq_lin"],
+    ]
+    hparams["checkpointer"].recoverables["model"] = hparams["model"]
+    hparams["checkpointer"].add_recoverable(
+        "Transformer",
+        hparams["Transformer"],
+    )
+    # ###################################################################
 
     # Trainer initialization
     asr_brain = ASR(

@@ -43,8 +43,8 @@ test_csv:
 # The global batch size is computed as batch_size * n_gpus * grad_accumulation_factor.
 # Empirically, we found that this value should be >= 128.
 # Please, set your parameters accordingly.
-number_of_epochs: 10
-batch_size:  128 # This works for 2x GPUs with 32GB
+number_of_epochs: 30
+batch_size:  8 # This works for 2x GPUs with 32GB
 ctc_weight: 0.3
 grad_accumulation_factor: 1
 max_grad_norm: 5.0
@@ -66,7 +66,7 @@ n_mels: 80
 
 # This setup works well for V100 32GB GPU, adapts it to your needs.
 # Or turn it off (but training speed will decrease)
-dynamic_batching: True
+dynamic_batching: False
 max_batch_length_train: 900
 max_batch_length_val: 100 # we reduce it as the beam is much wider (VRAM)
 num_bucket: 200
@@ -98,7 +98,7 @@ valid_dataloader_opts:
     batch_size: !ref <batch_size>
 
 test_dataloader_opts:
-    batch_size: !red <batch_size>
+    batch_size: 1
 
 ####################### Model Parameters #######################################
 
@@ -125,7 +125,7 @@ max_decode_ratio: 1.0
 valid_search_interval: 10
 valid_beam_size: 10
 test_beam_size: 66
-lm_weight: 0.00
+lm_weight: 0.50
 ctc_weight_decode: 0.40
 
 ############################## Models ##########################################

@@ -31,8 +31,8 @@ test_transcripts_pattern: train.txt
 tokenizer_file: ../tokenizer/results/1000_unigram.model
 
 ####################### Training Parameters ####################################
-number_of_epochs: 10
-batch_size: 80
+number_of_epochs: 13
+batch_size: 512
 lr: 0.001
 grad_accumulation_factor: 1 # Gradient accumulation to simulate large batch training
 ckpt_interval_minutes: 15 # save checkpoint every N min
@@ -43,10 +43,10 @@ train_dataloader_opts:
     shuffle: True
 
 valid_dataloader_opts:
-    batch_size: 1
+    batch_size: !ref <batch_size>
 
 test_dataloader_opts:
-    batch_size: 1
+    batch_size: !ref <batch_size>
 
 ####################### Model Parameters #######################################
 emb_size: 128

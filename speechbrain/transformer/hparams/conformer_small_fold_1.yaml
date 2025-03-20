@@ -34,7 +34,7 @@ data_folder: ../5_fold_cv/fold_<fold_id>/ # e.g., /path/to/LibriSpeech
 
 skip_prep: True
 train_csv: !ref <data_folder>/train.csv
-# valid_csv: !ref <data_folder>/test.csv
+valid_csv: !ref <data_folder>/test.csv
 test_csv:
     - !ref <data_folder>/test.csv
 
@@ -97,6 +97,7 @@ train_dataloader_opts:
 
 valid_dataloader_opts:
     batch_size: !ref <batch_size>
+    num_workers: !ref <num_workers>
 
 test_dataloader_opts:
     batch_size: !ref <batch_size>

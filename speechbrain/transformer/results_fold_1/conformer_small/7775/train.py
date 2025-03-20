@@ -51,7 +51,6 @@ if torch.cuda.is_available():
 else:
     raise ValueError("No GPU available")
 
-print("Running on device:", device)
 
 # Define training procedure
 class ASR(sb.core.Brain):
@@ -95,25 +94,25 @@ class ASR(sb.core.Brain):
         # Compute outputs
         hyps = None
         current_epoch = self.hparams.epoch_counter.current
-        # is_valid_search = (
-        #     stage == sb.Stage.VALID
-        #     and current_epoch % self.hparams.valid_search_interval == 0
-        # )
+        is_valid_search = (
+            stage == sb.Stage.VALID
+            and current_epoch % self.hparams.valid_search_interval == 0
+        )
         is_test_search = stage == sb.Stage.TEST
 
-        if any([is_test_search]):
+        if any([is_valid_search, is_test_search]):
             # Note: For valid_search, for the sake of efficiency, we only perform beamsearch with
             # limited capacity and no LM to give user some idea of how the AM is doing
 
             # Decide searcher for inference: valid or test search
-            # if stage == sb.Stage.VALID:
-            #     hyps, _, _, _ = self.hparams.valid_search(
-            #         enc_out.detach(), wav_lens
-            #     )
-            # else:
-            hyps, _, _, _ = self.hparams.test_search(
-                enc_out.detach(), wav_lens
-            )
+            if stage == sb.Stage.VALID:
+                hyps, _, _, _ = self.hparams.valid_search(
+                    enc_out.detach(), wav_lens
+                )
+            else:
+                hyps, _, _, _ = self.hparams.test_search(
+                    enc_out.detach(), wav_lens
+                )
 
         return p_ctc, p_seq, wav_lens, hyps
 
@@ -212,7 +211,7 @@ class ASR(sb.core.Brain):
             ):
                 stage_stats["WER"] = self.wer_metric.summarize("error_rate")
 
-        # # log stats and save checkpoint at end-of-epoch
+        # log stats and save checkpoint at end-of-epoch
         if stage == sb.Stage.VALID:
             lr = self.hparams.noam_annealing.current_lr
             steps = self.optimizer_step
@@ -227,15 +226,15 @@ class ASR(sb.core.Brain):
             self.hparams.train_logger.log_stats(
                 stats_meta=epoch_stats,
                 train_stats=self.train_stats,
-                # valid_stats=stage_stats,
+                valid_stats=stage_stats,
             )
             self.checkpointer.save_and_keep_only(
-                meta={"ACC": self.train_stats["ACC"], "epoch": epoch},
+                meta={"ACC": stage_stats["ACC"], "epoch": epoch},
                 max_keys=["ACC"],
                 num_to_keep=self.hparams.avg_checkpoints,
             )
 
-        if stage == sb.Stage.TEST:
+        elif stage == sb.Stage.TEST:
             self.hparams.train_logger.log_stats(
                 stats_meta={"Epoch loaded": self.hparams.epoch_counter.current},
                 test_stats=stage_stats,
@@ -309,8 +308,8 @@ def dataio_prepare(hparams):
             sort_key="duration"
         )
 
-    datasets = [train_data] + [i for k, i in test_datasets.items()]
-    # valtest_datasets = [valid_data] + [i for k, i in test_datasets.items()]
+    datasets = [train_data, valid_data] + [i for k, i in test_datasets.items()]
+    valtest_datasets = [valid_data] + [i for k, i in test_datasets.items()]
 
     # We get the tokenizer as we need it to encode the labels when creating
     # mini-batches.
@@ -323,7 +322,7 @@ def dataio_prepare(hparams):
         sig = sb.dataio.dataio.read_audio(wav)
         return sig
 
-    # sb.dataio.dataset.add_dynamic_item(valtest_datasets, audio_pipeline)
+    sb.dataio.dataset.add_dynamic_item(valtest_datasets, audio_pipeline)
 
     @sb.utils.data_pipeline.takes("wav")
     @sb.utils.data_pipeline.provides("sig")
@@ -386,11 +385,11 @@ def dataio_prepare(hparams):
 
     return (
         train_data,
-        # valid_data,
+        valid_data,
         test_datasets,
         tokenizer,
         train_batch_sampler,
-        # valid_batch_sampler,
+        valid_batch_sampler,
     )
 
 
@@ -416,11 +415,11 @@ if __name__ == "__main__":
     # here we create the datasets objects as well as tokenization and encoding
     (
         train_data,
-        # valid_data,
+        valid_data,
         test_datasets,
         tokenizer,
         train_bsampler,
-        # valid_bsampler,
+        valid_bsampler,
     ) = dataio_prepare(hparams)
 
     # We download the pretrained LM from HuggingFace (or elsewhere depending on
@@ -440,7 +439,7 @@ if __name__ == "__main__":
     # adding objects to trainer:
     asr_brain.tokenizer = hparams["tokenizer"]
     train_dataloader_opts = hparams["train_dataloader_opts"]
-    # valid_dataloader_opts = hparams["valid_dataloader_opts"]
+    valid_dataloader_opts = hparams["valid_dataloader_opts"]
 
     if train_bsampler is not None:
         collate_fn = None
@@ -455,23 +454,23 @@ if __name__ == "__main__":
         if collate_fn is not None:
             train_dataloader_opts["collate_fn"] = collate_fn
 
-    # if valid_bsampler is not None:
-    #     collate_fn = None
-    #     if "collate_fn" in valid_dataloader_opts:
-    #         collate_fn = valid_dataloader_opts["collate_fn"]
+    if valid_bsampler is not None:
+        collate_fn = None
+        if "collate_fn" in valid_dataloader_opts:
+            collate_fn = valid_dataloader_opts["collate_fn"]
 
-    #     valid_dataloader_opts = {"batch_sampler": valid_bsampler}
+        valid_dataloader_opts = {"batch_sampler": valid_bsampler}
 
-    #     if collate_fn is not None:
-    #         valid_dataloader_opts["collate_fn"] = collate_fn
+        if collate_fn is not None:
+            valid_dataloader_opts["collate_fn"] = collate_fn
 
     # Training
     asr_brain.fit(
         asr_brain.hparams.epoch_counter,
         train_data,
-        # valid_data,
+        valid_data,
         train_loader_kwargs=train_dataloader_opts,
-        # valid_loader_kwargs=valid_dataloader_opts,
+        valid_loader_kwargs=valid_dataloader_opts,
     )
 
     # Testing

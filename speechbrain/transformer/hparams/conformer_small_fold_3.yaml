@@ -45,7 +45,8 @@ test_csv:
 # Empirically, we found that this value should be >= 128.
 # Please, set your parameters accordingly.
 number_of_epochs: 10
-batch_size:  64 # This works for 2x GPUs with 32GB
+batch_size:  128 # This works for 2x GPUs with 32GB
+test_batch_size: 48
 ctc_weight: 0.3
 grad_accumulation_factor: 1
 max_grad_norm: 5.0
@@ -99,7 +100,7 @@ valid_dataloader_opts:
     batch_size: !ref <batch_size>
 
 test_dataloader_opts:
-    batch_size: !ref <batch_size>
+    batch_size: !ref <test_batch_size>
     num_workers: !ref <num_workers>
 
 ####################### Model Parameters #######################################
@@ -126,7 +127,7 @@ min_decode_ratio: 0.0
 max_decode_ratio: 1.0
 valid_search_interval: 10
 valid_beam_size: 10
-test_beam_size: 66
+test_beam_size: 50
 lm_weight: 0.50
 ctc_weight_decode: 0.40
 

@@ -15,64 +15,52 @@ speaker_stats = df.groupby('spk_id').agg({
     'control': 'first'
 }).reset_index()
 
-# Create a stratification column combining gender and control.
+# Create a stratification column if you still want to visualize by strata in final plots
 speaker_stats['strata'] = speaker_stats['gender'].astype(str) + np.where(speaker_stats['control'], '_control', '')
 
 # -----------------------------
-# Step 2. Partition Speakers into 5 Folds (Stratified by "strata")
+# Step 2. Partition Speakers into 5 Folds (Balanced by total duration)
 # -----------------------------
 num_folds = 5
-# Initialize dictionaries to hold fold assignments and overall fold durations.
 folds = {i: [] for i in range(num_folds)}
 folds_duration = {i: 0 for i in range(num_folds)}
 
-# Process each strata group separately.
-for strata, group in speaker_stats.groupby('strata'):
-    # Sort speakers in descending order of duration.
-    group = group.sort_values('duration', ascending=False)
-    # For this strata, maintain temporary duration sums per fold.
-    strata_fold_duration = {i: 0 for i in range(num_folds)}
-    for _, row in group.iterrows():
-        # Choose the fold with the smallest total duration (in this strata).
-        fold_choice = min(strata_fold_duration, key=strata_fold_duration.get)
-        folds[fold_choice].append(row['spk_id'])
-        # Update the durations.
-        strata_fold_duration[fold_choice] += row['duration']
-        folds_duration[fold_choice] += row['duration']
+# Sort all speakers by descending total duration
+speaker_stats_sorted = speaker_stats.sort_values('duration', ascending=False)
+
+# Assign each speaker to the fold with the smallest total duration so far
+for _, row in speaker_stats_sorted.iterrows():
+    fold_choice = min(folds_duration, key=folds_duration.get)
+    folds[fold_choice].append(row['spk_id'])
+    folds_duration[fold_choice] += row['duration']
 
 # -----------------------------
 # Step 3. Create Folders and Save 5-Fold Train/Test CSVs
 # -----------------------------
-# Create a main output folder.
 output_folder = '5_fold_cv'
 os.makedirs(output_folder, exist_ok=True)
 
-# Dictionary to store train/test speaker IDs per fold.
 fold_assignments = {}
-
 for i in range(num_folds):
-    # For each fold, test speakers are those assigned to fold i.
     test_speakers = folds[i]
-    # Train speakers are all speakers not in fold i.
     train_speakers = []
     for j in range(num_folds):
         if j != i:
             train_speakers.extend(folds[j])
     fold_assignments[i] = {'train': train_speakers, 'test': test_speakers}
     
-    # Create subfolder for this fold.
+    # Create subfolder for this fold
     fold_folder = os.path.join(output_folder, f'fold_{i+1}')
     os.makedirs(fold_folder, exist_ok=True)
     
-    # Subset the main DataFrame for train and test.
+    # Subset the main DataFrame for train and test
     train_df = df[df['spk_id'].isin(train_speakers)]
     test_df = df[df['spk_id'].isin(test_speakers)]
     
-    # Save the CSV files.
     train_df.to_csv(os.path.join(fold_folder, 'train.csv'), index=False)
     test_df.to_csv(os.path.join(fold_folder, 'test.csv'), index=False)
     
-    # Print summary stats.
+    # Print summary stats
     train_duration = speaker_stats[speaker_stats['spk_id'].isin(train_speakers)]['duration'].sum()
     test_duration = speaker_stats[speaker_stats['spk_id'].isin(test_speakers)]['duration'].sum()
     print(f"Fold {i+1}:")
@@ -81,10 +69,16 @@ for i in range(num_folds):
     print("-" * 50)
 
 # -----------------------------
+# Print Fold-Speaker Assignment Details
+# -----------------------------
+print("\nDetailed Fold Assignments:")
+for i in range(num_folds):
+    print(f"Fold {i+1}: {folds[i]}")
+
+# -----------------------------
 # Step 4. Create and Save a Summary Figure for the 5-Fold Splits
 # -----------------------------
-# We build dictionaries to store breakdowns (by strata) of total duration and speaker count
-# for each fold's train and test sets.
+# Build dictionaries to store breakdowns by strata for each fold's train/test sets
 duration_summary = {}
 count_summary = {}
 
@@ -108,30 +102,37 @@ for i in range(num_folds):
     count_summary[f"{fold_label} Train"] = train_count_by_strata
     count_summary[f"{fold_label} Test"] = test_count_by_strata
 
-# Convert the dictionaries into DataFrames and fill missing values with 0.
+# Convert to DataFrame and fill missing values
 durations_df = pd.DataFrame(duration_summary).fillna(0)
 counts_df = pd.DataFrame(count_summary).fillna(0)
 
-# Create a figure with two subplots:
 fig, axs = plt.subplots(1, 2, figsize=(16, 7))
 
-# Left subplot: Stacked bar chart for total speech duration (by fold & set with strata breakdown).
+# Left subplot: stacked bar chart for total speech duration
 durations_df.T.plot(kind='bar', stacked=True, ax=axs[0], colormap='viridis')
 axs[0].set_title('Total Speech Duration by Fold & Set (Strata Breakdown)')
-axs[0].set_xlabel('Fold and Set')
+axs[0].set_xlabel('')
 axs[0].set_ylabel('Total Duration')
 
-# Right subplot: Grouped bar chart for speaker count (by fold & set with strata breakdown).
+# Right subplot: grouped bar chart for speaker count
 counts_df.T.plot(kind='bar', ax=axs[1], colormap='viridis')
 axs[1].set_title('Speaker Count by Fold & Set (Strata Breakdown)')
-axs[1].set_xlabel('Fold and Set')
+axs[1].set_xlabel('')
 axs[1].set_ylabel('Speaker Count')
 
-plt.tight_layout()
+plt.tight_layout(rect=[0, 0.15, 1, 1])
 
-# Save the figure in the main output folder.
+# Create a text block with fold assignments
+table_text = ""
+for i in range(num_folds):
+    speakers_str = ", ".join(map(str, folds[i]))
+    table_text += f"Fold {i+1}: {speakers_str}\n"
+
+plt.figtext(0.5, 0.02, table_text, wrap=True, horizontalalignment='center', fontsize=10)
+
+# Save the figure
 figure_path = os.path.join(output_folder, 'folds_overview.png')
 plt.savefig(figure_path)
 plt.close()
 
-print("5-fold cross-validation folders and overview figure have been saved in:", output_folder)
+print("\n5-fold cross-validation folders, speaker assignments, and overview figure have been saved in:", output_folder)

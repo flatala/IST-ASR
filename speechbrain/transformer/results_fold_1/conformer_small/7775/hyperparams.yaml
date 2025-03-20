@@ -29,7 +29,7 @@ train_log: results_fold_1/conformer_small/7775/train_log.txt
 pretrained_lm_tokenizer_path: LM_weights_13_epochs/
 
 # Data files
-data_folder: ../5_fold_cv/fold_<fold_id>/ # e.g., /path/to/LibriSpeech
+data_folder: ../5_fold_cv/fold_1/              # e.g., /path/to/LibriSpeech
 # If RIRS_NOISES dir exists in /localscratch/xxx_corpus/RIRS_NOISES
 # then data_folder_rirs should be /localscratch/xxx_corpus
 # otherwise the dataset will automatically be downloaded
@@ -48,7 +48,7 @@ test_csv:
 # Empirically, we found that this value should be >= 128.
 # Please, set your parameters accordingly.
 number_of_epochs: 10
-batch_size: 128  # This works for 2x GPUs with 32GB
+batch_size: 64  # This works for 2x GPUs with 32GB
 ctc_weight: 0.3
 grad_accumulation_factor: 1
 max_grad_norm: 5.0
@@ -94,16 +94,16 @@ dynamic_batch_sampler_valid:
 
 # Dataloader options
 train_dataloader_opts:
-  batch_size: 128
+  batch_size: 64
   shuffle: true
   num_workers: 4
 
 valid_dataloader_opts:
-  batch_size: 128
+  batch_size: 64
   num_workers: 4
 
 test_dataloader_opts:
-  batch_size: 128
+  batch_size: 64
   num_workers: 4
 
 ####################### Model Parameters #######################################

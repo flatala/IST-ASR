@@ -35,7 +35,7 @@ data_folder: !ref ../5_fold_cv/fold_<fold_id>/ # e.g., /path/to/LibriSpeech
 
 skip_prep: True
 train_csv: !ref <data_folder>/train.csv
-# valid_csv: !ref <data_folder>/test.csv
+valid_csv: !ref <data_folder>/test.csv
 test_csv:
     - !ref <data_folder>/test.csv
 

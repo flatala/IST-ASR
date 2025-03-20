@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #SBATCH --job-name=jupyterlab
-#SBATCH --partition=gpu-a100
+#SBATCH --partition=gpu-a100-small
 #SBATCH --time=03:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --gpus-per-task=1
-#SBATCH --mem-per-cpu=6G
+#SBATCH --mem-per-cpu=4G
 #SBATCH --account=education-eemcs-courses-dsait4095
 
 # Load modules:

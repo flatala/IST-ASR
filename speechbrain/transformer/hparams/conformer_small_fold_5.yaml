@@ -12,7 +12,7 @@
 fold_id: 5
 seed: 7775
 __set_seed: !apply:speechbrain.utils.seed_everything [!ref <seed>]
-output_folder: !ref results_fold_<fold_id>/conformer_small/<seed>
+output_folder: !ref results_no_lm/results_fold_<fold_id>/conformer_small/<seed>
 output_wer_folder: !ref <output_folder>/
 save_folder: !ref <output_folder>/save
 train_log: !ref <output_folder>/train_log.txt
@@ -45,8 +45,8 @@ test_csv:
 # Empirically, we found that this value should be >= 128.
 # Please, set your parameters accordingly.
 number_of_epochs: 10
-batch_size:  128 # This works for 2x GPUs with 32GB
-test_batch_size: 48
+batch_size:  16 # This works for 2x GPUs with 32GB
+test_batch_size: 1
 ctc_weight: 0.3
 grad_accumulation_factor: 1
 max_grad_norm: 5.0
@@ -101,7 +101,6 @@ valid_dataloader_opts:
 
 test_dataloader_opts:
     batch_size: !ref <test_batch_size>
-    num_workers: !ref <num_workers>
 
 ####################### Model Parameters #######################################
 
@@ -127,8 +126,8 @@ min_decode_ratio: 0.0
 max_decode_ratio: 1.0
 valid_search_interval: 10
 valid_beam_size: 10
-test_beam_size: 50
-lm_weight: 0.50
+test_beam_size: 66
+lm_weight: 0.00
 ctc_weight_decode: 0.40
 
 ############################## Models ##########################################

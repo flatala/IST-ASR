@@ -1,0 +1,12 @@
+epoch: 1, lr: 3.24e-05, steps: 811, optimizer: Adam - train loss: 85.38 - valid loss: 36.17, valid ACC: 1.86e-01
+epoch: 2, lr: 6.48e-05, steps: 1622, optimizer: Adam - train loss: 28.74 - valid loss: 26.63, valid ACC: 2.54e-01
+epoch: 3, lr: 9.73e-05, steps: 2433, optimizer: Adam - train loss: 23.70 - valid loss: 22.89, valid ACC: 3.60e-01
+epoch: 4, lr: 1.30e-04, steps: 3244, optimizer: Adam - train loss: 19.80 - valid loss: 19.61, valid ACC: 5.00e-01
+epoch: 5, lr: 1.62e-04, steps: 4055, optimizer: Adam - train loss: 16.57 - valid loss: 17.16, valid ACC: 5.88e-01
+epoch: 6, lr: 1.95e-04, steps: 4866, optimizer: Adam - train loss: 14.28 - valid loss: 15.84, valid ACC: 6.41e-01
+epoch: 7, lr: 2.27e-04, steps: 5677, optimizer: Adam - train loss: 13.11 - valid loss: 15.16, valid ACC: 6.58e-01
+epoch: 8, lr: 2.59e-04, steps: 6488, optimizer: Adam - train loss: 12.41 - valid loss: 14.74, valid ACC: 6.73e-01
+epoch: 9, lr: 2.92e-04, steps: 7299, optimizer: Adam - train loss: 12.07 - valid loss: 14.51, valid ACC: 6.81e-01
+epoch: 10, lr: 3.24e-04, steps: 8110, optimizer: Adam - train loss: 11.83 - valid loss: 14.58, valid ACC: 6.85e-01, valid WER: 1.05e+02
+Epoch loaded: 10 - test loss: 16.28, test ACC: 6.42e-01, test WER: 1.05e+02
+Epoch loaded: 10 - test loss: 8.14, test ACC: 6.42e-01, test WER: 1.05e+02
